@@ -18,8 +18,8 @@ function Questions() {
                 </a>
                 <button>Skip</button>
             </header>
-            <main className="flex flex-col items-center justify-center">
-                <div className="relative bg-lime-400 rounded-lg h-64 w-80 flex flex-col items-center gap-6 p-4 pt-12">
+            <main className="flex flex-col items-center justify-center gap-4">
+                <div className="relative bg-lime-400 rounded-lg h-64 w-80 flex flex-col items-center gap-6 p-4 pt-12 mb-4">
                     <div className="absolute bottom-56 right-0 left-0 m-auto bg-gray-400 rounded-xl w-36 px-10 py-2 flex flex-col items-center">
                         <h3>Question</h3>
                         <h3>7/10</h3>
@@ -31,6 +31,13 @@ function Questions() {
                     </div>
                     <p className="text-xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit?</p>
                 </div>
+
+                <div className=" bg-lime-400 rounded-lg w-80 py-3">Answer 1</div>
+                <div className=" bg-lime-400 rounded-lg w-80 py-3">Answer 2</div>
+                <div className=" bg-lime-400 rounded-lg w-80 py-3">Answer 3</div>
+                <div className=" bg-lime-400 rounded-lg w-80 py-3">Answer 4</div>
+
+                <button className="bg-gray-400 rounded-lg w-80 py-3 mt-4">Submit</button>
             </main>
         </section>
     );
