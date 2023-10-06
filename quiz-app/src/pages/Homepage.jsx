@@ -15,18 +15,6 @@ function Homepage() {
             alt: "history scroll",
         },
         {
-            title: "Animals",
-            color: "pink",
-            img: "https://img.icons8.com/3d-fluency/94/snail.png",
-            alt: "snail",
-        },
-        {
-            title: "Science",
-            color: "cyan",
-            img: "https://img.icons8.com/3d-fluency/94/biotech.png",
-            alt: "dna strand",
-        },
-        {
             title: "Geography",
             color: "emerald",
             img: "https://img.icons8.com/3d-fluency/94/the-earths-inner-core.png",
@@ -39,16 +27,28 @@ function Homepage() {
             alt: "trumpet",
         },
         {
+            title: "Art",
+            color: "yellow",
+            img: "https://img.icons8.com/3d-fluency/94/paint-palette.png",
+            alt: "paint palette",
+        },
+        {
             title: "Mythology",
             color: "orange",
             img: "https://img.icons8.com/3d-fluency/94/lyre.png",
             alt: "lyre",
         },
         {
-            title: "Art",
-            color: "yellow",
-            img: "https://img.icons8.com/3d-fluency/94/paint-palette.png",
-            alt: "paint palette",
+            title: "Animals",
+            color: "pink",
+            img: "https://img.icons8.com/3d-fluency/94/snail.png",
+            alt: "snail",
+        },
+        {
+            title: "Science",
+            color: "cyan",
+            img: "https://img.icons8.com/3d-fluency/94/biotech.png",
+            alt: "dna strand",
         },
     ];
 
@@ -106,7 +106,7 @@ function Homepage() {
                             <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl">Medium</button>
                             <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl">Hard</button>
                         </div>
-                        <button className="bg-white text-lime-600 py-2 rounded-xl max-w-[500px] min-w-[300px]">Play</button>
+                        <a href="/questions" className="bg-white text-lime-600 py-2 rounded-xl max-w-[500px] min-w-[300px]">Play</a>
                     </div>
                 )}
             </section>
