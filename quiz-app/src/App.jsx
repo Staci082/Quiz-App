@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+
 
 function App() {
     const categories = [
@@ -52,6 +52,17 @@ function App() {
         alt: "retro tv",
     },
     ];
+
+    const [showBottomElement, setShowBottomElement] = useState(false);
+
+    const openBottomElement = () => {
+        setShowBottomElement(true);
+    };
+
+    const closeBottomElement = () => {
+        setShowBottomElement(false);
+    };
+
     // const [categories, setCategories] = useState([]);
 
     // useEffect(() => {
@@ -75,7 +86,7 @@ function App() {
             <main className="grid grid-cols-2 gap-6">
                 {categories.map((item) => (
                     <button
-                        href="#_"
+                        onClick={openBottomElement}
                         key={item.title}
                         className={`flex-col w-38 h-28 rounded-md relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-lime-600 active:shadow-none shadow-lg bg-gradient-to-tr from-lime-400 to-lime-600 border-lime-700 text-white`}
                     >
@@ -87,8 +98,11 @@ function App() {
 
             </main>
 
-            
-            <div className="fixed bottom-0 p-10 bg-lime-500 flex flex-col gap-5 rounded-t-xl">
+              {showBottomElement && (
+            <div className="fixed bottom-0 p-10 pt-5 bg-lime-500 flex flex-col gap-5 rounded-t-xl">
+              <button onClick={closeBottomElement} className="flex justify-center items-center">
+                <div className="self-center w-10 cursor-pointer h-1 bg-gray-300 rounded-xl mb-7"></div>
+              </button>
                     <b>Choose the Level</b>
                     <div className="flex gap-4">
                       <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl">Easy</button>
@@ -97,7 +111,7 @@ function App() {
                     </div>
                     <button className="bg-white text-lime-600 py-2 rounded-xl">Play</button>
             </div>
-
+              )}
             </body>
         </>
     );
