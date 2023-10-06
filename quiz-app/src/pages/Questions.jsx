@@ -32,12 +32,12 @@ function Questions() {
                     <p className="text-xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit?</p>
                 </div>
 
-                <div className=" bg-lime-400 rounded-lg w-80 py-3">Answer 1</div>
-                <div className=" bg-lime-400 rounded-lg w-80 py-3">Answer 2</div>
-                <div className=" bg-lime-400 rounded-lg w-80 py-3">Answer 3</div>
-                <div className=" bg-lime-400 rounded-lg w-80 py-3">Answer 4</div>
+                <button className=" bg-lime-400 rounded-lg w-80 py-3 border-b-4 border-l-2">Answer 1</button>
+                <button className=" bg-lime-400 rounded-lg w-80 py-3 border-b-4 border-l-2">Answer 2</button>
+                <button className=" bg-lime-400 rounded-lg w-80 py-3 border-b-4 border-l-2">Answer 3</button>
+                <button className=" bg-lime-400 rounded-lg w-80 py-3 border-b-4 border-l-2">Answer 4</button>
 
-                <button className="bg-gray-400 rounded-lg w-80 py-3 mt-4">Submit</button>
+                <a href="/results" className="bg-gray-400 rounded-lg w-80 py-3 mt-6 border-b-4 border-l-2">Submit</a>
             </main>
         </section>
     );
