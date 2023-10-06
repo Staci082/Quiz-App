@@ -1,21 +1,33 @@
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
+import Questions from "./pages/Questions";
+import Results from "./pages/Results";
 
 const router = [
     {
         path: "/",
         element: <Homepage/>
-    }
+    },
+    {
+        path: "/questions",
+        element: <Questions/>
+    },
+    {
+        path: "/results",
+        element: <Results/>
+    },
    ]
 
 function App() {
     return (
         <>
+        <div className="flex justify-center min-h-full text-white text-center py-8 ">
             <Routes>
                 {router.map((item) => (
-                        <Route path={item.path} element={item.element} key={item.path} />
+                        <Route path={item.path} element={item.element} key={item.path}/>
                 ))}
             </Routes>
+            </div>
         </>
     );
 

@@ -78,8 +78,8 @@ function Homepage() {
     // }, [categories]);
     return (
         <>
-            <section className="flex flex-col items-center text-center bg-zinc-900 text-white min-h-full">
-                <h1 className="text-5xl font-bold mt-8 mb-20">Quiz App</h1>
+            <section className="flex flex-col items-center  bg-zinc-900">
+                <h1 className="text-5xl font-bold mb-20">Quiz App</h1>
 
                 <main className="grid grid-cols-2 sm:grid-cols-4 gap-6">
                     {categories.map((item) => (
@@ -96,17 +96,17 @@ function Homepage() {
                 </main>
 
                 {showBottomElement && (
-                    <div className="fixed bottom-0 p-10 pt-5 bg-gradient-to-bl from-lime-400 to-lime-600 border-lime-700 flex flex-col gap-5 rounded-t-xl">
+                    <div className="fixed bottom-0 p-10 pt-5 bg-gradient-to-bl from-lime-400 to-lime-600 border-lime-700 flex flex-col items-center gap-5 rounded-t-3xl lg:max-w-[35%] md:max-w-[50%] w-full">
                         <button onClick={closeBottomElement} className="flex justify-center items-center">
                             <div className="self-center w-10 cursor-pointer h-1 bg-gray-300 rounded-xl mb-7"></div>
                         </button>
                         <b>Choose the level</b>
-                        <div className="flex gap-4">
+                        <div className="flex gap-4 justify-center">
                             <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl">Easy</button>
                             <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl">Medium</button>
                             <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl">Hard</button>
                         </div>
-                        <button className="bg-white text-lime-600 py-2 rounded-xl">Play</button>
+                        <button className="bg-white text-lime-600 py-2 rounded-xl max-w-[500px] min-w-[300px]">Play</button>
                     </div>
                 )}
             </section>
