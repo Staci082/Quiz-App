@@ -5,11 +5,11 @@ function Results() {
         <>
             <section className=" py-8 flex flex-col items-center pb-6 gap-6">
                 <div className="flex flex-col items-center gap-6">
-                <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/christmas-star.png" alt="christmas-star"/>
+                <img width="94" height="94" src="https://img.icons8.com/color/96/kawaii-dinosaur--v2.png" alt="christmas-star"/>
                     <b className="text-2xl">You win!</b>
                 </div>
 
-                <div className="relative bg-teal-400 rounded-lg h-64 w-80 flex flex-col items-center justify-end">
+                <div className="relative bg-teal-400 rounded-lg h-80 w-80 flex flex-col items-center justify-end mb-6">
                     <div className="absolute top-5 left-5">
                     <p>Quiz type</p>
                     <b>Science</b>
