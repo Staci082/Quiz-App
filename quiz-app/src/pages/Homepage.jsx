@@ -83,7 +83,9 @@ function Homepage() {
     return (
         <>
             <section className="flex flex-col items-center py-8">
-                <h1 className="text-5xl font-bold mb-20">Quiz App</h1>
+            <img width="48" height="48" src="https://img.icons8.com/color/96/kawaii-dinosaur--v2.png" alt="kawaii-dinosaur--v2"/>
+                <h1 className="text-4xl font-bold mb-20">Quizilla</h1>
+                
 
                 <main className="grid grid-cols-2 sm:grid-cols-4 gap-6">
                     {categories.map((item) => (
