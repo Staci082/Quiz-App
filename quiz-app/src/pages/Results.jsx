@@ -16,20 +16,22 @@ function Results() {
                     </div>
 
                     <div className="flex gap-4 mb-4">
-                      <div className="flex items-center">
-                        <GoDotFill/>
-                        <p>Correct 80%</p>
+                      <div className="flex items-center gap-1">
+                        <GoDotFill className="text-lime-400"/>
+                        <p>Correct</p>
+                        <p className="text-teal-600 ml-1"> 80%</p>
                         </div>
-                        <div className="flex items-center">
-                        <GoDotFill className="text-sky-800"/>
-                        <p>Incorrect 20%</p>
+                        <div className="flex items-center gap-1">
+                        <GoDotFill/>
+                        <p>Incorrect </p>
+                        <p className="text-teal-600 ml-1"> 20%</p>
                         </div>
                     </div>
                 </div>
 
                 <div className="flex flex-row justify-center gap-4 w-80">
-                    <a href="/" className="bg-lime-400 active:translate-y-1 border-b-4 border-l-2 border-lime-600 rounded-lg basis-1/2 py-2 text-lg">Home</a>
-                    <a href="/questions" className="bg-teal-400 active:translate-y-1 border-b-4 border-l-2 border-teal-600 rounded-lg basis-1/2 py-2 text-lg">Play Again</a>
+                    <a href="/" className="bg-teal-400 active:translate-y-1 border-b-4 border-l-2 border-teal-600 rounded-lg basis-1/2 py-2 text-lg">Home</a>
+                    <a href="/questions" className="bg-lime-400 active:translate-y-1 border-b-4 border-l-2 border-lime-600 rounded-lg basis-1/2 py-2 text-lg">Play Again</a>
                 </div>
             </section>
         </>
