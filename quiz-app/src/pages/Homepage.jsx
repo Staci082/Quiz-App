@@ -27,16 +27,16 @@ function Homepage() {
             alt: "trumpet",
         },
         {
-            title: "Art",
-            color: "yellow",
-            img: "https://img.icons8.com/3d-fluency/94/paint-palette.png",
-            alt: "paint palette",
-        },
-        {
             title: "Mythology",
             color: "orange",
             img: "https://img.icons8.com/3d-fluency/94/lyre.png",
             alt: "lyre",
+        },
+        {
+            title: "Art",
+            color: "yellow",
+            img: "https://img.icons8.com/3d-fluency/94/paint-palette.png",
+            alt: "paint palette",
         },
         {
             title: "Animals",
