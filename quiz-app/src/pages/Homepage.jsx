@@ -23,7 +23,7 @@ function Homepage() {
         {
             title: "Music",
             color: "red",
-            img: "https://img.icons8.com/3d-fluency/94/trumpet.png",
+            img: "https://img.icons8.com/3d-fluency/94/rock-music.png",
             alt: "trumpet",
         },
         {
@@ -33,15 +33,15 @@ function Homepage() {
             alt: "lyre",
         },
         {
-            title: "Art",
+            title: "Video Games",
             color: "yellow",
-            img: "https://img.icons8.com/3d-fluency/94/paint-palette.png",
+            img: "https://img.icons8.com/3d-fluency/94/controller.png",
             alt: "paint palette",
         },
         {
             title: "Animals",
             color: "pink",
-            img: "https://img.icons8.com/3d-fluency/94/snail.png",
+            img: "https://img.icons8.com/3d-fluency/94/peacock.png",
             alt: "snail",
         },
         {
