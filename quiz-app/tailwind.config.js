@@ -8,22 +8,11 @@ export default {
   ],
   theme: {
     extend: {
-        colors: {
-            transparent: 'transparent',
-            current: 'currentColor',
-            black: colors.black,
-            white: colors.white,
-            emerald: colors.emerald,
-            indigo: colors.indigo,
-            yellow: colors.yellow,
-            stone: colors.stone,
-            sky: colors.sky,
-            neutral: colors.neutral,
-            gray: colors.gray,
-            slate: colors.slate,
-        },
+      fontFamily :{ 
+        gloria: ['Gloria Hallelujah', "cursive"],
+        nanum: ['Nanum Pen Script', "cursive"]
+      } 
     },
 },
   plugins: [],
 }
-
