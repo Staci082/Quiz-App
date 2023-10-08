@@ -11,7 +11,7 @@ const renderTime = ({ remainingTime }) => {
 
 function Questions() {
     return (
-        <section className=" md:w-1/2 w-full">
+        <section className=" md:w-1/2 w-full  text-xl">
             <header className="flex justify-between p-4 mb-8">
                 <a href="/" className="bg-teal-600 rounded-full w-8 h-8 flex justify-center items-center">
                     <MdOutlineArrowBackIosNew />
@@ -29,7 +29,7 @@ function Questions() {
                         {renderTime}
                     </CountdownCircleTimer>
                     </div>
-                    <p className="text-xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit?</p>
+                    <p className="text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit?</p>
                 </div>
 
                 <button className=" bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600">Answer 1</button>
@@ -37,7 +37,7 @@ function Questions() {
                 <button className=" bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600">Answer 3</button>
                 <button className=" bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600">Answer 4</button>
 
-                <a href="/results" className="active:translate-y-1 bg-teal-600 rounded-lg w-80 py-3 mt-6 border-b-4 border-l-2 border-teal-700">Submit</a>
+                <a href="/results" className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">Submit</a>
             </main>
         </section>
     );

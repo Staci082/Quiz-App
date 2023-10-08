@@ -21,7 +21,7 @@ const router = [
 function App() {
     return (
         <>
-        <div className="flex justify-center font-nanum text-white min-h-screen  bg-teal-500 text-center ">
+        <div className="flex justify-center text-2xl font-nanum text-white min-h-screen  bg-teal-500 text-center ">
             <Routes>
                 {router.map((item) => (
                         <Route path={item.path} element={item.element} key={item.path}/>

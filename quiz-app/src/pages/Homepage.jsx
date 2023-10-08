@@ -104,11 +104,11 @@ function Homepage() {
                 </main>
 
                 {showBottomElement && (
-                    <div className="fixed bottom-0 p-10 pt-5 bg-gradient-to-bl from-teal-400 to-teal-600 border-teal-700 flex flex-col items-center gap-5 rounded-t-3xl lg:max-w-[35%] md:max-w-[50%] w-full">
+                    <div className="fixed bottom-0 p-10 pt-5 text-xl bg-gradient-to-bl from-teal-400 to-teal-600 border-teal-700 flex flex-col items-center gap-5 rounded-t-3xl lg:max-w-[35%] md:max-w-[50%] w-full">
                         <button onClick={closeBottomElement} className="flex justify-center items-center">
                             <div className="self-center w-10 cursor-pointer h-1 bg-gray-300 rounded-xl mb-5"></div>
                         </button>
-                        <h2 className="text-lime-400 font-bold text-3xl mb-2">{selectedCategory}</h2>
+                        <h2 className="text-lime-400 font-bold text-5xl mb-2">{selectedCategory}</h2>
                         <b>Amount of questions</b>
                         <div className="flex gap-4 justify-center" role="group">
                             <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">10</button>
@@ -122,7 +122,7 @@ function Homepage() {
                             <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">Hard</button>
                         </div>
 
-                        <a href="/questions" className="bg-white active:translate-y-1 text-lime-400 py-2 mt-2 rounded-xl max-w-[500px] font-bold border-b-4 border-l-2 border-lime-400  min-w-[300px]">
+                        <a href="/questions" className="bg-white active:translate-y-1 text-lime-400 text-2xl py-1 mt-2 rounded-xl max-w-[450px] font-bold border-b-4 border-l-2 border-lime-400  min-w-[300px]">
                             Play
                         </a>
                     </div>
