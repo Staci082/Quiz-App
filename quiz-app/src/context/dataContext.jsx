@@ -17,10 +17,22 @@ export const DataProvider = ({ children }) => {
     const [selectedAnswer, setSelectedAnswer] = useState("");
     const [score, setScore] = useState(0);
 
+    function getMultipleRandom(arr, num) {
+        if (!Array.isArray(arr)) {
+            throw new Error('Data is not an array.');
+        }
+        const shuffled = [...arr].sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, num);
+    }
+
     useEffect(() => {
         fetch(`../src/dataset/${selectedCategory}.json`)
             .then((res) => res.json())
-            .then((data) => setQuizs(data));
+            .then((data) => {
+                const randomQuestions = getMultipleRandom(data[selectedCategory], 10);
+                setQuizs(randomQuestions);
+            })
+
     }, []);
 
     console.log(quizs);
