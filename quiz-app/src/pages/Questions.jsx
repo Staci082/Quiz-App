@@ -23,8 +23,8 @@ function Questions() {
                 <button>Skip</button>
             </header>
             <main className="flex flex-col items-center justify-center gap-4">
-                <div className="relative bg-teal-400 rounded-lg h-64 w-80 flex flex-col items-center gap-6 p-4 pt-12 mb-4">
-                    <div className="absolute bottom-56 right-0 left-0 m-auto bg-teal-600 rounded-xl w-36 px-10 py-2 flex flex-col items-center">
+                <div className=" bg-teal-400 rounded-lg h-auto w-80 flex flex-col items-center gap-6 p-4 pt-12 mb-4">
+                    <div className="absolute top-16 right-0 left-0 m-auto bg-teal-600 rounded-xl w-36 px-10 py-2 flex flex-col items-center">
                         <h3>Question</h3>
                         <h3>{quizs.indexOf(question) + 1} / {quizs?.length}</h3>
                     </div>
