@@ -2,301 +2,301 @@
     "science": [
         {
             "question": "Igneous rocks are formed by excessive heat and pressure.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "easy",
             "options": ["True", "False"]
         },
         {
             "question": "Which of the following liquids is least viscous? Assume temperature is 25°C.",
-            "correct_answer": "Acetone",
+            "answer": "Acetone",
             "difficulty": "hard",
             "options": ["Water", "Mercury", "Benzene", "Acetone"]
         },
         {
             "question": "The moons, Miranda, Ariel, Umbriel, Titania and Oberon orbit which planet?",
-            "correct_answer": "Uranus",
+            "answer": "Uranus",
             "difficulty": "medium",
             "options": ["Jupiter", "Venus", "Neptune", "Uranus"]
         },
         {
             "question": "In aeronautics, flaps and slats are used to control what on an aircraft?",
-            "correct_answer": "Lift",
+            "answer": "Lift",
             "difficulty": "medium",
             "options": ["Thrust", "Drag", "Weight ", "Lift"]
         },
         {
             "question": "What is the first element on the periodic table?",
-            "correct_answer": "Hydrogen",
+            "answer": "Hydrogen",
             "difficulty": "easy",
             "options": ["Helium", "Oxygen", "Lithium", "Hydrogen"]
         },
         {
             "question": "The \"Gympie Stinger\" is the deadliest plant in the world.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "medium",
             "options": ["True", "False"]
         },
         {
             "question": "What was the first living creature in space?",
-            "correct_answer": "Fruit Flies ",
+            "answer": "Fruit Flies ",
             "difficulty": "medium",
             "options": ["Monkey", "Dog", "Mouse", "Fruit Flies "]
         },
         {
             "question": "To the nearest minute, how long does it take for light to travel from the Sun to the Earth?",
-            "correct_answer": "8 Minutes",
+            "answer": "8 Minutes",
             "difficulty": "medium",
             "options": ["6 Minutes", "2 Minutes", "12 Minutes", "8 Minutes"]
         },
         {
             "question": "Like with the Neanderthals, Homo sapiens sapiens also interbred with the Denisovans.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "medium",
             "options": ["False", "True"]
         },
         {
             "question": "The Axiom of Preventive Medicine states that people with ___ risk for a disease should be screened and we should treat ___ of those people.",
-            "correct_answer": "low, all",
+            "answer": "low, all",
             "difficulty": "medium",
             "options": ["low, some", "high, all", "high, some", "low, all"]
         },
         {
             "question": "Which psychological term refers to the stress of holding contrasting beliefs?",
-            "correct_answer": "Cognitive Dissonance",
+            "answer": "Cognitive Dissonance",
             "difficulty": "medium",
             "options": ["Flip-Flop Syndrome", "Split-Brain", "Blind Sight", "Cognitive Dissonance"]
         },
         {
             "question": "It was once believed that injecting shark cartilage into people would prevent them from contracting cancer.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "hard",
             "options": ["False", "True"]
         },
         {
             "question": "What is the primary addictive substance found in tobacco?",
-            "correct_answer": "Nicotine",
+            "answer": "Nicotine",
             "difficulty": "easy",
             "options": ["Cathinone", "Ephedrine", "Glaucine", "Nicotine"]
         },
         {
             "question": "What does DNA stand for?",
-            "correct_answer": "Deoxyribonucleic Acid",
+            "answer": "Deoxyribonucleic Acid",
             "difficulty": "easy",
             "options": ["Deoxyribogenetic Acid", "Deoxyribogenetic Atoms", "Detoxic Acid", "Deoxyribonucleic Acid"]
         },
         {
             "question": "Folic acid is the synthetic form of which vitamin?",
-            "correct_answer": "Vitamin B",
+            "answer": "Vitamin B",
             "difficulty": "hard",
             "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin B"]
         },
         {
             "question": "Salt is 100% composed of Sodium.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "easy",
             "options": ["True", "False"]
         },
         {
             "question": "Which one of these is scientific term for \"Brain Freeze\"?",
-            "correct_answer": "Sphenopalatine Ganglioneuralgia",
+            "answer": "Sphenopalatine Ganglioneuralgia",
             "difficulty": "hard",
             "options": ["Hyacinthoides Italica", "Amaranthus Retroflexus", "Amblyomma Americanum", "Sphenopalatine Ganglioneuralgia"]
         },
         {
             "question": "\"The Big Bang Theory\" was first theorized by a priest of what religious ideology?",
-            "correct_answer": "Catholic",
+            "answer": "Catholic",
             "difficulty": "hard",
             "options": ["Christian", "Jewish", "Islamic", "Catholic"]
         },
         {
             "question": "What does the yellow diamond on the NFPA 704 fire diamond represent?",
-            "correct_answer": "Reactivity",
+            "answer": "Reactivity",
             "difficulty": "medium",
             "options": ["Health", "Flammability", "Radioactivity", "Reactivity"]
         },
         {
             "question": "A comet's gaseous envelope (which creates the tail) is called what?",
-            "correct_answer": "The coma",
+            "answer": "The coma",
             "difficulty": "hard",
             "options": ["The wake", "The backwash", "The ablative", "The coma"]
         },
         {
             "question": "The medical term for the belly button is which of the following?",
-            "correct_answer": "Umbilicus",
+            "answer": "Umbilicus",
             "difficulty": "easy",
             "options": ["Nevus", "Nares", "Paxillus", "Umbilicus"]
         },
         {
             "question": "The core of the Sun can reach which temperature?",
-            "correct_answer": "27° Million F (15° Million C)",
+            "answer": "27° Million F (15° Million C)",
             "difficulty": "hard",
             "options": ["938,000° F (521093.3° C)", "8° Billion F (4.4 Billion C)", "Absolute Zero (Both F and C)", "27° Million F (15° Million C)"]
         },
         {
             "question": "Which element has the highest melting point?",
-            "correct_answer": "Carbon",
+            "answer": "Carbon",
             "difficulty": "easy",
             "options": ["Tungsten", "Platinum", "Osmium", "Carbon"]
         },
         {
             "question": "Which of the following plastic is commonly used for window frames, gutters and drain pipes?",
-            "correct_answer": "Polyvinylchloride (PVC) ",
+            "answer": "Polyvinylchloride (PVC) ",
             "difficulty": "hard",
             "options": ["Polyethylene (PE)", "Polypropylene (PP)", "Polystyrene (PS)", "Polyvinylchloride (PVC) "]
         },
         {
             "question": "What nucleotide pairs with guanine?",
-            "correct_answer": "Cytosine",
+            "answer": "Cytosine",
             "difficulty": "hard",
             "options": ["Thymine", "Adenine", "Uracil", "Cytosine"]
         },
         {
             "question": "An average human can go two weeks without water.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "easy",
             "options": ["True", "False"]
         },
         {
             "question": "What is the unit of electrical resistance?",
-            "correct_answer": "Ohm",
+            "answer": "Ohm",
             "difficulty": "easy",
             "options": ["Mho", "Tesla", "Joule", "Ohm"]
         },
         {
             "question": "Muscle fiber is constructed of bundles small long organelles called what?",
-            "correct_answer": "Myofibrils",
+            "answer": "Myofibrils",
             "difficulty": "hard",
             "options": ["Epimysium", "Myofiaments", "Myocardium", "Myofibrils"]
         },
         {
             "question": "In Psychology, which need appears highest in the \"Maslow's hierarchy of needs\" pyramid?",
-            "correct_answer": "Esteem",
+            "answer": "Esteem",
             "difficulty": "medium",
             "options": ["Love", "Safety", "Physiological", "Esteem"]
         },
         {
             "question": "What animal takes part in Schrödinger's most famous thought experiment?",
-            "correct_answer": "Cat",
+            "answer": "Cat",
             "difficulty": "easy",
             "options": ["Dog", "Bat", "Butterfly", "Cat"]
         },
         {
             "question": "Celiac Disease is a disease that effects the heart, causing those affected to be unable to eat meat.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "easy",
             "options": ["True", "False"]
         },
         {
             "question": "What is the scientific name for the extinct hominin known as \"Lucy\"?",
-            "correct_answer": "Australopithecus Afarensis",
+            "answer": "Australopithecus Afarensis",
             "difficulty": "hard",
             "options": ["Australopithecus Africanus", "Australopithecus Architeuthis", "Australopithecus Antaris", "Australopithecus Afarensis"]
         },
         {
             "question": "Which planet did the \"Viking 1\" spacecraft send surface images of, starting in 1976?",
-            "correct_answer": "Mars",
+            "answer": "Mars",
             "difficulty": "medium",
             "options": ["Saturn", "Jupiter", "Venus", "Mars"]
         },
         {
             "question": "Which chemical element was originally known as Alabamine?",
-            "correct_answer": "Astatine",
+            "answer": "Astatine",
             "difficulty": "medium",
             "options": ["Selenium", "Antimony", "Molybdenum", "Astatine"]
         },
         {
             "question": "The Western Lowland Gorilla is scientifically known as?",
-            "correct_answer": "Gorilla Gorilla Gorilla",
+            "answer": "Gorilla Gorilla Gorilla",
             "difficulty": "hard",
             "options": ["Gorilla Gorilla Diehli", "Gorilla Beringei Graueri", "Gorilla Beringei Beringei", "Gorilla Gorilla Gorilla"]
         },
         {
             "question": "Which of the following men does not have a chemical element named after him?",
-            "correct_answer": "Sir Isaac Newton",
+            "answer": "Sir Isaac Newton",
             "difficulty": "medium",
             "options": ["Albert Einstein", "Niels Bohr", "Enrico Fermi", "Sir Isaac Newton"]
         },
         {
             "question": "The most frequent subconscious activity repeated by the human body is blinking.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "medium",
             "options": ["True", "False"]
         },
         {
             "question": "Which scientific unit is named after an Italian nobleman?",
-            "correct_answer": "Volt",
+            "answer": "Volt",
             "difficulty": "hard",
             "options": ["Pascal", "Ohm", "Hertz", "Volt"]
         },
         {
             "question": "Autosomal-dominant Compelling Helio-Ophthalmic Outburst syndrome is the need to do what when seeing the Sun?",
-            "correct_answer": "Sneeze",
+            "answer": "Sneeze",
             "difficulty": "hard",
             "options": ["Cough", "Yawn", "Hiccup", "Sneeze"]
         },
         {
             "question": "What is the Linnean name of the domestic apple tree?",
-            "correct_answer": "Malus pumila",
+            "answer": "Malus pumila",
             "difficulty": "medium",
             "options": ["Malus americana", "Pomus domestica", "Appelus delectica", "Malus pumila"]
         },
         {
             "question": "Which of these animals belongs in class Chondrichthyes?",
-            "correct_answer": "Great white shark",
+            "answer": "Great white shark",
             "difficulty": "hard",
             "options": ["Octopus", "Killer whale", "Catfish", "Great white shark"]
         },
         {
             "question": "What is the most potent toxin known?",
-            "correct_answer": "Botulinum toxin",
+            "answer": "Botulinum toxin",
             "difficulty": "hard",
             "options": ["Ricin", "Cyanide", "Asbestos", "Botulinum toxin"]
         },
         {
             "question": "Which of the following is a major muscle of the back?",
-            "correct_answer": "Trapezius",
+            "answer": "Trapezius",
             "difficulty": "hard",
             "options": ["Trapezium", "Trapezoid", "Triquetrum", "Trapezius"]
         },
         {
             "question": "What are the smallest blood vessels in the human body?",
-            "correct_answer": "Capillaries",
+            "answer": "Capillaries",
             "difficulty": "medium",
             "options": ["Arterioles", "Veinules", "Lymphatics", "Capillaries"]
         },
         {
             "question": "Which of the following is considered classical conditioning?",
-            "correct_answer": "Pavlov's dog experiments",
+            "answer": "Pavlov's dog experiments",
             "difficulty": "hard",
             "options": ["Skinner box experiment", "Schrödinger's cat experiment", "Harlow’s monkey experiments", "Pavlov's dog experiments"]
         },
         {
             "question": "What causes the sound of a heartbeat?",
-            "correct_answer": "Closure of the heart valves",
+            "answer": "Closure of the heart valves",
             "difficulty": "hard",
             "options": ["Contraction of the heart chambers", "Blood exiting the heart", "Relaxation of the heart chambers", "Closure of the heart valves"]
         },
         {
             "question": "When was the first mammal successfully cloned?",
-            "correct_answer": "1996",
+            "answer": "1996",
             "difficulty": "medium",
             "options": ["2009", "1999", "1985", "1996"]
         },
         {
             "question": "How many types of quarks are there in the standard model of physics?",
-            "correct_answer": "6",
+            "answer": "6",
             "difficulty": "hard",
             "options": ["2", "3", "4", "6"]
         },
         {
             "question": "In physics, conservation of energy and conservation of momentum are both consequences of which of the following?",
-            "correct_answer": "Noether's Theorem",
+            "answer": "Noether's Theorem",
             "difficulty": "hard",
             "options": ["Bell's Theorem", "Wick's Theorem", "Carnot's Theorem", "Noether's Theorem"]
         },
         {
             "question": "How old is the universe?",
-            "correct_answer": "13.8 Billion Years",
+            "answer": "13.8 Billion Years",
             "difficulty": "medium",
             "options": ["4.5 Billion Years", "7.9 Billion Years", "16.2 Billion Years", "13.8 Billion Years"]
         }

@@ -1,352 +1,302 @@
 {
     "animals": [
         {
-            
             "question": "The Axolotl is an amphibian that can spend its whole life in a larval state.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy",
             "options": ["False", "True"]
         },
         {
-            
             "question": "What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
-            "correct_answer": "Simien Jackel",
+            "answer": "Simien Jackel",
             "difficulty": "hard",
             "options": ["Ethiopian Coyote", "Amharic Fox", "Canis Simiensis", "Simien Jackel"]
         },
         {
-            
             "question": "What does \"hippopotamus\" mean and in what language?",
-            "correct_answer": "River Horse (Greek)",
+            "answer": "River Horse (Greek)",
             "difficulty": "medium",
             "options": ["River Horse (Latin)", "Fat Pig (Greek)", "Fat Pig (Latin)", "River Horse (Greek)"]
         },
         {
-            
             "question": "A carnivorous animal eats flesh, what does a nucivorous animal eat?",
-            "correct_answer": "Nuts",
+            "answer": "Nuts",
             "difficulty": "medium",
             "options": ["Nothing", "Fruit", "Seaweed", "Nuts"]
         },
         {
-            
             "question": "What type of animal is a natterjack?",
-            "correct_answer": "Toad",
+            "answer": "Toad",
             "difficulty": "medium",
             "options": ["Bird", "Fish", "Insect", "Toad"]
         },
         {
-            
             "question": "What is the fastest  land animal?",
-            "correct_answer": "Cheetah",
+            "answer": "Cheetah",
             "difficulty": "easy",
             "options": ["Lion", "Thomson’s Gazelle", "Pronghorn Antelope", "Cheetah"]
         },
         {
-            
             "question": "An octopus can fit through any hole larger than its beak.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "medium",
             "options": ["False", "True"]
         },
         {
-            
             "question": "A slug’s blood is green.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy",
             "options": ["False", "True"]
         },
         {
-            
             "question": "What is the scientific name for modern day humans?",
-            "correct_answer": "Homo Sapiens",
+            "answer": "Homo Sapiens",
             "difficulty": "easy",
             "options": ["Homo Ergaster", "Homo Erectus", "Homo Neanderthalensis", "Homo Sapiens"]
         },
         {
-            
             "question": "What color/color is a polar bear's skin?",
-            "correct_answer": "Black",
+            "answer": "Black",
             "difficulty": "medium",
             "options": ["White", "Pink", "Green", "Black"]
         },
         {
-            
             "question": "Hippocampus is the Latin name for which marine creature?",
-            "correct_answer": "Seahorse",
+            "answer": "Seahorse",
             "difficulty": "easy",
             "options": ["Dolphin", "Whale", "Octopus", "Seahorse"]
         },
         {
-            
             "question": "Cashmere is the wool from which kind of animal?",
-            "correct_answer": "Goat",
+            "answer": "Goat",
             "difficulty": "medium",
             "options": ["Sheep", "Camel", "Llama", "Goat"]
         },
         {
-            
             "question": "Kangaroos keep food in their pouches next to their children.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "easy",
             "options": ["True", "False"]
         },
         {
-            
             "question": "\"Kamea,\" the Gilbertese Islander word for dog, is derived from the English phrase \"Come here!\"",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "medium",
             "options": ["False", "True"]
         },
         {
-            
             "question": "A bear does NOT defecate during hibernation.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy",
             "options": ["False", "True"]
         },
         {
-            
             "question": "What are rhino's horn made of?",
-            "correct_answer": "Keratin",
+            "answer": "Keratin",
             "difficulty": "medium",
             "options": ["Bone", "Ivory", "Skin", "Keratin"]
         },
         {
-            
             "question": "How many legs do butterflies have?",
-            "correct_answer": "6",
+            "answer": "6",
             "difficulty": "easy",
             "options": ["2", "4", "0", "6"]
         },
         {
-            
             "question": "What scientific suborder does the family Hyaenidae belong to?",
-            "correct_answer": "Feliformia",
+            "answer": "Feliformia",
             "difficulty": "hard",
             "options": ["Haplorhini", "Caniformia", "Ciconiiformes", "Feliformia"]
         },
         {
-            
             "question": "What scientific family does the Aardwolf belong to?",
-            "correct_answer": "Hyaenidae",
+            "answer": "Hyaenidae",
             "difficulty": "hard",
             "options": ["Canidae", "Felidae", "Eupleridae", "Hyaenidae"]
         },
         {
-            
             "question": "What do you call a baby bat?",
-            "correct_answer": "Pup",
+            "answer": "Pup",
             "difficulty": "easy",
             "options": ["Cub", "Chick", "Kid", "Pup"]
         },
         {
-            
             "question": "What is the scientific name of the cheetah?",
-            "correct_answer": "Acinonyx jubatus",
+            "answer": "Acinonyx jubatus",
             "difficulty": "hard",
             "options": ["Panthera onca", "Lynx rufus", "Felis catus", "Acinonyx jubatus"]
         },
         {
-            
             "question": "Which animal was part of a Russian domestication experiment in 1959?",
-            "correct_answer": "Foxes",
+            "answer": "Foxes",
             "difficulty": "medium",
             "options": ["Pigeons", "Bears", "Alligators", "Foxes"]
         },
         {
-            
             "question": "The now extinct species \"Thylacine\" was native to where?",
-            "correct_answer": "Tasmania, Australia",
+            "answer": "Tasmania, Australia",
             "difficulty": "medium",
             "options": ["Baluchistan, Pakistan", "Wallachia, Romania", "Oregon, United States", "Tasmania, Australia"]
         },
         {
-            
             "question": "The average lifespan of a wildcat is only around 5-6 years.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "medium",
             "options": ["True", "False"]
         },
         {
-            
             "question": "What is the Gray Wolf's scientific name?",
-            "correct_answer": "Canis Lupus",
+            "answer": "Canis Lupus",
             "difficulty": "hard",
             "options": ["Canis Aureus", "Canis Latrans", "Canis Lupus Lycaon", "Canis Lupus"]
         },
         {
-            
             "question": "Rabbits are rodents.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "easy",
             "options": ["True", "False"]
         },
         {
-            
             "question": "Which of these animals is NOT a lizard?",
-            "correct_answer": "Tuatara",
+            "answer": "Tuatara",
             "difficulty": "hard",
             "options": ["Komodo Dragon", "Gila Monster", "Green Iguana", "Tuatara"]
         },
         {
-            
             "question": "The Platypus is a mammal.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "medium",
             "options": ["False", "True"]
         },
         {
-            
             "question": "What is Grumpy Cat's real name?",
-            "correct_answer": "Tardar Sauce",
+            "answer": "Tardar Sauce",
             "difficulty": "easy",
             "options": ["Sauce", "Minnie", "Broccoli", "Tardar Sauce"]
         },
         {
-            
             "question": "What type of creature is a Bonobo?",
-            "correct_answer": "Ape",
+            "answer": "Ape",
             "difficulty": "hard",
             "options": ["Lion", "Parrot", "Wildcat", "Ape"]
         },
         {
-            
             "question": "Which of these species is not extinct?",
-            "correct_answer": "Komodo dragon",
+            "answer": "Komodo dragon",
             "difficulty": "medium",
             "options": ["Japanese sea lion", "Tasmanian tiger", "Saudi gazelle", "Komodo dragon"]
         },
         {
-            
             "question": "Unlike on most salamanders, this part of a newt is flat?",
-            "correct_answer": "Tail",
+            "answer": "Tail",
             "difficulty": "hard",
             "options": ["Head", "Teeth", "Feet", "Tail"]
         },
         {
-            
             "question": "What dog bread is one of the oldest breeds of dog and has flourished since before 400 BCE.",
-            "correct_answer": "Pugs",
+            "answer": "Pugs",
             "difficulty": "medium",
             "options": ["Bulldogs", "Boxers", "Chihuahua", "Pugs"]
         },
         {
-            
             "question": "Which species is a \"mountain chicken\"?",
-            "correct_answer": "Frog",
+            "answer": "Frog",
             "difficulty": "hard",
             "options": ["Chicken", "Horse", "Fly", "Frog"]
         },
         {
-            
             "question": "What is the fastest animal?",
-            "correct_answer": "Peregrine Falcon",
+            "answer": "Peregrine Falcon",
             "difficulty": "medium",
             "options": ["Golden Eagle", "Cheetah", "Horsefly", "Peregrine Falcon"]
         },
         {
-            
             "question": "The dish Fugu, is made from what family of fish?",
-            "correct_answer": "Pufferfish",
+            "answer": "Pufferfish",
             "difficulty": "medium",
             "options": ["Bass", "Salmon", "Mackerel", "Pufferfish"]
         },
         {
-            
             "question": "Which of the following is another name for the \"Poecilotheria Metallica Tarantula\"?",
-            "correct_answer": "Gooty",
+            "answer": "Gooty",
             "difficulty": "hard",
             "options": ["Hopper", "Silver Stripe", "Woebegone", "Gooty"]
         },
         {
-            
             "question": "By definition, where does an abyssopelagic animal live?",
-            "correct_answer": "At the bottom of the ocean",
+            "answer": "At the bottom of the ocean",
             "difficulty": "easy",
             "options": ["In the desert", "On top of a mountain", "Inside a tree", "At the bottom of the ocean"]
         },
         {
-            
             "question": "Which of these is a colony of polyps and not a jellyfish?",
-            "correct_answer": "Portuguese Man-of-War",
+            "answer": "Portuguese Man-of-War",
             "difficulty": "hard",
             "options": ["Sea Wasp", "Irukandji", "Sea Nettle", "Portuguese Man-of-War"]
         },
         {
-            
             "question": "Tigers have one colour of skin despite the stripey fur.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "medium",
             "options": ["True", "False"]
         },
         {
-            
             "question": "You can tell the age of a ladybird by counting the spots on his back.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "medium",
             "options": ["True", "False"]
         },
         {
-            
             "question": "What is the name for a male bee that comes from an unfertilized egg?",
-            "correct_answer": "Drone",
+            "answer": "Drone",
             "difficulty": "medium",
             "options": ["Soldier", "Worker", "Male", "Drone"]
         },
         {
-            
             "question": "What is the collective noun for bears?",
-            "correct_answer": "Sloth",
+            "answer": "Sloth",
             "difficulty": "medium",
             "options": ["Drove", "Tribe", "Husk", "Sloth"]
         },
         {
-            
             "question": "What is the collective noun for rats?",
-            "correct_answer": "Mischief",
+            "answer": "Mischief",
             "difficulty": "medium",
             "options": ["Pack", "Race", "Drift", "Mischief"]
         },
         {
-            
             "question": "What is the collective noun for vultures?",
-            "correct_answer": "Wake",
+            "answer": "Wake",
             "difficulty": "hard",
             "options": ["Ambush", "Building", "Gaze", "Wake"]
         },
         {
-            
             "question": "Rabbits are carnivores.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "easy",
             "options": ["True", "False"]
         },
         {
-            
             "question": "The internet browser Firefox is named after the Red Panda.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy",
             "options": ["False", "True"]
         },
         {
-            
             "question": "To which biological phylum do all mammals, birds and reptiles belong?",
-            "correct_answer": "Chordata",
+            "answer": "Chordata",
             "difficulty": "hard",
             "options": ["Echinodermata", "Annelida", "Placazoa", "Chordata"]
         },
         {
-            
             "question": "What is the world's longest venomous snake?",
-            "correct_answer": "King Cobra",
+            "answer": "King Cobra",
             "difficulty": "medium",
             "options": ["Green Anaconda", "Inland Taipan", "Yellow Bellied Sea Snake", "King Cobra"]
         },
         {
-            
             "question": "The freshwater amphibian, the Axolotl, can regrow its limbs.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy",
             "options": ["False", "True"]
         }

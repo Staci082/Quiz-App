@@ -49,22 +49,25 @@ export const DataProvider = ({ children }) => {
     useEffect(() => {
         if (quizs.length > questionIndex) {
             setQuestion(quizs[questionIndex]);
+            setCorrectAnswer(quizs[questionIndex].answer);
         }
     }, [quizs, questionIndex]);
 
     // Check Answer
-    const checkAnswer = (event, selected) => {
+    const checkAnswer = (selected) => {
         if (!selectedAnswer) {
             setCorrectAnswer(question.answer);
             setSelectedAnswer(selected);
-
+            console.log(correctAnswer);
             if (selected === question.answer) {
-                event.target.classList.add("bg-lime-400");
+                correctAnswer.target.classList.add("bg-lime-400");
                 setScore(score + 5);
             } else {
-                event.target.classList.add("bg-red-400");
+                selected.classList.add("bg-red-400");
+                correctAnswer.classList.add("bg-lime-400");
             }
         }
+        nextQuestion()
     };
 
     // Next Quesion

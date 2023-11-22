@@ -15,12 +15,15 @@ const renderTime = ({ remainingTime }) => {
 function Questions() {
     const { selectedAmount, quizs, question, questionIndex, selectedCategory, selectedDifficulty, checkAnswer, nextQuestion, correctAnswer, selectedAnswer, score } = useContext(DataContext);
     const [timerKey, setTimerKey] = useState(0);
+    const [selectedOption, setSelectedOption] = useState("");
+
     const resultsLink = `/results?category=${selectedCategory}&amount=${selectedAmount}&Difficulty=${selectedDifficulty}`;
 
     const handleTimeOut = () => {
         setTimerKey((prevKey) => prevKey + 1);
         nextQuestion();
     };
+    console.log(selectedOption);
     return (
         <section className=" md:w-1/2 w-full  text-xl">
             <header className="flex justify-between p-4 mb-8">
@@ -45,7 +48,9 @@ function Questions() {
                             strokeWidth={4}
                             duration={30}
                             colors={["#a3e635"]}
-                            onComplete={handleTimeOut} // Call nextQuestion function when the timer completes
+                            onComplete={() => {
+                                return { handleTimeOut, shouldRepeat: true };
+                            }}
                         >
                             {({ remainingTime }) => renderTime({ remainingTime })}
                         </CountdownCircleTimer>
@@ -53,18 +58,24 @@ function Questions() {
                     <p className="text-2xl">{question?.question}</p>
                 </div>
 
-                {question?.options?.map((item, index) => (
-                    <button key={index} className=" bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600">
-                        {item}
+                {question?.options?.map((option, index) => (
+                    <button
+                        onClick={() => {
+                            setSelectedOption(option);
+                        }}
+                        key={index}
+                        className={` bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600 ${selectedOption === option ? "border-white" : ""}`}
+                    >
+                        {option}
                     </button>
                 ))}
 
-                {questionIndex !== selectedAmount ? (
-                    <button onClick={nextQuestion} className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
+                {questionIndex <= selectedAmount ? (
+                    <button disabled={!selectedAnswer} onClick={nextQuestion} className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
                         Submit
                     </button>
                 ) : (
-                    <Link to={resultsLink} className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
+                    <Link disabled={!selectedAnswer} to={resultsLink} className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
                         Submit
                     </Link>
                 )}

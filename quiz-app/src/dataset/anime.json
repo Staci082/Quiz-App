@@ -3,301 +3,301 @@
         {
             "question": "Clefairy was intended to be Ash's starting Pokémon in the pilot episode of the cartoon.",
             "options": ["False", "True"],
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy"
         },
         {
             "question": "In \"Inuyasha\", what are the heroes looking to collect?",
             "options": ["Dragon Balls", "Rave Stones", "Sacred Stones", "Jewel Shards"],
-            "correct_answer": "Jewel Shards",
+            "answer": "Jewel Shards",
             "difficulty": "easy"
         },
         {
             "question": "What is the name of the corgi in Cowboy Bebop?",
             "options": ["Edward", "Rocket", "Joel", "Einstein"],
-            "correct_answer": "Einstein",
+            "answer": "Einstein",
             "difficulty": "easy"
         },
         {
             "question": "What is the name of the stuffed lion in Bleach?",
             "options": ["Jo", "Urdiu", "Chad", "Kon"],
-            "correct_answer": "Kon",
+            "answer": "Kon",
             "difficulty": "easy"
         },
         {
             "question": "What is the age of Ash Ketchum in Pokemon when he starts his journey?",
             "options": ["11", "12", "9", "10"],
-            "correct_answer": "10",
+            "answer": "10",
             "difficulty": "easy"
         },
         {
             "question": "What year was \"JoJo's Bizarre Adventure: Phantom Blood\" first released?",
             "options": ["2013", "1983", "1995", "1987"],
-            "correct_answer": "1987",
+            "answer": "1987",
             "difficulty": "hard"
         },
         {
             "question": "The main antagonist of the second part of JoJo's Bizarre Adventure is which of the following?",
             "options": ["Erina Joestar", "Santana", "Wired Beck", "Kars"],
-            "correct_answer": "Kars",
+            "answer": "Kars",
             "difficulty": "medium"
         },
         {
             "question": "In the anime Seven Deadly Sins what is the name of one of the sins?",
             "options": ["Sakura", "Ayano", "Sheska", "Diane"],
-            "correct_answer": "Diane",
+            "answer": "Diane",
             "difficulty": "easy"
         },
         {
             "question": "What is the name of the final villain in the manga series \"Bleach\"?",
             "options": ["Juha Bach", "Yuhabah", "Juhabach", "Yhwach"],
-            "correct_answer": "Yhwach",
+            "answer": "Yhwach",
             "difficulty": "medium"
         },
         {
             "question": "What year did the anime \"Himouto! Umaru-chan\" air?",
             "options": ["2014", "2012", "2013", "2015"],
-            "correct_answer": "2015",
+            "answer": "2015",
             "difficulty": "medium"
         },
         {
             "question": "Which animation studio animated the 2016 anime \"Mob Psycho 100\"?",
             "options": ["A-1 Pictures", "Shaft", "Madhouse", "Bones"],
-            "correct_answer": "Bones",
+            "answer": "Bones",
             "difficulty": "medium"
         },
         {
             "question": "The name of the attack \"Kamehameha\" in Dragon Ball Z was named after a famous king of Hawaii.",
             "options": ["False", "True"],
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy"
         },
         {
             "question": "What caused the titular mascot of Yo-Kai Watch, Jibanyan, to become a yokai?",
             "options": ["Ate one too many chocobars", "Through a magical ritual", "When he put on the harmaki", "Being run over by a truck"],
-            "correct_answer": "Being run over by a truck",
+            "answer": "Being run over by a truck",
             "difficulty": "medium"
         },
         {
             "question": "Which of the following manga have the most tankouban volumes?",
             "options": ["JoJo's Bizarre Adventure", "Detective Conan", "One Piece", "Golgo 13"],
-            "correct_answer": "Golgo 13",
+            "answer": "Golgo 13",
             "difficulty": "medium"
         },
         {
             "question": "What sport is being played in the Anime Eyeshield 21?",
             "options": ["Baseball", "Football", "Basketball", "American Football"],
-            "correct_answer": "American Football",
+            "answer": "American Football",
             "difficulty": "medium"
         },
         {
             "question": "In the ADV (English) Dub of the anime \"Ghost Stories\", which character is portrayed as a Pentecostal Christian?",
             "options": ["Hajime Aoyama", "Satsuki Miyanoshita", "Mio Itai", "Momoko Koigakubo"],
-            "correct_answer": "Momoko Koigakubo",
+            "answer": "Momoko Koigakubo",
             "difficulty": "medium"
         },
         {
             "question": "The characters of \"Log Horizon\" are trapped in what game?",
             "options": ["Sword Art Online", "Tower Unite", "Yggdrasil", "Elder Tale"],
-            "correct_answer": "Elder Tale",
+            "answer": "Elder Tale",
             "difficulty": "easy"
         },
         {
             "question": "The character Momonga from the \"Overlord\" series orders his servants to call him by what name?",
             "options": ["Master", "Yggdrasil", "Kugane Maruyama", "Ainz Ooal Gown"],
-            "correct_answer": "Ainz Ooal Gown",
+            "answer": "Ainz Ooal Gown",
             "difficulty": "medium"
         },
         {
             "question": "The heroine of \"Humanity Has Declined\" is a mediator between humans and what?",
             "options": ["Elves", "The Earth", "Animals", "Fairies"],
-            "correct_answer": "Fairies",
+            "answer": "Fairies",
             "difficulty": "medium"
         },
         {
             "question": "Medaka Kurokami from \"Medaka Box\" has what abnormality?",
             "options": ["Perfection", "Sandbox", "Fairness", "The End"],
-            "correct_answer": "The End",
+            "answer": "The End",
             "difficulty": "hard"
         },
         {
             "question": "Druid is a mage class in \"Log Horizon\".",
             "options": ["True", "False"],
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "hard"
         },
         {
             "question": "In \"One Piece\", which one of the following is NOT an Ancient Weapon?",
             "options": ["Uranus", "Poseidon", "Pluton", "Jupiter"],
-            "correct_answer": "Jupiter",
+            "answer": "Jupiter",
             "difficulty": "medium"
         },
         {
             "question": "Which of the following originated as a manga?",
             "options": ["Cowboy Bebop", "High School DxD", "Gurren Lagann", "Akira"],
-            "correct_answer": "Akira",
+            "answer": "Akira",
             "difficulty": "easy"
         },
         {
             "question": "In what year did the manga \"Ping Pong\" begin serialization?",
             "options": ["2014", "2010", "2003", "1996"],
-            "correct_answer": "1996",
+            "answer": "1996",
             "difficulty": "hard"
         },
         {
             "question": "Which one of these characters is from \"Legendz: Tale of the Dragon Kings\"?",
             "options": ["Jack", "Axia", "Drum", "Shiron"],
-            "correct_answer": "Shiron",
+            "answer": "Shiron",
             "difficulty": "hard"
         },
         {
             "question": "In the \"Dragon Ball\" franchise, what is the name of Goku's brother?",
             "options": ["Gohan", "Vegeta", "Bardock", "Raditz"],
-            "correct_answer": "Raditz",
+            "answer": "Raditz",
             "difficulty": "hard"
         },
         {
             "question": "Which person from \"JoJo's Bizarre Adventure\" does NOT house a reference to a band, artist, or song earlier than 1980?",
             "options": ["Josuke Higashikata", "Jolyne Cujoh", "Johnny Joestar", "Giorno Giovanna"],
-            "correct_answer": "Giorno Giovanna",
+            "answer": "Giorno Giovanna",
             "difficulty": "hard"
         },
         {
             "question": "Who is the creator of the manga series \"One Piece\"?",
             "options": ["Yoshihiro Togashi", "Hayao Miyazaki", "Masashi Kishimoto", "Eiichiro Oda"],
-            "correct_answer": "Eiichiro Oda",
+            "answer": "Eiichiro Oda",
             "difficulty": "medium"
         },
         {
             "question": "Who voices the character \"Reigen\" in the English dub of \"Mob Psycho 100\"?",
             "options": ["Max Mittelman", "Kyle McCarley", "Casey Mongillo", "Chris Niosi"],
-            "correct_answer": "Chris Niosi",
+            "answer": "Chris Niosi",
             "difficulty": "medium"
         },
         {
             "question": "Who voices \"Shou Suzuki\" in the English dub of \"Mob Psycho 100\"?",
             "options": ["Ben Diskin", "Chris Niosi", "David Naughton", "Casey Mongillo"],
-            "correct_answer": "Casey Mongillo",
+            "answer": "Casey Mongillo",
             "difficulty": "medium"
         },
         {
             "question": "In \"To Love-Ru\", Ren and Run are from what planet?",
             "options": ["Deviluke", "Mistletoe", "Okiwana", "Memorze"],
-            "correct_answer": "Memorze",
+            "answer": "Memorze",
             "difficulty": "easy"
         },
         {
             "question": "In the \"To Love-Ru\" series, how many Trans-weapons were created?",
             "options": ["1", "2", "4", "3"],
-            "correct_answer": "3",
+            "answer": "3",
             "difficulty": "medium"
         },
         {
             "question": "In the \"To Love-Ru\" series, Golden Darkness is sent to kill Lala Deviluke.",
             "options": ["True", "False"],
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "easy"
         },
         {
             "question": "In \"To Love-Ru: Darkness\", Yami reveals her real name is Eve.",
             "options": ["True", "False"],
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "medium"
         },
         {
             "question": "In \"Highschool DxD\", what is the name of the item some humans are born with?",
             "options": ["Imperial Arm", "Hallowed Relic", "Blessed Artifact", "Sacred Gear"],
-            "correct_answer": "Sacred Gear",
+            "answer": "Sacred Gear",
             "difficulty": "medium"
         },
         {
             "question": "In \"Little Witch Academia\", what is Shiny Chariot's alias at Luna Nova Academy?",
             "options": ["Croix Meridies", "Miranda Holbrook", "Anne Finnelan", "Ursula Callistis"],
-            "correct_answer": "Ursula Callistis",
+            "answer": "Ursula Callistis",
             "difficulty": "medium"
         },
         {
             "question": "In the 2011 TV anime series, \"THE iDOLM@STER\", what was the name of Iori's stuffed toy bunny?",
             "options": ["Bubsy", "Kero", "Usagi", "Charles"],
-            "correct_answer": "Charles",
+            "answer": "Charles",
             "difficulty": "medium"
         },
         {
             "question": "How many \"JoJos\" that are protagonists are there in the series \"Jojo's Bizarre Adventure\"?",
             "options": ["6", "4", "5", "8"],
-            "correct_answer": "8",
+            "answer": "8",
             "difficulty": "easy"
         },
         {
             "question": "Which animation studio produced the anime adaptation of \"xxxHolic\"?",
             "options": ["Sunrise", "Xebec", "Kyoto Animation", "Production I.G"],
-            "correct_answer": "Production I.G",
+            "answer": "Production I.G",
             "difficulty": "hard"
         },
         {
             "question": "Which studio animated Soul Eater?",
             "options": ["Kyoto Animation", "xebec", "Production I.G", "Bones"],
-            "correct_answer": "Bones",
+            "answer": "Bones",
             "difficulty": "medium"
         },
         {
             "question": "What studio animated Ouran High School Host Club?",
             "options": ["Production I.G", "Kyoto Animation", "xebec", "Bones"],
-            "correct_answer": "Bones",
+            "answer": "Bones",
             "difficulty": "medium"
         },
         {
             "question": "What is the name of Funny Valentine's stand in Jojo's Bizarre Adventure Part 7, Steel Ball Run?",
             "options": ["Filthy Acts Done For A Reasonable Price", "Civil War", "God Bless The USA", "Dirty Deeds Done Dirt Cheap"],
-            "correct_answer": "Dirty Deeds Done Dirt Cheap",
+            "answer": "Dirty Deeds Done Dirt Cheap",
             "difficulty": "hard"
         },
         {
             "question": "The character Plum from \"No Game No Life\" is a girl.",
             "options": ["True", "False"],
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "hard"
         },
         {
             "question": "In \"Love Live: School Idol Project\" what pseudonym does Kotori Minami use in her job as a maid?",
             "options": ["Stanoytchev", "Kuznetsov", "Aqours", "Minalinsky"],
-            "correct_answer": "Minalinsky",
+            "answer": "Minalinsky",
             "difficulty": "medium"
         },
         {
             "question": "Which of these is not a world in the anime \"Buddyfight\"?",
             "options": ["Dragon World", "Star Dragon World", "Darkness Dragon World", "Ancient Dragon World"],
-            "correct_answer": "Ancient Dragon World",
+            "answer": "Ancient Dragon World",
             "difficulty": "medium"
         },
         {
             "question": "Who is the main character in One Piece?",
             "options": ["Shanks", "Zoro", "Smoker", "Luffy"],
-            "correct_answer": "Luffy",
+            "answer": "Luffy",
             "difficulty": "medium"
         },
         {
             "question": "Who is the horror manga artist who made Uzumaki?",
             "options": ["Kazuo Umezu", "Shintaro Kago", "Sui Ishida", "Junji Ito"],
-            "correct_answer": "Junji Ito",
+            "answer": "Junji Ito",
             "difficulty": "hard"
         },
         {
             "question": "Who was the Director of the 1988 Anime film \"Grave of the Fireflies\"?",
             "options": ["Hayao Miyazaki", "Satoshi Kon", "Sunao Katabuchi", "Isao Takahata"],
-            "correct_answer": "Isao Takahata",
+            "answer": "Isao Takahata",
             "difficulty": "hard"
         },
         {
             "question": "In Jojo's Bizarre Adventure, who says \"Yare yare daze\"?",
             "options": ["Joseph Joestar", "Jolyne Cujoh", "Koichi Hirose", "Jotaro Kujo"],
-            "correct_answer": "Jotaro Kujo",
+            "answer": "Jotaro Kujo",
             "difficulty": "medium"
         },
         {
             "question": "In the anime \"My Hero Academia\", which character is shown with the ability to manipulate gravity?",
             "options": ["Bakugo", "Deku", "Asui", "Uraraka"],
-            "correct_answer": "Uraraka",
+            "answer": "Uraraka",
             "difficulty": "easy"
         }
     ]

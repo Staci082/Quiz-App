@@ -2,301 +2,301 @@
     "music": [
         {
             "question": "The music group Daft Punk got their name from a negative review they received.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy",
             "options": ["False", "True"]
         },
         {
             "question": "Which Canadian reggae musician had a 1993 hit with the song 'Informer'?",
-            "correct_answer": "Snow",
+            "answer": "Snow",
             "difficulty": "easy",
             "options": ["Rain", "Hail", "Sleet", "Snow"]
         },
         {
             "question": "Who had a 1969 top 5 hit with the song, 'A Boy Named Sue'?",
-            "correct_answer": "Johnny Cash",
+            "answer": "Johnny Cash",
             "difficulty": "easy",
             "options": ["Bob Dylan", "Willie Nelson", "Kris Kristofferson", "Johnny Cash"]
         },
         {
             "question": "\"Some people call me the space cowboy\" is the first line from what song?",
-            "correct_answer": "The Joker",
+            "answer": "The Joker",
             "difficulty": "easy",
             "options": ["Fandango", "Take The Money and Run", "Fly Like an Eagle", "The Joker"]
         },
         {
             "question": "Who recorded the 1975 album 'Captain Fantastic and the Brown Dirt Cowboy'?",
-            "correct_answer": "Elton John",
+            "answer": "Elton John",
             "difficulty": "hard",
             "options": ["John Denver", "Billy Joel", "Joe Cocker", "Elton John"]
         },
         {
             "question": "Soulja Boy's 'Crank That' won a Grammy for Best Rap Song in 2007.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "medium",
             "options": ["True", "False"]
         },
         {
             "question": "The music video to The Buggle's \"Video Killed the Radio Star\" was the first music video to broadcast on MTV.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy",
             "options": ["False", "True"]
         },
         {
             "question": "Which member of the English band \"The xx\" released their solo album \"In Colour\" in 2015?",
-            "correct_answer": "Jamie xx",
+            "answer": "Jamie xx",
             "difficulty": "hard",
             "options": ["Romy Madley Croft", "Oliver Sim", "Baria Qureshi", "Jamie xx"]
         },
         {
             "question": "Which song in rapper Kanye West's album \"The Life of Pablo\" features Rihanna?",
-            "correct_answer": "Famous",
+            "answer": "Famous",
             "difficulty": "hard",
             "options": ["Wolves", "Ultralight Beam", "Highlights", "Famous"]
         },
         {
             "question": "Scottish producer Calvin Harris is from the town of Dumfries, Scotland.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "medium",
             "options": ["False", "True"]
         },
         {
             "question": "Which M83 album is the song \"Midnight City\" featured in?",
-            "correct_answer": "Hurry Up, We're Dreaming",
+            "answer": "Hurry Up, We're Dreaming",
             "difficulty": "hard",
             "options": ["Saturdays = Youth", "Before the Dawn Heals Us", "Junk", "Hurry Up, We're Dreaming"]
         },
         {
             "question": "Norwegian producer Kygo released a remix of the song 'Sexual Healing' by Marvin Gaye.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "medium",
             "options": ["False", "True"]
         },
         {
             "question": "Which famous rapper is featured in Jack Ü (Skrillex and Diplo)'s 2015 single called 'Febreze'?",
-            "correct_answer": "2 Chainz",
+            "answer": "2 Chainz",
             "difficulty": "easy",
             "options": ["Kendrick Lamar", "Future", "Fatman Scoop", "2 Chainz"]
         },
         {
             "question": "Which of these songs by Skrillex features Fatman Scoop as a side artist?",
-            "correct_answer": "Recess",
+            "answer": "Recess",
             "difficulty": "easy",
             "options": ["All is Fair in Love and Brostep", "Rock N Roll (Will Take You to the Mountain)", "Scary Monsters and Nice Sprites", "Recess"]
         },
         {
             "question": "What was the name of singer Frank Ocean's second studio album, which was released on August 20, 2016?",
-            "correct_answer": "Blonde",
+            "answer": "Blonde",
             "difficulty": "easy",
             "options": ["Brunette", "Black", "Burgundy", "Blonde"]
         },
         {
             "question": "Which of these artists did NOT remix the song 'Faded' by Alan Walker?",
-            "correct_answer": "Skrillex",
+            "answer": "Skrillex",
             "difficulty": "hard",
             "options": ["Tiësto", "Slushii", "Dash Berlin", "Skrillex"]
         },
         {
             "question": "Which of these is NOT a song on The Beatles' 1968 self-titled album, also known as the White album?",
-            "correct_answer": "Being For The Benefit Of Mr. Kite!",
+            "answer": "Being For The Benefit Of Mr. Kite!",
             "difficulty": "medium",
             "options": ["Why Don't We Do It in the Road?", "Everybody's Got Something to Hide Except Me and My Monkey", "The Continuing Story of Bungalow Bill", "Being For The Benefit Of Mr. Kite!"]
         },
         {
             "question": "Brian May was the guitarist for which band?",
-            "correct_answer": "Queen",
+            "answer": "Queen",
             "difficulty": "easy",
             "options": ["Pink Floyd", "Rolling Stones", "The Doors", "Queen"]
         },
         {
             "question": "What was the subject of the 2014 song 'CoCo' by American rapper O. T. Genasis?",
-            "correct_answer": "Cocaine",
+            "answer": "Cocaine",
             "difficulty": "easy",
             "options": ["Conan O'Brien", "Cobalt(II) carbonate", "Coconut cream pie", "Cocaine"]
         },
         {
             "question": "The 'K' in 'K-Pop' stands for which word?",
-            "correct_answer": "Korean",
+            "answer": "Korean",
             "difficulty": "easy",
             "options": ["Kenyan", "Kazakhstan", "Kuwaiti", "Korean"]
         },
         {
             "question": "What was Rage Against the Machine's debut album?",
-            "correct_answer": "Rage Against the Machine",
+            "answer": "Rage Against the Machine",
             "difficulty": "easy",
             "options": ["Evil Empire", "Bombtrack", "The Battle Of Los Angeles", "Rage Against the Machine"]
         },
         {
             "question": "In Mean Girls, who has breasts that tell when it's raining?",
-            "correct_answer": "Karen Smith",
+            "answer": "Karen Smith",
             "difficulty": "easy",
             "options": ["Gretchen Weiners", "Janice Ian", "Cady Heron", "Karen Smith"]
         },
         {
             "question": "Which of these songs is NOT included in the Suicide Squad OST?",
-            "correct_answer": "Skies on Fire - AC/DC",
+            "answer": "Skies on Fire - AC/DC",
             "difficulty": "hard",
             "options": ["Heathens - Twenty One Pilots", "Without Me - Eminem", "Fortunate Son - Creedence Clearwater Revival", "Skies on Fire - AC/DC"]
         },
         {
             "question": "The song 'Feel Good Inc.' by the British band Gorillaz features which hip hop group?",
-            "correct_answer": "De La Soul",
+            "answer": "De La Soul",
             "difficulty": "medium",
             "options": ["Public Enemy", "OutKast", "Cypress Hill", "De La Soul"]
         },
         {
             "question": "The alternative rock band, They Might Be Giants, released their album 'Flood' in 1990.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy",
             "options": ["False", "True"]
         },
         {
             "question": "\"Twenty One Pilots\" made the song \"The Motion\" featuring Sampha.",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "medium",
             "options": ["True", "False"]
         },
         {
             "question": "From which country did the song \"Gangnam Style\" originate from?",
-            "correct_answer": "South Korea",
+            "answer": "South Korea",
             "difficulty": "easy",
             "options": ["Japan", "North Korea", "China", "South Korea"]
         },
         {
             "question": "What is Brian May's guitar called?",
-            "correct_answer": "Red Special",
+            "answer": "Red Special",
             "difficulty": "medium",
             "options": ["Blue Special", "Green Special", "Yellow Special", "Red Special"]
         },
         {
             "question": "What musician made the song \"Fuckin` Perfect\" in 2010?",
-            "correct_answer": "P!nk",
+            "answer": "P!nk",
             "difficulty": "medium",
             "options": ["Mitis", "Adam Lambert", "Koven", "P!nk"]
         },
         {
             "question": "Which Nirvana album had a naked baby on the cover?",
-            "correct_answer": "Nevermind",
+            "answer": "Nevermind",
             "difficulty": "easy",
             "options": ["Bleach", "In Utero", "Incesticide", "Nevermind"]
         },
         {
             "question": "Which Disney character sings the song \"A Dream is a Wish Your Heart Makes\"?",
-            "correct_answer": "Cinderella",
+            "answer": "Cinderella",
             "difficulty": "easy",
             "options": ["Belle", "Snow White", "Pocahontas", "Cinderella"]
         },
         {
             "question": "What was Radiohead's first album?",
-            "correct_answer": "Pablo Honey",
+            "answer": "Pablo Honey",
             "difficulty": "medium",
             "options": ["The Bends", "Kid A", "A Moon Shaped Pool", "Pablo Honey"]
         },
         {
             "question": "Which of these is not an Ed Sheeran album?",
-            "correct_answer": "-",
+            "answer": "-",
             "difficulty": "medium",
             "options": ["+", "X", "÷", "-"]
         },
         {
             "question": "\"Drink the Sea\" is an album by which electronic music artist?",
-            "correct_answer": "The Glitch Mob",
+            "answer": "The Glitch Mob",
             "difficulty": "medium",
             "options": ["Avicii", "XXYYXX", "Flux Pavilion", "The Glitch Mob"]
         },
         {
             "question": "What album did The Lumineers release in 2016?",
-            "correct_answer": "Cleopatra",
+            "answer": "Cleopatra",
             "difficulty": "easy",
             "options": ["Winter", "The Lumineers", "Tracks From The Attic", "Cleopatra"]
         },
         {
             "question": "In the Panic! At the Disco's song \"Northern Downpour\", which lyric follows 'I know the world's a broken bone'?",
-            "correct_answer": "\"So melt your headaches call it home\"",
+            "answer": "\"So melt your headaches call it home\"",
             "difficulty": "hard",
             "options": ["\"So sing your song until you're home\"", "\"So let them know they're on their own\"", "\"So start a fire in their cold stone\"", "\"So melt your headaches call it home\""]
         },
         {
             "question": "In what film was the Michael Jackson song \"Will You Be There\" featured?",
-            "correct_answer": "Free Willy",
+            "answer": "Free Willy",
             "difficulty": "medium",
             "options": ["Sleepless in Seattle", "Men in Black", "Bad Boys", "Free Willy"]
         },
         {
             "question": "Daft Punk originated in France.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy",
             "options": ["False", "True"]
         },
         {
             "question": "Pink Guy's debut album was \"Pink Season\".",
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "medium",
             "options": ["True", "False"]
         },
         {
             "question": "\"The Singing Cowboy\" Gene Autry is credited with the first recording for all but which classic Christmas jingle?",
-            "correct_answer": "White Christmas",
+            "answer": "White Christmas",
             "difficulty": "easy",
             "options": ["Frosty the Snowman", "Rudolph the Red-Nosed Reindeer", "Here Comes Santa Claus", "White Christmas"]
         },
         {
             "question": "Which of these is NOT a song by Pegboard Nerds?",
-            "correct_answer": "WiFi Tears",
+            "answer": "WiFi Tears",
             "difficulty": "medium",
             "options": ["Swamp Thing", "Emoji", "BAMF", "WiFi Tears"]
         },
         {
             "question": "What year was Min Yoongi from South Korea boy band \"BTS\" born in?",
-            "correct_answer": "1993",
+            "answer": "1993",
             "difficulty": "hard",
             "options": ["1992", "1995", "1994", "1993"]
         },
         {
             "question": "Which of the following guitarists recorded an album as a member of the Red Hot Chili Peppers?",
-            "correct_answer": "Dave Navarro",
+            "answer": "Dave Navarro",
             "difficulty": "medium",
             "options": ["Tom Morello", "Billy Corgan", "Ed O'Brien", "Dave Navarro"]
         },
         {
             "question": "From which album is the Gorillaz song, \"On Melancholy Hill\" featured in?",
-            "correct_answer": "Plastic Beach",
+            "answer": "Plastic Beach",
             "difficulty": "medium",
             "options": ["Demon Days", "Humanz", "The Fall", "Plastic Beach"]
         },
         {
             "question": "The song Scatman's World was released after Scatman (Ski-Ba-Bop-Ba-Dop-Bop).",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "hard",
             "options": ["False", "True"]
         },
         {
             "question": "What album did Gorillaz release in 2017?",
-            "correct_answer": "Humanz",
+            "answer": "Humanz",
             "difficulty": "medium",
             "options": ["Plastic Beach", "The Fall", "Demon Days", "Humanz"]
         },
         {
             "question": "What year did Dire Straits's Song \"Money for Nothing\" release?",
-            "correct_answer": "1985",
+            "answer": "1985",
             "difficulty": "hard",
             "options": ["1973", "1980", "1991", "1985"]
         },
         {
             "question": "Lead Singer Rivers Cuomo of American rock band Weezer attended Harvard.",
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy",
             "options": ["False", "True"]
         },
         {
             "question": "What M83 was featured in Grand Theft Auto V's radio?",
-            "correct_answer": "Midnight City",
+            "answer": "Midnight City",
             "difficulty": "medium",
             "options": ["Outro", "Reunion", "Wait", "Midnight City"]
         },
         {
             "question": "Which year was the album \"Year of the Snitch\" by Death Grips released?",
-            "correct_answer": "2018",
+            "answer": "2018",
             "difficulty": "easy",
             "options": ["2013", "2017", "2011", "2018"]
         }

@@ -3,301 +3,301 @@
         {
             "question": "Where is the train station \"Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch\"?",
             "options": ["Moldova", "Czech Republic", "Denmark", "Wales"],
-            "correct_answer": "Wales",
+            "answer": "Wales",
             "difficulty": "easy"
         },
         {
             "question": "What is the first book of the Old Testament?",
             "options": ["Exodus", "Leviticus", "Numbers", "Genesis"],
-            "correct_answer": "Genesis",
+            "answer": "Genesis",
             "difficulty": "easy"
         },
         {
             "question": "What is the defining characteristic of someone who is described as hirsute?",
             "options": ["Rude", "Funny", "Tall", "Hairy"],
-            "correct_answer": "Hairy",
+            "answer": "Hairy",
             "difficulty": "medium"
         },
         {
             "question": "What does a funambulist walk on?",
             "options": ["Broken Glass", "Balls", "The Moon", "A Tight Rope"],
-            "correct_answer": "A Tight Rope",
+            "answer": "A Tight Rope",
             "difficulty": "easy"
         },
         {
             "question": "The Great Wall of China is visible from the moon.",
             "options": ["True", "False"],
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "easy"
         },
         {
             "question": "Video streaming website YouTube was purchased in its entirety by Facebook for US$1.65 billion in stock.",
             "options": ["True", "False"],
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "easy"
         },
         {
             "question": "The US emergency hotline is 911 because of the September 11th terrorist attacks.",
             "options": ["True", "False"],
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "medium"
         },
         {
             "question": "Gumbo is a stew that originated in Louisiana.",
             "options": ["True", "False"],
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy"
         },
         {
             "question": "The vapor produced by e-cigarettes is actually water.",
             "options": ["True", "False"],
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "medium"
         },
         {
             "question": "What type of animal was Harambe, who was shot after a child fell into its enclosure at the Cincinnati Zoo?",
             "options": ["Tiger", "Panda", "Crocodile", "Gorilla"],
-            "correct_answer": "Gorilla",
+            "answer": "Gorilla",
             "difficulty": "easy"
         },
         {
             "question": "Before the 19th Century, the \"Living Room\" was originally called the...",
             "options": ["Open Room", "Sitting Room", "Loft", "Parlor"],
-            "correct_answer": "Parlor",
+            "answer": "Parlor",
             "difficulty": "hard"
         },
         {
             "question": "After how many years would you celebrate your crystal anniversary?",
             "options": ["20", "10", "25", "15"],
-            "correct_answer": "15",
+            "answer": "15",
             "difficulty": "medium"
         },
         {
             "question": "Which of the following is not another name for the eggplant?",
             "options": ["Brinjal", "Guinea Squash", "Melongene", "Potimarron"],
-            "correct_answer": "Potimarron",
+            "answer": "Potimarron",
             "difficulty": "hard"
         },
         {
             "question": "Which of these companies does NOT manufacture automobiles?",
             "options": ["Nissan", "GMC", "Fiat", "Ducati"],
-            "correct_answer": "Ducati",
+            "answer": "Ducati",
             "difficulty": "medium"
         },
         {
             "question": "Which of the following is an existing family in \"The Sims\"?",
             "options": ["The Family", "The Simoleon Family", "The Proud Family", "The Goth Family"],
-            "correct_answer": "The Goth Family",
+            "answer": "The Goth Family",
             "difficulty": "hard"
         },
         {
             "question": "What alcoholic drink is mainly made from juniper berries?",
             "options": ["Vodka", "Rum", "Tequila", "Gin"],
-            "correct_answer": "Gin",
+            "answer": "Gin",
             "difficulty": "medium"
         },
         {
             "question": "What is the name given to Indian food cooked over charcoal in a clay oven?",
             "options": ["Biryani", "Pani puri", "Tiki masala", "Tandoori"],
-            "correct_answer": "Tandoori",
+            "answer": "Tandoori",
             "difficulty": "medium"
         },
         {
             "question": "What is the Swedish word for \"window\"?",
             "options": ["Hål", "Skärm", "Ruta", "Fönster"],
-            "correct_answer": "Fönster",
+            "answer": "Fönster",
             "difficulty": "medium"
         },
         {
             "question": "What is the romanized Chinese word for \"airplane\"?",
             "options": ["Qiche", "Zongxian", "Huojian", "Feiji"],
-            "correct_answer": "Feiji",
+            "answer": "Feiji",
             "difficulty": "hard"
         },
         {
             "question": "What is the romanized Korean word for \"heart\"?",
             "options": ["Aejeong", "Jeongsin", "Segseu", "Simjang"],
-            "correct_answer": "Simjang",
+            "answer": "Simjang",
             "difficulty": "hard"
         },
         {
             "question": "Which musician has collaborated with American producer Porter Robinson and released the 2016 song \"Shelter\"?",
             "options": ["Mat Zo", "deadmau5", "Zedd", "Madeon"],
-            "correct_answer": "Madeon",
+            "answer": "Madeon",
             "difficulty": "hard"
         },
         {
             "question": "What country saw a world record 315 million voters turn out for elections on May 20, 1991?",
             "options": ["United States of America", "Soviet Union", "Poland", "India"],
-            "correct_answer": "India",
+            "answer": "India",
             "difficulty": "medium"
         },
         {
             "question": "The term \"Spam\" came before the food product \"Spam\".",
             "options": ["True", "False"],
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "medium"
         },
         {
             "question": "What is the last letter of the Greek alphabet?",
             "options": ["Mu", "Epsilon", "Kappa", "Omega"],
-            "correct_answer": "Omega",
+            "answer": "Omega",
             "difficulty": "medium"
         },
         {
             "question": "Which of the following languages does NOT use gender as a part of its grammar?",
             "options": ["German", "Danish", "Polish", "Turkish"],
-            "correct_answer": "Turkish",
+            "answer": "Turkish",
             "difficulty": "hard"
         },
         {
             "question": "Which American-owned brewery led the country in sales by volume in 2015?",
             "options": ["Anheuser Busch", "Boston Beer Company", "Miller Coors", "D. G. Yuengling and Son, Inc"],
-            "correct_answer": "D. G. Yuengling and Son, Inc",
+            "answer": "D. G. Yuengling and Son, Inc",
             "difficulty": "easy"
         },
         {
             "question": "What year was Apple Inc. founded?",
             "options": ["1978", "1980", "1974", "1976"],
-            "correct_answer": "1976",
+            "answer": "1976",
             "difficulty": "medium"
         },
         {
             "question": "Which restaurant's mascot is a clown?",
             "options": ["Whataburger", "Burger King", "Sonic", "McDonald's"],
-            "correct_answer": "McDonald's",
+            "answer": "McDonald's",
             "difficulty": "easy"
         },
         {
             "question": "What was the soft drink Pepsi originally introduced as?",
             "options": ["Pepsin Pop", "Carolina Cola", "Pepsin Syrup", "Brad's Drink"],
-            "correct_answer": "Brad's Drink",
+            "answer": "Brad's Drink",
             "difficulty": "medium"
         },
         {
             "question": "Apple co-founder Steve Jobs died from complications of which form of cancer?",
             "options": ["Bone", "Liver", "Stomach", "Pancreatic"],
-            "correct_answer": "Pancreatic",
+            "answer": "Pancreatic",
             "difficulty": "medium"
         },
         {
             "question": "\"27 Club\" is a term used to refer to a list of famous actors, musicians, and artists who died at the age of 27.",
             "options": ["True", "False"],
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "easy"
         },
         {
             "question": "What is real haggis made of?",
             "options": ["Sheep's Heart, Kidneys and Lungs", "Sheep's Liver, Kidneys and Eyes", "Whole Sheep", "Sheep's Heart, Liver and Lungs"],
-            "correct_answer": "Sheep's Heart, Liver and Lungs",
+            "answer": "Sheep's Heart, Liver and Lungs",
             "difficulty": "medium"
         },
         {
             "question": "Dihydrogen Monoxide was banned due to health risks after being discovered in 1983 inside swimming pools and drinking water.",
             "options": ["True", "False"],
-            "correct_answer": "False",
+            "answer": "False",
             "difficulty": "easy"
         },
         {
             "question": "Spoon theory is a theory, utilizing \"Spoons\" as a metaphor for energy they can use in a day.",
             "options": ["True", "False"],
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "hard"
         },
         {
             "question": "The scientific name for the Southern Lights is Aurora Australis?",
             "options": ["True", "False"],
-            "correct_answer": "True",
+            "answer": "True",
             "difficulty": "medium"
         },
         {
             "question": "Which sign of the zodiac comes between Virgo and Scorpio?",
             "options": ["Gemini", "Taurus", "Capricorn", "Libra"],
-            "correct_answer": "Libra",
+            "answer": "Libra",
             "difficulty": "easy"
         },
         {
             "question": "Earl Grey tea is black tea flavoured with what?",
             "options": ["Lavender", "Vanilla", "Honey", "Bergamot oil"],
-            "correct_answer": "Bergamot oil",
+            "answer": "Bergamot oil",
             "difficulty": "medium"
         },
         {
             "question": "If someone said \"you are olid\", what would they mean?",
             "options": ["You are out of shape/weak.", "Your appearance is repulsive.", "You are incomprehensible/an idiot.", "You smell extremely unpleasant."],
-            "correct_answer": "You smell extremely unpleasant.",
+            "answer": "You smell extremely unpleasant.",
             "difficulty": "hard"
         },
         {
             "question": "Which of the following is the IATA code for Manchester Airport?",
             "options": ["EGLL", "LHR", "EGCC", "MAN"],
-            "correct_answer": "MAN",
+            "answer": "MAN",
             "difficulty": "easy"
         },
         {
             "question": "What zodiac sign is represented by a pair of scales?",
             "options": ["Aries", "Capricorn", "Sagittarius", "Libra"],
-            "correct_answer": "Libra",
+            "answer": "Libra",
             "difficulty": "easy"
         },
         {
             "question": "When someone is inexperienced they are said to be what color?",
             "options": ["Red", "Blue", "Yellow", "Green"],
-            "correct_answer": "Green",
+            "answer": "Green",
             "difficulty": "easy"
         },
         {
             "question": "Which church's interior in Vatican City was designed in 1503 by renaissance architects including Bramante, Michelangelo, and Bernini?",
             "options": ["Catania Cathedral", "St. Mark’s Basilica", "The Duomo of Florence", "St. Peter's Basilica"],
-            "correct_answer": "St. Peter's Basilica",
+            "answer": "St. Peter's Basilica",
             "difficulty": "hard"
         },
         {
             "question": "If you are caught \"Goldbricking\", what are you doing wrong?",
             "options": ["Smoking", "Stealing", "Cheating", "Slacking"],
-            "correct_answer": "Slacking",
+            "answer": "Slacking",
             "difficulty": "medium"
         },
         {
             "question": "A statue of Charles Darwin sits in what London museum?",
             "options": ["Tate", "British Museum", "Science Museum", "Natural History Museum"],
-            "correct_answer": "Natural History Museum",
+            "answer": "Natural History Museum",
             "difficulty": "medium"
         },
         {
             "question": "When someone is cowardly, they are said to have what color belly?",
             "options": ["Green", "Red", "Blue", "Yellow"],
-            "correct_answer": "Yellow",
+            "answer": "Yellow",
             "difficulty": "easy"
         },
         {
             "question": "What is the name of NASA’s most famous space telescope?",
             "options": ["Big Eye", "Death Star", "Millenium Falcon", "Hubble Space Telescope"],
-            "correct_answer": "Hubble Space Telescope",
+            "answer": "Hubble Space Telescope",
             "difficulty": "easy"
         },
         {
             "question": "Earth is located in which galaxy?",
             "options": ["The Mars Galaxy", "The Galaxy Note", "The Black Hole", "The Milky Way Galaxy"],
-            "correct_answer": "The Milky Way Galaxy",
+            "answer": "The Milky Way Galaxy",
             "difficulty": "easy"
         },
         {
             "question": "The Canadian $1 coin is colloquially known as a what?",
             "options": ["Boolie", "Foolie", "Moodie", "Loonie"],
-            "correct_answer": "Loonie",
+            "answer": "Loonie",
             "difficulty": "easy"
         },
         {
             "question": "When was the Playstation 3 released?",
             "options": ["January 8, 2007", "December 25, 2007", "July 16, 2006", "November 11, 2006"],
-            "correct_answer": "November 11, 2006",
+            "answer": "November 11, 2006",
             "difficulty": "easy"
         },
         {
             "question": "What airline was the owner of the plane that crashed off the coast of Nova Scotia in 1998?",
             "options": ["Air France", "British Airways", "TWA", "Swiss Air"],
-            "correct_answer": "Swiss Air",
+            "answer": "Swiss Air",
             "difficulty": "easy"
         }
     ]

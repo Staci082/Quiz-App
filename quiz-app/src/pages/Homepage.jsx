@@ -60,9 +60,10 @@ function Homepage() {
     const { handleStart } = useContext(DataContext);
     const [selectedAmount, setSelectedAmount] = useState(10);
     const [selectedDifficulty, setSelectedDifficulty] = useState("easy");
-    const [selectedCategory, setSelectedCategory] = useState(null);
+    const [selectedCategory, setSelectedCategory] = useState("");
     const [showBottomElement, setShowBottomElement] = useState(false);
 
+    // open second options
     const openBottomElement = (category) => {
         setSelectedCategory(category.toLowerCase());
         setShowBottomElement(true);
@@ -73,7 +74,8 @@ function Homepage() {
         setShowBottomElement(false);
     };
 
-    const playLink = `/questions?category=${selectedCategory}&amount=${selectedAmount}&Difficulty=${selectedDifficulty}`;
+    // make url with value params
+    const questionsLink = `/questions?category=${selectedCategory}&amount=${selectedAmount}&Difficulty=${selectedDifficulty}`;
 
     return (
         <>
@@ -110,7 +112,7 @@ function Homepage() {
                                 </button>
                             ))}
                         </div>
-                        <b>Difficulty Difficulty</b>
+                        <b>Difficulty Level</b>
                         <div className="flex gap-4 justify-center" role="group">
                             {["easy", "medium", "hard"].map((difficulty) => (
                                 <button key={difficulty} onClick={() => setSelectedDifficulty(difficulty.toLowerCase())} className={`border-solid border-2 py-1 px-4 rounded-3xl  ${selectedDifficulty === difficulty ? "border-lime-400" : ""} `}>
@@ -119,7 +121,7 @@ function Homepage() {
                             ))}
                         </div>
 
-                        <Link to={playLink} onClick={handleStart} className="bg-white active:translate-y-1 text-lime-400 text-2xl py-1 mt-2 rounded-xl max-w-[450px] font-bold border-b-4 border-l-2 border-lime-400  min-w-[300px]">
+                        <Link to={questionsLink} onClick={handleStart} className="bg-white active:translate-y-1 text-lime-400 text-2xl py-1 mt-2 rounded-xl max-w-[450px] font-bold border-b-4 border-l-2 border-lime-400  min-w-[300px]">
                             Play
                         </Link>
                     </div>
