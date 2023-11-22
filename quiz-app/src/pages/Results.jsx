@@ -1,6 +1,9 @@
 import { GoDotFill } from "react-icons/go";
+import { useContext } from "react";
+import DataContext from "../context/dataContext";
 
 function Results() {
+    const { selectedCategory } = useContext(DataContext);
     return (
         <>
             <section className=" py-8 flex flex-col items-center pb-6 gap-6">
@@ -12,7 +15,7 @@ function Results() {
                 <div className="relative bg-teal-400 rounded-lg h-80 w-80 flex flex-col items-center justify-end mb-6">
                     <div className="absolute top-5 left-5">
                     <p>Quiz type</p>
-                    <b>Science</b>
+                    <b>{selectedCategory}</b>
                     </div>
 
                     <div className="flex gap-4 mb-4">

@@ -12,16 +12,14 @@ const renderTime = ({ remainingTime }) => {
     );
 };
 
-
-
-
 function Questions() {
-    const { selectedAmount, quizs, question, questionIndex, checkAnswer, nextQuestion, correctAnswer, selectedAnswer, score } = useContext(DataContext);
-    const [timerKey, setTimerKey] = useState(0); // State to control CountdownCircleTimer key
+    const { selectedAmount, quizs, question, questionIndex, selectedCategory, selectedLevel, checkAnswer, nextQuestion, correctAnswer, selectedAnswer, score } = useContext(DataContext);
+    const [timerKey, setTimerKey] = useState(0); 
+    const resultsLink = `/results?category=${selectedCategory}&amount=${selectedAmount}&level=${selectedLevel}`;
 
     const handleTimeOut = () => {
-        setTimerKey((prevKey) => prevKey + 1); // Update the key to reset the CountdownCircleTimer
-        nextQuestion(); // Perform other actions related to the next question
+        setTimerKey((prevKey) => prevKey + 1); 
+        nextQuestion(); 
     };
     return (
         <section className=" md:w-1/2 w-full  text-xl">
@@ -40,17 +38,17 @@ function Questions() {
                         </h3>
                     </div>
                     <div className="timer-wrapper">
-                    <CountdownCircleTimer
-            key={timerKey} // Key to reset the timer
-            isPlaying
-            size={60}
-            strokeWidth={4}
-            duration={30}
-            colors={['#a3e635']}
-            onComplete={handleTimeOut}  // Call nextQuestion function when the timer completes
-          >
-            {({ remainingTime }) => renderTime({ remainingTime })}
-          </CountdownCircleTimer>
+                        <CountdownCircleTimer
+                            key={timerKey} // Key to reset the timer
+                            isPlaying
+                            size={60}
+                            strokeWidth={4}
+                            duration={30}
+                            colors={["#a3e635"]}
+                            onComplete={handleTimeOut} // Call nextQuestion function when the timer completes
+                        >
+                            {({ remainingTime }) => renderTime({ remainingTime })}
+                        </CountdownCircleTimer>
                     </div>
                     <p className="text-2xl">{question?.question}</p>
                 </div>
@@ -62,14 +60,11 @@ function Questions() {
                 ))}
 
                 {questionIndex !== selectedAmount ? (
-                    <button 
-                    onClick={nextQuestion}
-                    className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
+                    <button onClick={nextQuestion} className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
                         Submit
                     </button>
                 ) : (
-                    <Link
-                    to="/results" className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
+                    <Link to={resultsLink} className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
                         Submit
                     </Link>
                 )}

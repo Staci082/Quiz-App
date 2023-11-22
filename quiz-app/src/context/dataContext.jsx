@@ -83,8 +83,6 @@ export const DataProvider = ({ children }) => {
         });
     };
 
-    // console.log(quizs);
-    // console.log(question)
     return (
         <DataContext.Provider
             value={{
