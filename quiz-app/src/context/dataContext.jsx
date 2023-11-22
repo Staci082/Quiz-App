@@ -19,28 +19,42 @@ export const DataProvider = ({ children }) => {
 
     function getMultipleRandom(arr, num) {
         if (!Array.isArray(arr)) {
-            throw new Error('Data is not an array.');
+            throw new Error("Data is not an array.");
         }
         const shuffled = [...arr].sort(() => 0.5 - Math.random());
         return shuffled.slice(0, num);
     }
 
+    // Load JSON Data
     useEffect(() => {
         fetch(`../src/dataset/${selectedCategory}.json`)
             .then((res) => res.json())
             .then((data) => {
                 const randomQuestions = getMultipleRandom(data[selectedCategory], 10);
                 setQuizs(randomQuestions);
-            })
-
+            });
     }, []);
 
-    console.log(quizs);
+    // Set a Single Question
+    useEffect(() => {
+        if (quizs.length > questionIndex) {
+            setQuestion(quizs[questionIndex]);
+            setQuestionIndex(questionIndex)
+        }
+    }, [quizs, questionIndex]);
+
+    // console.log(quizs);
+    // console.log(question)
     return (
         <DataContext.Provider
             value={{
                 selectedCategory,
                 selectedLevel,
+                quizs,
+                question,
+                correctAnswer,
+                selectedAnswer,
+                score
             }}
         >
             {children}
