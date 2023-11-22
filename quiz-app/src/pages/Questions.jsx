@@ -13,7 +13,7 @@ const renderTime = ({ remainingTime }) => {
 };
 
 function Questions() {
-    const { quizs, question, questionIndex, checkAnswer, nextQuestion, correctAnswer, selectedAnswer, score } = useContext(DataContext);
+    const { selectedAmount, quizs, question, questionIndex, checkAnswer, nextQuestion, correctAnswer, selectedAnswer, score } = useContext(DataContext);
 
     return (
         <section className=" md:w-1/2 w-full  text-xl">
@@ -45,7 +45,7 @@ function Questions() {
                     </button>
                 ))}
 
-                {questionIndex + 1 !== quizs.length ? (
+                {questionIndex !== selectedAmount ? (
                     <button 
                     onClick={nextQuestion}
                     className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">

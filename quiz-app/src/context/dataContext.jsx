@@ -7,6 +7,7 @@ export const DataProvider = ({ children }) => {
     const location = useLocation();
     const queryParams = new URLSearchParams(location.search);
 
+    const selectedAmount = queryParams.get("amount");
     const selectedCategory = queryParams.get("category");
     const selectedLevel = queryParams.get("level");
 
@@ -26,20 +27,28 @@ export const DataProvider = ({ children }) => {
     }
 
     // Load JSON Data
-    useEffect(() => {
+
+    const handleStart = () => {
         fetch(`../src/dataset/${selectedCategory}.json`)
             .then((res) => res.json())
             .then((data) => {
-                const randomQuestions = getMultipleRandom(data[selectedCategory], 10);
+                const randomQuestions = getMultipleRandom(data[selectedCategory], selectedAmount);
                 setQuizs(randomQuestions);
+            })
+            .catch((error) => {
+                console.error("Error fetching data:", error);
             });
-    }, []);
+    };
+    useEffect(() => {
+        if (selectedCategory && selectedAmount) {
+            handleStart();
+        }
+    }, [selectedCategory, selectedAmount]);
 
     // Set a Single Question
     useEffect(() => {
         if (quizs.length > questionIndex) {
             setQuestion(quizs[questionIndex]);
-            setQuestionIndex(questionIndex);
         }
     }, [quizs, questionIndex]);
 
@@ -66,7 +75,12 @@ export const DataProvider = ({ children }) => {
         wrongBtn?.classList.remove("bg-lime-400");
         const rightBtn = document.querySelector("button.bg-red-400");
         rightBtn?.classList.remove("bg-red-400");
-        setQuestionIndex(questionIndex + 1);
+        setQuestionIndex((prevIndex) => {
+            if (prevIndex < quizs.length - 1) {
+                return prevIndex + 1;
+            }
+            return prevIndex; // Prevent exceeding the last index
+        });
     };
 
     // console.log(quizs);
@@ -76,6 +90,7 @@ export const DataProvider = ({ children }) => {
             value={{
                 selectedCategory,
                 selectedLevel,
+                handleStart,
                 quizs,
                 question,
                 checkAnswer,
