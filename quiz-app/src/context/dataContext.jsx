@@ -9,7 +9,7 @@ export const DataProvider = ({ children }) => {
 
     const selectedAmount = queryParams.get("amount");
     const selectedCategory = queryParams.get("category");
-    const selectedDifficulty = queryParams.get("Difficulty");
+    const selectedDifficulty = queryParams.get("difficulty");
 
     const [quizs, setQuizs] = useState([]);
     const [question, setQuestion] = useState({});
@@ -30,7 +30,13 @@ export const DataProvider = ({ children }) => {
 
     const handleStart = () => {
         fetch(`../src/dataset/${selectedCategory}.json`)
-            .then((res) => res.json())
+        
+            .then((res) => {
+                if (!res.ok) {
+                    throw new Error(`Network response was not ok: ${res.status}`);
+                }
+                return res.json();
+            })
             .then((data) => {
                 const randomQuestions = getMultipleRandom(data[selectedCategory], selectedAmount);
                 setQuizs(randomQuestions);
@@ -58,7 +64,7 @@ export const DataProvider = ({ children }) => {
         if (!selectedAnswer) {
             setCorrectAnswer(question.answer);
             setSelectedAnswer(selected);
-            console.log(correctAnswer);
+            console.log("correct: " , correctAnswer);
             if (selected === question.answer) {
                 correctAnswer.target.classList.add("bg-lime-400");
                 setScore(score + 5);
@@ -67,7 +73,7 @@ export const DataProvider = ({ children }) => {
                 correctAnswer.classList.add("bg-lime-400");
             }
         }
-        nextQuestion()
+        // nextQuestion()
     };
 
     // Next Quesion

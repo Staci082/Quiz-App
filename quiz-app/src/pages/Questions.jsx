@@ -17,13 +17,23 @@ function Questions() {
     const [timerKey, setTimerKey] = useState(0);
     const [selectedOption, setSelectedOption] = useState("");
 
-    const resultsLink = `/results?category=${selectedCategory}&amount=${selectedAmount}&Difficulty=${selectedDifficulty}`;
+    const resultsLink = `/results?category=${selectedCategory}&amount=${selectedAmount}&difficulty=${selectedDifficulty}`;
 
     const handleTimeOut = () => {
         setTimerKey((prevKey) => prevKey + 1);
         nextQuestion();
     };
-    console.log(selectedOption);
+
+    const handleSubmit = (selected) => {
+        checkAnswer(selected);
+
+         if (correctAnswer) {
+                correctAnswer.classList.add("bg-lime-400"); // Apply green background to correct element
+            }
+
+    }
+    console.log("selected: ", selectedOption);
+    console.log("correct: ", correctAnswer);
     return (
         <section className=" md:w-1/2 w-full  text-xl">
             <header className="flex justify-between p-4 mb-8">
@@ -64,21 +74,15 @@ function Questions() {
                             setSelectedOption(option);
                         }}
                         key={index}
-                        className={` bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600 ${selectedOption === option ? "border-white" : ""}`}
+                        className={` bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600 ${selectedOption === option ? "border-white" : ""} ${correctAnswer === option ? "border-lime-400" : ""}`}
                     >
                         {option}
                     </button>
                 ))}
 
-                {questionIndex <= selectedAmount ? (
-                    <button disabled={!selectedAnswer} onClick={nextQuestion} className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
+                    <button disabled={!selectedOption} onClick={() => {handleSubmit(selectedOption)}} className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
                         Submit
                     </button>
-                ) : (
-                    <Link disabled={!selectedAnswer} to={resultsLink} className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
-                        Submit
-                    </Link>
-                )}
             </main>
         </section>
     );
