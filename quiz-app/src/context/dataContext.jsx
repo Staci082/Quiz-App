@@ -39,9 +39,35 @@ export const DataProvider = ({ children }) => {
     useEffect(() => {
         if (quizs.length > questionIndex) {
             setQuestion(quizs[questionIndex]);
-            setQuestionIndex(questionIndex)
+            setQuestionIndex(questionIndex);
         }
     }, [quizs, questionIndex]);
+
+    // Check Answer
+    const checkAnswer = (event, selected) => {
+        if (!selectedAnswer) {
+            setCorrectAnswer(question.answer);
+            setSelectedAnswer(selected);
+
+            if (selected === question.answer) {
+                event.target.classList.add("bg-lime-400");
+                setScore(score + 5);
+            } else {
+                event.target.classList.add("bg-red-400");
+            }
+        }
+    };
+
+    // Next Quesion
+    const nextQuestion = () => {
+        setCorrectAnswer("");
+        setSelectedAnswer("");
+        const wrongBtn = document.querySelector("button.bg-lime-400");
+        wrongBtn?.classList.remove("bg-lime-400");
+        const rightBtn = document.querySelector("button.bg-red-400");
+        rightBtn?.classList.remove("bg-red-400");
+        setQuestionIndex(questionIndex + 1);
+    };
 
     // console.log(quizs);
     // console.log(question)
@@ -52,9 +78,11 @@ export const DataProvider = ({ children }) => {
                 selectedLevel,
                 quizs,
                 question,
+                checkAnswer,
+                nextQuestion,
                 correctAnswer,
                 selectedAnswer,
-                score
+                score,
             }}
         >
             {children}

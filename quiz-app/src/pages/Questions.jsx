@@ -2,6 +2,7 @@ import { MdOutlineArrowBackIosNew } from "react-icons/md";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import { useContext } from "react";
 import DataContext from "../context/dataContext";
+import { Link } from "react-router-dom";
 
 const renderTime = ({ remainingTime }) => {
     return (
@@ -12,7 +13,7 @@ const renderTime = ({ remainingTime }) => {
 };
 
 function Questions() {
-    const { quizs, question, questionIndex, correctAnswer, selectedAnswer, score } = useContext(DataContext);
+    const { quizs, question, questionIndex, checkAnswer, nextQuestion, correctAnswer, selectedAnswer, score } = useContext(DataContext);
 
     return (
         <section className=" md:w-1/2 w-full  text-xl">
@@ -20,13 +21,15 @@ function Questions() {
                 <a href="/" className="bg-teal-600 rounded-full w-8 h-8 flex justify-center items-center">
                     <MdOutlineArrowBackIosNew />
                 </a>
-                <button>Skip</button>
+                <button onClick={nextQuestion}>Skip</button>
             </header>
             <main className="flex flex-col items-center justify-center gap-4">
                 <div className=" bg-teal-400 rounded-lg h-auto w-80 flex flex-col items-center gap-6 p-4 pt-12 mb-4">
                     <div className="absolute top-16 right-0 left-0 m-auto bg-teal-600 rounded-xl w-36 px-10 py-2 flex flex-col items-center">
                         <h3>Question</h3>
-                        <h3>{quizs.indexOf(question) + 1} / {quizs?.length}</h3>
+                        <h3>
+                            {quizs.indexOf(question) + 1} / {quizs?.length}
+                        </h3>
                     </div>
                     <div className="timer-wrapper">
                         <CountdownCircleTimer isPlaying size={60} strokeWidth={4} duration={30} colors={"#a3e635"} onComplete={() => ({ shouldRepeat: false })}>
@@ -37,14 +40,23 @@ function Questions() {
                 </div>
 
                 {question?.options?.map((item, index) => (
-                    <button 
-                    key={index}
-                    className=" bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600">{item}</button>
+                    <button key={index} className=" bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600">
+                        {item}
+                    </button>
                 ))}
 
-                <a href="/results" className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
-                    Submit
-                </a>
+                {questionIndex + 1 !== quizs.length ? (
+                    <button 
+                    onClick={nextQuestion}
+                    className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
+                        Submit
+                    </button>
+                ) : (
+                    <Link
+                    to="/results" className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
+                        Submit
+                    </Link>
+                )}
             </main>
         </section>
     );
