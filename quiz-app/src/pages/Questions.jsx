@@ -1,6 +1,6 @@
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import DataContext from "../context/dataContext";
 import { Link } from "react-router-dom";
 
@@ -12,9 +12,17 @@ const renderTime = ({ remainingTime }) => {
     );
 };
 
+
+
+
 function Questions() {
     const { selectedAmount, quizs, question, questionIndex, checkAnswer, nextQuestion, correctAnswer, selectedAnswer, score } = useContext(DataContext);
+    const [timerKey, setTimerKey] = useState(0); // State to control CountdownCircleTimer key
 
+    const handleTimeOut = () => {
+        setTimerKey((prevKey) => prevKey + 1); // Update the key to reset the CountdownCircleTimer
+        nextQuestion(); // Perform other actions related to the next question
+    };
     return (
         <section className=" md:w-1/2 w-full  text-xl">
             <header className="flex justify-between p-4 mb-8">
@@ -32,9 +40,17 @@ function Questions() {
                         </h3>
                     </div>
                     <div className="timer-wrapper">
-                        <CountdownCircleTimer isPlaying size={60} strokeWidth={4} duration={30} colors={"#a3e635"} onComplete={() => ({ shouldRepeat: false })}>
-                            {renderTime}
-                        </CountdownCircleTimer>
+                    <CountdownCircleTimer
+            key={timerKey} // Key to reset the timer
+            isPlaying
+            size={60}
+            strokeWidth={4}
+            duration={30}
+            colors={['#a3e635']}
+            onComplete={handleTimeOut}  // Call nextQuestion function when the timer completes
+          >
+            {({ remainingTime }) => renderTime({ remainingTime })}
+          </CountdownCircleTimer>
                     </div>
                     <p className="text-2xl">{question?.question}</p>
                 </div>
