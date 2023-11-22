@@ -43,6 +43,8 @@ export const DataProvider = ({ children }) => {
             })
             .catch((error) => {
                 console.error("Error fetching data:", error);
+                console.log("Response status:", error.response?.status);
+                console.log("Response text:", error.response?.text());
             });
     };
     useEffect(() => {
