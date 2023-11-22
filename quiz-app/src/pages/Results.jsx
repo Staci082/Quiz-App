@@ -30,7 +30,7 @@ function Results() {
                 </div>
 
                 <div className="flex flex-row justify-center gap-4 w-80 ">
-                    <a href="/" className="bg-teal-400 active:translate-y-1 text-2xl border-b-4 border-l-2 border-teal-600 rounded-lg basis-1/2 py-2">Home</a>
+                    <a href="/" className="bg-teal-400 active:translate-y-1 text-3xl border-b-4 border-l-2 border-teal-600 rounded-lg basis-1/2 py-2">Home</a>
                     <a href="/questions" className="bg-lime-400 active:translate-y-1 text-2xl border-b-4 border-l-2 border-lime-600 rounded-lg basis-1/2 py-2">Play Again</a>
                 </div>
             </section>

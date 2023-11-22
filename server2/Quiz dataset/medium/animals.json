@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What is the only mammal capable of flying?",
+            "options": ["Bat", "Flying Squirrel", "Bird", "Pegasus"],
+            "answer": "Bat"
+        },
+        {
+            "question": "Which big cat is known for its distinctive rosette-patterned fur?",
+            "options": ["Cheetah", "Lion", "Leopard", "Tiger"],
+            "answer": "Leopard"
+        },
+        {
+            "question": "What is the world's largest living primate?",
+            "options": ["Gorilla", "Chimpanzee", "Orangutan", "Bonobo"],
+            "answer": "Gorilla"
+        },
+        {
+            "question": "What is the gestation period of an elephant?",
+            "options": ["9 months", "12 months", "18 months", "24 months"],
+            "answer": "18 months"
+        },
+        {
+            "question": "Which species of snake is the longest in the world?",
+            "options": ["Rattlesnake", "Cobra", "Anaconda", "Python"],
+            "answer": "Anaconda"
+        },
+        {
+            "question": "Which mammal has the longest lifespan?",
+            "options": ["African Elephant", "Bowhead Whale", "Galapagos Tortoise", "Blue Whale"],
+            "answer": "Galapagos Tortoise"
+        },
+        {
+            "question": "What is the fastest bird on foot?",
+            "options": ["Ostrich", "Eagle", "Emu", "Hawk"],
+            "answer": "Ostrich"
+        },
+        {
+            "question": "What is a group of porcupines called?",
+            "options": ["Quill", "Prickle", "Pack", "Herd"],
+            "answer": "Prickle"
+        },
+        {
+            "question": "Which animal is known for communicating through ultrasonic sounds?",
+            "options": ["Bat", "Dolphin", "Elephant", "Horse"],
+            "answer": "Bat"
+        },
+        {
+            "question": "What is the fastest marine animal?",
+            "options": ["Sailfish", "Blue Whale", "Orca", "Great White Shark"],
+            "answer": "Sailfish"
+        },
+        {
+            "question": "Which bird has the largest wingspan?",
+            "options": ["Bald Eagle", "Condor", "Albatross", "Vulture"],
+            "answer": "Albatross"
+        },
+        {
+            "question": "What is the only mammal capable of sustained flight?",
+            "options": ["Bat", "Flying Squirrel", "Bird", "Penguin"],
+            "answer": "Bat"
+        },
+        {
+            "question": "Which animal is known as the 'Unicorn of the Sea'?",
+            "options": ["Narwhal", "Beluga Whale", "Blue Whale", "Sperm Whale"],
+            "answer": "Narwhal"
+        },
+        {
+            "question": "What is the world's smallest mammal?",
+            "options": ["Etruscan Shrew", "Bumblebee Bat", "Pygmy Marmoset", "Mouse Lemur"],
+            "answer": "Bumblebee Bat"
+        },
+        {
+            "question": "Which animal has the highest blood pressure?",
+            "options": ["Giraffe", "Elephant", "Horse", "Human"],
+            "answer": "Giraffe"
+        },
+        {
+            "question": "What is the natural habitat of a platypus?",
+            "options": ["Desert", "Rainforest", "Freshwater", "Tundra"],
+            "answer": "Freshwater"
+        },
+        {
+            "question": "Which animal's milk is closest to human milk in terms of composition?",
+            "options": ["Cow", "Goat", "Horse", "Chimpanzee"],
+            "answer": "Chimpanzee"
+        },
+        {
+            "question": "What is a group of rhinoceroses called?",
+            "options": ["Herd", "Pack", "Crash", "Flock"],
+            "answer": "Crash"
+        },
+        {
+            "question": "What is the slowest-moving mammal?",
+            "options": ["Sloth", "Koala", "Manatee", "Armadillo"],
+            "answer": "Sloth"
+        },
+        {
+            "question": "Which animal has the largest brain?",
+            "options": ["Elephant", "Dolphin", "Whale", "Human"],
+            "answer": "Sperm Whale"
+        },
+        {
+            "question": "What is the only mammal capable of true flight?",
+            "options": ["Bat", "Flying Squirrel", "Bird", "Pterosaur"],
+            "answer": "Bat"
+        },
+        {
+            "question": "Which animal has the largest eyes in the animal kingdom?",
+            "options": ["Ostrich", "Giant Squid", "Chameleon", "Giraffe"],
+            "answer": "Giant Squid"
+        },
+        {
+            "question": "What is the smallest species of monkey?",
+            "options": ["Tarsier", "Pygmy Marmoset", "Squirrel Monkey", "Capuchin"],
+            "answer": "Pygmy Marmoset"
+        },
+        {
+            "question": "Which animal is known as the 'River Horse'?",
+            "options": ["Hippopotamus", "Rhino", "Elephant", "Giraffe"],
+            "answer": "Hippopotamus"
+        },
+        {
+            "question": "What is the smallest species of bear?",
+            "options": ["Polar Bear", "Sun Bear", "Giant Panda", "Sloth Bear"],
+            "answer": "Sun Bear"
+        },
+        {
+            "question": "Which animal is known for its incredible memory?",
+            "options": ["Elephant", "Gorilla", "Orangutan", "Chimpanzee"],
+            "answer": "Elephant"
+        },
+        {
+            "question": "What is the world's largest rodent?",
+            "options": ["Squirrel", "Beaver", "Capybara", "Rat"],
+            "answer": "Capybara"
+        },
+        {
+            "question": "Which animal has the most teeth?",
+            "options": ["Snail", "Shark", "Crocodile", "Snail"],
+            "answer": "Snail"
+        },
+        {
+            "question": "What is the only continent without any reptiles or snakes?",
+            "options": ["North America", "Europe", "Antarctica", "Australia"],
+            "answer": "Antarctica"
+        },
+        {
+            "question": "What is the smallest species of fox?",
+            "options": ["Red Fox", "Arctic Fox", "Fennec Fox", "Swift Fox"],
+            "answer": "Fennec Fox"
+        }
+    ]
+}

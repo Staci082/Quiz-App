@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Homepage() {
     const categories = [
@@ -54,13 +55,13 @@ function Homepage() {
             alt: "goku",
         },
     ];
-    const [selectedAmount, setSelectedAmount] = useState(null);
+    // const [selectedAmount, setSelectedAmount] = useState(null);
     const [selectedLevel, setSelectedLevel] = useState(null);
     const [selectedCategory, setSelectedCategory] = useState(null);
     const [showBottomElement, setShowBottomElement] = useState(false);
 
     const openBottomElement = (category) => {
-        setSelectedCategory(category);
+        setSelectedCategory(category.toLowerCase());
         setShowBottomElement(true);
     };
 
@@ -69,20 +70,12 @@ function Homepage() {
         setShowBottomElement(false);
     };
 
-    // const [categories, setCategories] = useState([]);
 
-    // useEffect(() => {
-    //   // Fetch the list of categories when the component mounts
-    //   fetch('https://opentdb.com/api_category.php')
-    //     .then(response => response.json())
-    //     .then(data => setCategories(data.categories))
-    //     .catch(error => console.error(error));
-    // }, []);
 
-    // useEffect(() => {
-    //   // Log categories when it changes
-    //   console.log(categories);
-    // }, [categories]);
+
+    const playLink = `/questions?category=${selectedCategory}&level=${selectedLevel}`;
+
+
     return (
         <>
             <section className="flex flex-col items-center py-8">
@@ -109,22 +102,22 @@ function Homepage() {
                             <div className="self-center w-10 cursor-pointer h-1 bg-gray-300 rounded-xl mb-5"></div>
                         </button>
                         <h2 className="text-lime-400 font-bold text-5xl mb-2">{selectedCategory}</h2>
-                        <b>Amount of questions</b>
+                        {/* <b>Amount of questions</b>
                         <div className="flex gap-4 justify-center" role="group">
                             <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">10</button>
                             <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">20</button>
                             <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">30</button>
-                        </div>
+                        </div> */}
                         <b>Difficulty level</b>
                         <div className="flex gap-4 justify-center" role="group">
-                            <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">Easy</button>
-                            <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">Medium</button>
-                            <button className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">Hard</button>
+                            <button onClick={() => setSelectedLevel("easy".toLowerCase())} className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">Easy</button>
+                            <button onClick={() => setSelectedLevel("medium".toLowerCase())} className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">Medium</button>
+                            <button onClick={() => setSelectedLevel("hard".toLowerCase())} className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">Hard</button>
                         </div>
 
-                        <a href="/questions" className="bg-white active:translate-y-1 text-lime-400 text-2xl py-1 mt-2 rounded-xl max-w-[450px] font-bold border-b-4 border-l-2 border-lime-400  min-w-[300px]">
+                        <Link  to={playLink} className="bg-white active:translate-y-1 text-lime-400 text-2xl py-1 mt-2 rounded-xl max-w-[450px] font-bold border-b-4 border-l-2 border-lime-400  min-w-[300px]">
                             Play
-                        </a>
+                        </Link>
                     </div>
                 )}
             </section>

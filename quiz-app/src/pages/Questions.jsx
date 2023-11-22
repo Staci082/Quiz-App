@@ -1,6 +1,7 @@
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 
+
 const renderTime = ({ remainingTime }) => {
     return (
         <div className="timer">
@@ -10,6 +11,7 @@ const renderTime = ({ remainingTime }) => {
 };
 
 function Questions() {
+
     return (
         <section className=" md:w-1/2 w-full  text-xl">
             <header className="flex justify-between p-4 mb-8">
@@ -25,9 +27,9 @@ function Questions() {
                         <h3>7/10</h3>
                     </div>
                     <div className="timer-wrapper">
-                    <CountdownCircleTimer isPlaying size={60} strokeWidth={4} duration={30} colors={"#a3e635"} onComplete={() => ({ shouldRepeat: false })}>
-                        {renderTime}
-                    </CountdownCircleTimer>
+                        <CountdownCircleTimer isPlaying size={60} strokeWidth={4} duration={30} colors={"#a3e635"} onComplete={() => ({ shouldRepeat: false })}>
+                            {renderTime}
+                        </CountdownCircleTimer>
                     </div>
                     <p className="text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit?</p>
                 </div>
@@ -37,7 +39,9 @@ function Questions() {
                 <button className=" bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600">Answer 3</button>
                 <button className=" bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600">Answer 4</button>
 
-                <a href="/results" className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">Submit</a>
+                <a href="/results" className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
+                    Submit
+                </a>
             </main>
         </section>
     );

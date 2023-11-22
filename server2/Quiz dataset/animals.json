@@ -1,0 +1,922 @@
+{
+    "animals": [
+        {
+          "difficulty": "hard",  
+          "question": "Three of these animals hibernate. Which one does not?",
+            "options": ["Mouse", "Sloth", "Frog", "Snake"],
+            "correct_answer": "Snake"
+        },
+        {
+          "difficulty": "medium",  
+          "question": "All of these animals are omnivorous except one.",
+            "options": ["Fox", "Mouse", "Opossum", "Snail"],
+            "correct_answer": "Snail"
+        },
+        {
+          "difficulty": "hard",  
+          "question": "Three of these Latin names are names of bears. Which is the odd one?",
+            "options": ["Melursus ursinus", "Helarctos malayanus", "Ursus minimus", "Felis silvestris catus"],
+            "correct_answer": "Felis silvestris catus"
+        },
+        {
+          "difficulty": "medium",  
+          "question": "These are typical Australian animals except one.",
+            "options": ["Platypus", "Dingo", "Echidna", "Sloth"],
+            "correct_answer": "Sloth"
+        },
+        {
+          "difficulty": "easy",  
+          "question": "Representatives of three of these species produce venom of their own. Which is the odd species?",
+            "options": ["Lizards", "Scorpions", "Frogs", "Mosquitos"],
+            "correct_answer": "Mosquitos"
+        },
+        {
+          "difficulty": "easy",  
+          "question": "Three of these species shed their skin. Which one does not?",
+            "options": ["Penguins", "Snakes", "Insects", "Crustaceans"],
+            "correct_answer": "Penguins"
+        },
+        {
+          "difficulty": "easy",  
+          "question": "All dogs, cats and birds are colorblind.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+        },
+        {
+          "difficulty": "easy",  
+          "question": "All of these animals have large ears (relative to their size) except one.",
+            "options": ["Polar bears", "Foxes", "Bats", "Elephants"],
+            "correct_answer": "Polar bears"
+        },
+        {
+          "difficulty": "hard",  
+          "question": "This percentage of all snakes on Earth are lethal to humans.",
+            "options": ["10%", "20%", "15%", "25%"],
+            "correct_answer": "15%"
+        },
+        {
+          "difficulty": "",  
+          "question": "Snakes are this kind of animals.",
+            "options": ["Herbivorous", "Omnivorous", "Carnivorous", "Vegetarian"],
+            "correct_answer": "Carnivorous"
+        },
+        {
+          "difficulty": "",  
+          "question": "Snakes consume their food by means of this process.",
+            "options": ["Breathing", "Absorption", "Swallowing", "Chewing"],
+            "correct_answer": "Swallowing"
+        },
+        {
+          "difficulty": "",  
+          "question": "Snakes reproduce only by laying eggs.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+        },
+        {
+          "difficulty": "",  
+          "question": "Snakes are deaf.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+        },
+        {
+          "difficulty": "",  
+          "question": "Snake skin is covered in scales.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+        },
+        {
+          "difficulty": "",  
+          "question": "Snakes belong to the following category.",
+            "options": ["Invertebrates", "Lizards", "Reptiles", "Mammals"],
+            "correct_answer": "Reptiles"
+        },
+        {
+          "difficulty": "",  
+          "question": "A specialist in snakes is called one of these.",
+            "options": ["Pisciculturist", "Ornithologist", "Ophiologist", "Herpetologist"],
+            "correct_answer": "Ophiologist"
+        },
+        {
+          "difficulty": "",  
+          "question": "One of the following snakes does not belong to the Viperidae family.",
+            "options": ["Horned adder", "Grass snake", "Viper", "Asp"],
+            "correct_answer": "Grass snake"
+        },
+        {
+          "difficulty": "",  
+          "question": "Snakes are very likely to attack us, regardless of whether they feel threatened or not.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+        },
+        {
+          "difficulty": "",  
+          "question": "Cobras are venomous snakes of family Elapidae, that generally inhabit regions of these two continents.",
+            "options": ["South America and Asia", "Asia and Africa", "Asia and Australia", "South America and Australia"],
+            "correct_answer": "Asia and Africa"
+        },
+        {
+          "difficulty": "",  
+          "question": "The cobra's most recognizable feature is its hood, a flap of skin and muscle behind the head, believed to serve this purpose.",
+            "options": ["Balance control", "Heat collection from sun rays", "Camouflage", "More threatening appearance"],
+            "correct_answer": "More threatening appearance"
+        },
+        {
+          "difficulty": "",  
+          "question": "The Cobra is at the top of the food chain, with only two main predators -- one is man and the other is this animal.",
+            "options": ["Jackal", "Mongoose", "Lynx", "Eagle"],
+            "correct_answer": "Mongoose"
+        },
+        {
+          "difficulty": "",  
+          "question": "This is where the Cobras ribs are situated.",
+            "options": ["Behind its head", "In its chest, around the middle of the body", "Cobras have no ribs", "In its tail"],
+            "correct_answer": "Behind its head"
+        },
+        {
+          "difficulty": "",  
+          "question": "The King Cobra feeds almost exclusively on other snakes, even toxic ones.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+        },
+        {
+          "difficulty": "",  
+          "question": "A baby cobra is fully able to defend itself in as little as this many hours after being born.",
+            "options": ["3", "12", "48", "72"],
+            "correct_answer": "3"
+        },
+        {
+          "difficulty": "",  
+          "question": "What type of dog did Richard Nixon receive from a Texan while he was a candidate for Vice President?",
+            "options": ["Cocker Spaniel", "German Shepherd", "Golden Retriever", "Welsh Corgi"],
+            "correct_answer": "Cocker Spaniel"
+        },
+        {
+          "difficulty": "",  
+          "question": "What was the name of Socks' companion at the White House during the Clinton Administration?",
+            "options": ["Buddy", "Shoes", "Bailey", "Buster"],
+            "correct_answer": "Buddy"
+        },
+        {
+          "difficulty": "",  
+          "question": "President Ford's dog was named Freedom.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+        },
+        {
+          "difficulty": "",  
+          "question": "Which of these Presidents had the most pets?",
+            "options": ["Franklin Delano Roosevelt", "Theodore Roosevelt", "Bill Clinton", "Woodrow Wilson"],
+            "correct_answer": "Theodore Roosevelt"
+        },
+        {
+          "difficulty": "",  
+          "question": "What breed is known as the favourite breed of Queen Elizabeth II?",
+            "options": ["Border Collie", "Old English Sheepdog", "Welsh Corgi", "Australian Cattle Dog"],
+            "correct_answer": "Welsh Corgi"
+        },
+        {
+          "difficulty": "",  
+          "question": "What was the name of Fraiser's father's dog on the hit TV show set in Seattle?",
+            "options": ["Niles", "Marty", "Eddie", "Skip"],
+            "correct_answer": "Eddie"
+        },
+        {
+          "difficulty": "",  
+          "question": "Which one of these sea mammals is not in the endangered species lists?",
+            "options": ["Fin Whale", "Blue Whale", "Pilot Whale", "Humpback Whale"],
+            "correct_answer": "Pilot Whale"
+        },
+        {
+          "difficulty": "",  
+          "question": "This endangered turtle is the biggest of all living turtles, reaching a length of over 2.7 m (8.8 ft) and weight of 900 kg (2,000 lb).",
+            "options": ["Leatherback Sea Turtle", "Kemps Ridley Turtle", "Hawksbill Sea Turtle", "Mesoamerican River Turtle"],
+            "correct_answer": "Leatherback Sea Turtle"
+        },
+        {
+          "difficulty": "",  
+          "question": "Name the rarest and most endangered of all wolves.",
+            "options": ["Red Wolf", "Ethiopian Wolf", "Black-backed Wolf", "Gray Wolf"],
+            "correct_answer": "Red Wolf"
+        },
+        {
+          "difficulty": "",  
+          "question": "The endangered Komodo dragon is the largest living lizard in the world, growing to an average length of 2-3 meters (10 feet).",
+            "options": ["False", "True"],
+            "correct_answer": "True"
+        },
+        {
+          "difficulty": "",  
+          "question": "This species of great apes with long arms and reddish hair suffer habitat destruction due to logging, mining and forest fires.",
+            "options": ["Gorilla", "Baboons", "Orangutan", "Chimpanzee"],
+            "correct_answer": "Orangutan"
+        },
+        {
+          "difficulty": "",  
+          "question": "What is the natural habitat of the snow leopard, that was hunted down for its beautiful fur, as a result of which its population went down to 1,000 animals in the 1960s?",
+            "options": ["North America", "Central Asia and North America", "Central Asia", "Europe and North America"],
+            "correct_answer": "Central Asia"
+        },
+        {
+          "difficulty": "",  
+          "question": "The Asian Elephant, the only living species of the genus Elephas, is the bigger relative of the African Elephant.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+        },
+        {
+          "difficulty": "",  
+          "question": "This freshwater mammal, found only in the Yangtze River, is the most endangered (even possibly extinct) cetacean and one of the most endangered species in the world.",
+            "options": ["Ganges River Dolphin", "Chinese River Dolphin", "La Plata Dolphin", "Amazon River Dolphin"],
+            "correct_answer": "Chinese River Dolphin"
+        },
+        {
+          "difficulty": "",  
+          "question": "This small nocturnal animal, whose natural habitat is the deserts of Northern Africa, is known to jump not only for hunting or protection, but also for pleasure.",
+            "options": ["Cape Fox", "Red Fox", "Bengal Fox", "Fennec"],
+            "correct_answer": "Fennec"
+        },
+        {
+          "difficulty": "",  
+          "question": "Jack jumper ants, yellowish-orange carnivorous ants named after their characteristic jumpy motions, can be found only on which continent?",
+            "options": ["North America", "Australia", "Africa", "Asia"],
+            "correct_answer": "Australia"
+          },
+          {
+            "difficulty": "",
+            "question": "This small, graceful member of the antelope family is an extraordinary jumper - while leaping, it touches the rocky terrain of its South African habitats only with the tip of its hooves, resembling a dance.",
+            "options": ["Oribi", "Roan Antelope", "Scimitar Oryx", "Klipspringer"],
+            "correct_answer": "Klipspringer"
+          },
+          {
+            "difficulty": "",
+            "question": "Although the jumping viper, a chiefly nocturnal snake, is one of the most powerful jumpers of the snake family, capable of rising up to 1 meter (3 feet) during a strike, its poison is not lethal to humans.",
+            "options": ["False", "True"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "Zoophobia is the fear of animals.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "The hummingbird is the world's smallest bird.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of these animals swims the fastest?",
+            "options": ["Flounder", "Shark", "Dolphin", "Jellyfish"],
+            "correct_answer": "Dolphin"
+          },
+          {
+            "difficulty": "",
+            "question": "Which word refers to the sound peacocks make?",
+            "options": ["Scream", "Squill", "Squeak", "Squall"],
+            "correct_answer": "Squall"
+          },
+          {
+            "difficulty": "",
+            "question": "Ancient Japanese thought this animal caused earthquakes.",
+            "options": ["Birds", "Spiders", "Snakes", "Frogs"],
+            "correct_answer": "Spiders"
+          },
+          {
+            "difficulty": "",
+            "question": "How many types of bats are there?",
+            "options": ["900", "700", "500", "200"],
+            "correct_answer": "900"
+          },
+          {
+            "difficulty": "",
+            "question": "Chocolate cannot kill a dog.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "This animal can clean its own ears with its 21-inch tongue.",
+            "options": ["Lizard", "Elephant", "Lion", "Giraffe"],
+            "correct_answer": "Giraffe"
+          },
+          {
+            "difficulty": "",
+            "question": "It has been estimated that in Australia, there are about twice as many kangaroos as there are people.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "What is the fastest animal on 6 legs?",
+            "options": ["Ladybug", "Cockroach", "Beetle", "Ant"],
+            "correct_answer": "Cockroach"
+          },
+          {
+            "difficulty": "",
+            "question": "Sheep are similar to cows in that they have a stomach which contains four chambers.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "What is a female sheep called or known as?",
+            "options": ["ewe", "colt", "fleece", "ram"],
+            "correct_answer": "ewe"
+          },
+          {
+            "difficulty": "",
+            "question": "What is the white tiger's scientific name?",
+            "options": ["Pantha", "Panthera tigis", "Panthera tiger", "Panthera tigris"],
+            "correct_answer": "Panthera tigris"
+          },
+          {
+            "difficulty": "",
+            "question": "Can tigers live to be 20 years old?",
+            "options": ["Yes", "No"],
+            "correct_answer": "Yes"
+          },
+          {
+            "difficulty": "",
+            "question": "All tigers have stripes.",
+            "options": ["False", "True"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of the following is not a type of chipmunk?",
+            "options": ["Bushy-tailed", "Long-eared", "Eastern", "Sonoma"],
+            "correct_answer": "Long-eared"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of these is not an actual breed of horse?",
+            "options": ["Sioux", "Russian Trotter", "Belgian", "Murgese"],
+            "correct_answer": "Sioux"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of the following is not a breed of dog?",
+            "options": ["Pom-a-poo", "Lakeland terrier", "Fox terrier", "Ferret terrier"],
+            "correct_answer": "Pom-a-poo"
+          },
+          {
+            "difficulty": "",
+            "question": "One of these is not a true breed of cat. Which one?",
+            "options": ["Pixie-bob", "Maine coon", "Ragdoll", "French Twist"],
+            "correct_answer": "French Twist"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of these is not a type of beetle?",
+            "options": ["Long-horn beetle", "Stag beetle", "Flea beetle", "Burrowing beetle"],
+            "correct_answer": "Burrowing beetle"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of the following is not a type of spider?",
+            "options": ["Glass spider", "Trapdoor spider", "Brown recluse spider", "Bird-dropping spider"],
+            "correct_answer": "Glass spider"
+          },
+          {
+            "difficulty": "",
+            "question": "All but one of the following are true types of bears. Which is the odd one?",
+            "options": ["Moon bear", "Brown bear", "Black bear", "Sun bear"],
+            "correct_answer": "Moon bear"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of these is not an actual breed of sheep?",
+            "options": ["Scottish black-face", "Dakota", "Hampshire", "Merino"],
+            "correct_answer": "Dakota"
+          },
+          {
+            "difficulty": "",
+            "question": "One of these is not a true breed of chicken. Which one?",
+            "options": ["Hamburg", "Plymouth Rock", "Leghorn", "Red-tailed"],
+            "correct_answer": "Red-tailed"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of the following is not a breed of pig?",
+            "options": ["Norwegian Yorkshire", "Vietnamese pot-belly", "Ridgeback", "Tokyo-X"],
+            "correct_answer": "Ridgeback"
+          },
+          {
+            "difficulty": "",
+            "question": "What is a group of lions called?",
+            "options": ["Family", "Group", "School", "Pride"],
+            "correct_answer": "Pride"
+          },
+          {
+            "difficulty": "",
+            "question": "There are more males than females in a pride.",
+            "options": ["False", "True"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "Generally, how many times in an interval of 5 hours do lions mate?",
+            "options": ["1", "5", "20", "10"],
+            "correct_answer": "10"
+          },
+          {
+            "difficulty": "",
+            "question": "What is the breed of animal created from the crossing of a male lion and a female tiger?",
+            "options": ["Tigon", "Tiges", "Ligon", "Liger"],
+            "correct_answer": "Liger"
+          },
+          {
+            "difficulty": "",
+            "question": "What is the breed of animal created from the crossing of a female lion and a male tiger?",
+            "options": ["Tigen", "Liger", "Tigon", "Liges"],
+            "correct_answer": "Tigon"
+          },
+          {
+            "difficulty": "",
+            "question": "What do male lions have which females do not possess?",
+            "options": ["An extra tooth", "A mane", "Longer nails", "Distinguished eyes"],
+            "correct_answer": "A mane"
+          },
+          {
+            "difficulty": "",
+            "question": "What is the average lifespan of a lion living in the wild?",
+            "options": ["20 - 30 years", "Less than 10 years", "10 - 15 years", "Greater than 30 years"],
+            "correct_answer": "10 - 15 years"
+          },
+          {
+            "difficulty": "",
+            "question": "Are male lions generally stronger than female lions?",
+            "options": ["No", "Yes"],
+            "correct_answer": "Yes"
+          },
+          {
+            "difficulty": "",
+            "question": "Female lions hunt in a group.",
+            "options": ["False", "True"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "Cats twitch the tips of their tails slightly when hunting or when angry, while stronger twitching indicates what?",
+            "options": ["Stress", "Displeasure", "Boredom", "Playfulness"],
+            "correct_answer": "Displeasure"
+          },
+          {
+            "difficulty": "",
+            "question": "If a cat pushes its face against your head, this means what?",
+            "options": ["Impatience", "Submission", "Acceptance", "Aggression"],
+            "correct_answer": "Acceptance"
+          },
+          {
+            "difficulty": "",
+            "question": "Cats generally purr when they are happy, but they can also be heard purring in what other situation?",
+            "options": ["When they are distressed or in pain", "When they are hunting or playing", "When they are hungry or thirsty", "When they are lonely or angry"],
+            "correct_answer": "When they are distressed or in pain"
+          },
+          {
+            "difficulty": "",
+            "question": "How many different vocalization sounds does a cat make?",
+            "options": ["100", "200", "50", "150"],
+            "correct_answer": "100"
+          },
+          {
+            "difficulty": "",
+            "question": "All cats are born with green eyes.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "A cat's front paws have 5 toes and their back paws have 4.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "What was the largest eagle ever found on Earth?",
+            "options": ["Golden Eagle", "Haasts Eagle", "Harpy Eagle", "Bald Eagle"],
+            "correct_answer": "Haasts Eagle"
+          },
+          {
+            "difficulty": "",
+            "question": "Which term refers to the group formed by frogs and amphibians?",
+            "options": ["Drosophillia", "Herps", "Mollusks", "Nematodes"],
+            "correct_answer": "Herps"
+          },
+          {
+            "difficulty": "",
+            "question": "Which statement about elephants is untrue?",
+            "options": ["Elephants sleep standing up", "Elephants cry", "There are some pink elephants in India", "Elephants do not have great memories"],
+            "correct_answer": "Elephants do not have great memories"
+          },
+          {
+            "difficulty": "",
+            "question": "All pigs are classified as un-Kosher meaning they can not be eaten by Jewish people.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "What is alektorophobia?",
+            "options": ["The unreasonable fear of birds of prey", "The unreasonable fear of roaches", "The unreasonable fear of chickens", "The unreasonable fear of sharks"],
+            "correct_answer": "The unreasonable fear of chickens"
+          },
+          {
+            "difficulty": "",
+            "question": "How do scientists calculate the age of a fish?",
+            "options": ["They count the growth rings on the ear bone.", "They count all the teeth in the fish's mouth.", "They measure the size of the fish and compare that to the average size of that type of fish.", "They count the growth rings on the ear bone.", "They count the teeth in the fish's lower lip."],
+            "correct_answer": "They count the growth rings on the ear bone."
+          },
+          {
+            "difficulty": "",
+            "question": "Human beings have 23 pairs of chromosomes. Which animal has the most chromosomes?",
+            "options": ["minke whale", "millipedes", "elephants", "hermit crabs"],
+            "correct_answer": "elephants"
+          },
+          {
+            "difficulty": "",
+            "question": "What type of animal is a lamprey?",
+            "options": ["worm", "fish", "insect", "amphibian"],
+            "correct_answer": "fish"
+          },
+          {
+            "difficulty": "",
+            "question": "What is the name of the first book by Darwin that directly dealt with evolution?",
+            "options": ["Essay on the Principles of Population", "Totem and Taboo", "On the Origins of the Species", "The Descent of Man and the Selection in Relation to Sex"],
+            "correct_answer": "On the Origins of the Species"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of these animals has the largest paws?",
+            "options": ["An average lynx", "An average mountain lion", "An average nematode", "An average lichen"],
+            "correct_answer": "An average lynx"
+          },
+          {
+            "difficulty": "",
+            "question": "Sharks can only be found in saltwater.",
+            "options": ["False", "True"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "The smallest species of shark in the world is the Dwarf Lanternfish.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "Sharks must eat continually in order to survive.",
+            "options": ["False", "True"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "Sharks can have up to nine gills on each side of their body.",
+            "options": ["False", "True"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "Rays and Skates are types of sharks.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "Sharks have poor vision.",
+            "options": ["False", "True"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "More shark attacks occur during the day than at night.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "If attacked by a shark it is recommended that you punch the shark in the nose.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "Sharks are immune to cancer.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "The dogfish is actually a common species of small shark.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "Despite the myth that Chihuahuas were descendants of the royal dog of the Aztecs, it is also believed that Spanish trade merchants brought Chihuahuas to which of these countries?",
+            "options": ["Venezuela", "United States", "Brazil", "Mexico"],
+            "correct_answer": "Mexico"
+          },
+          {
+            "difficulty": "",
+            "question": "What maximum height at the withers can Chihuahuas reach?",
+            "options": ["24 inches (60 cm)", "15 inches (38 cm)", "12 inches (30 cm)", "9 inches (22 cm)"],
+            "correct_answer": "15 inches (38 cm)"
+          },
+          {
+            "difficulty": "",
+            "question": "Chihuahuas come in three colors: brindle, black, and camel.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "Chihuahuas are the only dogs to be born with what?",
+            "options": ["An incomplete skull", "An extra leg tendon", "Hairless inner ears", "Two extra canine teeth"],
+            "correct_answer": "An incomplete skull"
+          },
+          {
+            "difficulty": "",
+            "question": "What is the average lifespan of Chihuahuas?",
+            "options": ["8- 12 years", "8- 18 years", "8 - 26 years", "8 - 15 years"],
+            "correct_answer": "8- 18 years"
+          },
+          {
+            "difficulty": "",
+            "question": "The Chihuahua Gidget is famous for what reason?",
+            "options": ["Paris Hilton has it as a pet.", "It was a fill-in mascot for the Georgia Bulldogs.", "It was a mascot for Taco Bell.", "It was a mascot for Taco John."],
+            "correct_answer": "It was a mascot for Taco Bell."
+          },
+          {
+            "difficulty": "",
+            "question": "The Chihuahua is the smallest dog breed in the world.",
+            "options": ["False", "True"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "Chihuahuas are prone to hypoglycemia (low blood sugar).",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "What does the word “hippopotamus” mean?",
+            "options": ["Water pig", "Fat horse", "River horse", "River pig"],
+            "correct_answer": "River horse"
+          },
+          {
+            "difficulty": "",
+            "question": "For their size hippos are pretty fast runners and are much faster than humans.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "How long in years is the life span of an average wild hippopotamus?",
+            "options": ["10-20", "40-50", "30-40", "20-30"],
+            "correct_answer": "40-50"
+          },
+          {
+            "difficulty": "",
+            "question": "Hippos secrete a red substance known as blood sweat that protects them from the sun.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "Hippos are related to cetaceans (whales and porpoises).",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of these mammals was brought to Australia by humans?",
+            "options": ["The echidna", "The dingo", "The koala", "The Tasmanian tiger"],
+            "correct_answer": "The dingo"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of the following statements about echidnas, mammals native to Australia, is wrong?",
+            "options": ["Echidnas are marsupials.", "Echidnas are covered with spines.", "Echidnas have snouts.", "Echidnas lay eggs."],
+            "correct_answer": "Echidnas are marsupials."
+          },
+          {
+            "difficulty": "",
+            "question": "The diet of the koala consists mainly of what plant species?",
+            "options": ["Eucalyptus", "Bamboo", "Willow", "Cork Oak"],
+            "correct_answer": "Eucalyptus"
+          },
+          {
+            "difficulty": "",
+            "question": "Which one of these Australian reptiles is the largest living crocodile in the world?",
+            "options": ["The saltwater crocodile", "The thorny devil", "The weedy sea dragon", "The blue-tongued skink"],
+            "correct_answer": "The saltwater crocodile"
+          },
+          {
+            "difficulty": "",
+            "question": "This Australian monotreme lays eggs and has a remarkable sense of electroception.",
+            "options": ["Platypus", "Red kangaroo", "Dingo", "Emu"],
+            "correct_answer": "Platypus"
+          },
+          {
+            "difficulty": "",
+            "question": "Which Australian animal is the largest living carnivorous marsupial on Earth?",
+            "options": ["The Tasmanian devil", "The Tasmanian tiger", "The platypus", "The red kangaroo"],
+            "correct_answer": "The Tasmanian devil"
+          },
+          {
+            "difficulty": "",
+            "question": "Qantas, Australia's largest airline company, has what Australian animal on its red-and-white logo?",
+            "options": ["Kangaroo", "Koala", "Emu", "Tasmanian devil"],
+            "correct_answer": "Kangaroo"
+          },
+          {
+            "difficulty": "",
+            "question": "What is the difference between the male and the female Galah, a cockatoo bird native to Australia?",
+            "options": ["There is no difference between them.", "Males and females have different eye color.", "Galah males are crested.", "Galah females have shorter tails."],
+            "correct_answer": "Males and females have different eye color."
+          },
+          {
+            "difficulty": "",
+            "question": "What is the average weight of the Tasmanian Pygmy Possum?",
+            "options": ["About 250g", "About 50g", "About 100g", "About 7g"],
+            "correct_answer": "About 7g"
+          },
+          {
+            "difficulty": "",
+            "question": "Which lizard can squirt blood from the corners of its eyes in order to confuse and drive back its enemies?",
+            "options": ["Horned lizard", "Anole", "Gila monster", "Komodo dragon"],
+            "correct_answer": "Horned lizard"
+          },
+          {
+            "difficulty": "",
+            "question": "The venomous lizard Gila monster was named after what?",
+            "options": ["The Gila River basin", "The Gila Expedition 1857", "Alberto Gilardino", "Gilligan's Island"],
+            "correct_answer": "The Gila River basin"
+          },
+          {
+            "difficulty": "",
+            "question": "The Komodo dragon, the largest living lizard on Earth, lives in which part of the world?",
+            "options": ["Indonesia", "North America", "South-western China", "Madagascar"],
+            "correct_answer": "Indonesia"
+          },
+          {
+            "difficulty": "",
+            "question": "Which term refers to the self-defense mechanism which allows lizards to break off their tails when captured?",
+            "options": ["Autotomy", "Apotemnophilia", "Autonomy", "Autotomy"],
+            "correct_answer": "Autotomy"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of these statements about geckos is true?",
+            "options": ["All of these", "Geckos have toe pads which help them climb smooth vertical surfaces.", "Geckos can make chirping sounds.", "Geckos feed on insects."],
+            "correct_answer": "All of these"
+          },
+          {
+            "difficulty": "",
+            "question": "Chameleons are lizards that can change their color. What does Chameleon mean in Greek?",
+            "options": ["Earth lion", "Green melon", "Karma lion", "Colourful"],
+            "correct_answer": "Earth lion"
+          },
+          {
+            "difficulty": "",
+            "question": "Geckos have immovable eyelids and can't blink. How do they keep their eyes clean?",
+            "options": ["They lick their own eyes.", "A tiny insect lives under their eyelids and cleans their eyes.", "They dip their eyes in water.", "They cover their eyes with their toes."],
+            "correct_answer": "They lick their own eyes."
+          },
+          {
+            "difficulty": "",
+            "question": "The lizards which do not have legs are commonly known by what name?",
+            "options": ["Glass lizards", "Monitor lizards", "Skinks", "Iguanas"],
+            "correct_answer": "Glass lizards"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of these lizard species is not endangered?",
+            "options": ["Eastern Bearded Dragon", "Blunt-nosed Leopard Lizard", "Mona Ground Iguana", "Komodo Dragon"],
+            "correct_answer": "Eastern Bearded Dragon"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of these is the largest species of penguins?",
+            "options": ["King Penguin", "Emperor Penguin", "Giant Penguin", "Royal Penguin"],
+            "correct_answer": "Emperor Penguin"
+          },
+          {
+            "difficulty": "",
+            "question": "Fossil records have shown a species of giant penguin that once stood 4 feet high.",
+            "options": ["False", "True"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "What does the word penguin mean?",
+            "options": ["Fat", "Black and White", "Swimmer", "Bird"],
+            "correct_answer": "Fat"
+          },
+          {
+            "difficulty": "",
+            "question": "Large penguins can dive nearly 2,000 feet.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "Which of these animals is NOT a natural predator of penguins?",
+            "options": ["Leopard Seal", "Polar Bear", "Steller's Sea Eagle", "Orca (Killer Whale)"],
+            "correct_answer": "Polar Bear"
+          },
+          {
+            "difficulty": "",
+            "question": "Penguins secrete salt from their nostrils.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "Where can the polar bear be found?",
+            "options": ["South Pole", "Antarctica", "Arctic", "All of these"],
+            "correct_answer": "Arctic"
+          },
+          {
+            "difficulty": "",
+            "question": "Polar bears are among penguins’ most dangerous natural enemies.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "What color is a polar bear's skin?",
+            "options": ["Black", "White", "Pink", "Yellow"],
+            "correct_answer": "Black"
+          },
+          {
+            "difficulty": "",
+            "question": "A polar bear has white fur.",
+            "options": ["False", "True"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "Approximately how many wild polar bears are estimated to live across the Arctic?",
+            "options": ["20,000", "100,000", "150,000", "60,000"],
+            "correct_answer": "20,000"
+          },
+          {
+            "difficulty": "",
+            "question": "Can polar bears be other colors besides white?",
+            "options": ["No", "Yes"],
+            "correct_answer": "Yes"
+          },
+          {
+            "difficulty": "",
+            "question": "According to Guinness Book of World Records, the heaviest wild bear was caught in 1960 and weighed 1,960 lbs (890 kg). What was its length?",
+            "options": ["Over 11 feet (3.40 m) tall", "Over 12 feet (3.70 m) tall", "Over 9 feet (2.70 m) tall", "Over 10 feet (3 m) tall"],
+            "correct_answer": "Over 11 feet (3.40 m) tall"
+          },
+          {
+            "difficulty": "",
+            "question": "According to statistics from the past 3 decades of the 20th century, there is a significant drop in polar bears’ size.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "A polar bear is used as the marketing icon for which of these popular products?",
+            "options": ["Maytag Freezers", "Hood's Ice Cream", "Popsicles", "Klondike Bars"],
+            "correct_answer": "Klondike Bars"
+          },
+          {
+            "difficulty": "",
+            "question": "Brown Bear/polar bear hybrids occur naturally in the wild.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "All dinosaurs were cold-blooded reptiles.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+          },
+          {
+            "difficulty": "",
+            "question": "The smallest dinosaur known to science was the size of a chicken.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "All birds are descendants of dinosaurs.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+          },
+          {
+            "difficulty": "",
+            "question": "Pterodactyls were large flying dinosaurs.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+          }
+    ]
+}

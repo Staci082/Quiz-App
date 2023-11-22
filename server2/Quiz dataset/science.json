@@ -1,0 +1,779 @@
+{
+    "science": [
+        {
+            "question": "Clouds are made up of these.",
+            "options": ["Water droplets and ice crystals", "Carbon atoms", "Oxygen ions", "Dust mites"],
+            "correct_answer": "Water droplets and ice crystals"
+        },
+        {
+            "question": "This formation is a conical hill or mountain. It is formed by mantle material being pressed through an opening in the Earths crust.",
+            "options": ["A volcano", "A hill", "An earthquake", "A geyser"],
+            "correct_answer": "A volcano"
+        },
+        {
+            "question": "Japan suffers from this event very often. It is the sudden, light or violent movement of the earths surface caused by the release of energy in the earths crust.",
+            "options": ["Earthquake", "Volcano", "Tide", "Tsunami"],
+            "correct_answer": "Earthquake"
+        },
+        {
+            "question": "It is the only continent that does not have land areas below sea level.",
+            "options": ["Antarctica", "Australia", "South America", "Arctica"],
+            "correct_answer": "Antarctica"
+        },
+        {
+            "question": "It is the longest river in the world",
+            "options": ["The Nile", "Themes", "The Amazon", "Danube"],
+            "correct_answer": "The Nile"
+        },
+        {
+            "question": "Why do travelers to La Paz, Bolivia, often become ill as soon as they arrive?",
+            "options": ["Because of the altitude", "Because of the high temperature", "Because of the humidity", "Because of the soil quality"],
+            "correct_answer": "Because of the altitude"
+        },
+        {
+            "question": "In the US, why do we change our clocks on the daylight saving time dates in April and October?",
+            "options": ["To conserve energy", "To increase the hours of the day", "To extend the working day", "Because the tourist period in most countries starts in May"],
+            "correct_answer": "To conserve energy"
+        },
+        {
+            "question": "These are places of arid land with really low rainfall and high tempertures variation. Their vegetation is insignificant and the population of people and animals is very limited.",
+            "options": ["Deserts", "Oceans", "Raiforests", "The equator"],
+            "correct_answer": "Deserts"
+        },
+        {
+            "question": "This is a gemstone made by fossilized tree sap that is at least 30 million years old.",
+            "options": ["Amber", "Obsidian", "Tourmaline", "Malachite"],
+            "correct_answer": "Amber"
+        },
+        {
+            "question": "This is the largest island on Earth and one third of it is a national park.",
+            "options": ["Greenland", "Madagaskar", "Australia", "Alaska"],
+            "correct_answer": "Greenland"
+        },
+        {
+            "question": "Which of these organs has no known function in the human body?",
+            "options": ["appendix", "tonsils", "uvula", "pineal gland"],
+            "correct_answer": "appendix"
+        },
+        {
+            "question": "The main function of this organ of respiration is to transport oxygen from the atmosphere into the bloodstream.",
+            "options": ["lung", "stomach", "diaphragm", "trachea"],
+            "correct_answer": "lung"
+        },
+        {
+            "question": "This gland is shaped like a butterfly and helps regulate energy in the body.",
+            "options": ["thyroid", "parathyroid", "adrenal", "thymus"],
+            "correct_answer": "thyroid"
+        },
+        {
+            "question": "The cerebellum section of the brain controls the fine movement and equilibrium, among other things.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "These organs are very sensitive and often fail in people with very high blood pressure or diabetes.",
+            "options": ["kidneys", "pancreas", "ovaries", "lungs"],
+            "correct_answer": "kidneys"
+        },
+        {
+            "question": "Tooth enamel is the hardest substance in the body.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "This is one of the first signs of pregnancy.",
+            "options": ["Missed period", "Swollen Feet", "Hair loss", "Waddling"],
+            "correct_answer": "Missed period"
+        },
+        {
+            "question": "This doctor takes care of you and your baby during pregnancy.",
+            "options": ["Obstetrician", "Psychologist", "Periodontist", "Pediatrician"],
+            "correct_answer": "Obstetrician"
+        },
+        {
+            "question": "What is the most common method of child birth?",
+            "options": ["Vaginal", "Cesarean", "Water birth", "In Vitro Fertilization"],
+            "correct_answer": "Vaginal"
+        },
+        {
+            "question": "The mother determines the sex of the baby.",
+            "options": ["False", "True"],
+            "correct_answer": "False"
+        },
+        {
+            "question": "What are common side effects of pregnancy?",
+            "options": ["Stretch marks", "Morning Sickness", "Weight gain", "All of the these"],
+            "correct_answer": "All of the these"
+        },
+        {
+            "question": "How far along are you approximately, when you feel the baby move for the first time?",
+            "options": ["20 weeks", "10 weeks", "35 weeks", "2 weeks"],
+            "correct_answer": "20 weeks"
+        },
+        {
+            "question": "Onco, coming from the Greek word onkos refers to what?",
+            "options": ["Tumor", "Ear", "Nerve", "Eye"],
+            "correct_answer": "Tumor"
+        },
+        {
+            "question": "The food colorants, cochineal and carmine, are made from what?",
+            "options": ["A kind of insect", "Frogs", "A kind of insect", "FDC Red Dye #40"],
+            "correct_answer": "A kind of insect"
+        },
+        {
+            "question": "Jell-O, the popular gelatin dessert, is made in part, from what?",
+            "options": ["Bones and hides", "Red ants", "None of these", "Horses and cows hooves"],
+            "correct_answer": "Bones and hides"
+        },
+        {
+            "question": "Twinkies, the sponge cake with creamy filling, created by Hostess, have an indefinite shelf life.",
+            "options": ["False", "True", "False"],
+            "correct_answer": "False"
+        },
+        {
+            "question": "Which of these statements, related to the effects of eating turkey, is true?",
+            "options": ["None of these", "Turkey slows your metabolic rate which makes you drowsy", "A turkey makes you sleepy as it contains the natural sedative L-tryptophan", "Increased blood flow to the gastrointestinal tract makes one drowsy"],
+            "correct_answer": "A turkey makes you sleepy as it contains the natural sedative L-tryptophan"
+        },
+        {
+            "question": "The traditional Japanese dish, sushi, is always made with raw fish.",
+            "options": ["False", "True", "False"],
+            "correct_answer": "False"
+        },
+        {
+            "question": "What food results in negative calories when eaten?",
+            "options": ["All of these", "Carrots", "Celery", "Radishes"],
+            "correct_answer": "All of these"
+        },
+        {
+            "question": "Chop Suey, a pasta dish consisting of short noodles, was originally made and served in which country?",
+            "options": ["USA", "Thailand", "China", "Vietnam"],
+            "correct_answer": "USA"
+        },
+        {
+            "question": "Gatorade, a non-carbonated sports drink, was invented by researchers at the University of Florida and named in honor of the Florida Gators, the schools football team.",
+            "options": ["True", "False", "True"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "In 2003, the FDA issued a warning about a possible connection between green onions and which disease?",
+            "options": ["Hepatitis A", "None of these", "Gall stones", "Cancer"],
+            "correct_answer": "Hepatitis A"
+        },
+        {
+            "question": "In the USA, the color of the plastic tags, used to seal bread bags, indicates on what day the loaves were baked.",
+            "options": ["True", "False", "True"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "Death of heart tissues due to loss of blood supply correctly describes the condition known as Myocardial Infarction.",
+            "options": ["True", "False", "True"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "This progressive generative disease of the brain results in loss of cognitive ability and uncontrolled movements, called chorea, the Greek word for dance.",
+            "options": ["Huntingtons Disease", "Alzheimers Disease", "Myasthenia Gravis", "Multiple Sclerosis"],
+            "correct_answer": "Huntingtons Disease"
+        },
+        {
+            "question": "Which of these is best describes the cause of Parkinsons disease?",
+            "options": ["A decrease in a neurotransmitter", "A brain injury", "Changes in the myelin sheath of the neuron", "Decreased blood flow to the brain"],
+            "correct_answer": "A decrease in a neurotransmitter"
+        },
+        {
+            "question": "If your physician tells you that you have Presbycusis due to the normal process of aging, he may suggest that you need which of these?",
+            "options": ["Hearing aid", "Dentures", "Glasses", "A wheelchair"],
+            "correct_answer": "Hearing aid"
+        },
+        {
+            "question": "Which of these medical terms means difficulty in swallowing.",
+            "options": ["dysphagia", "dyspepsia", "dysuria", "dyspnea"],
+            "correct_answer": "dysphagia"
+        },
+        {
+            "question": "Does the condition known as Hypoglycemia imply that blood sugar levels in the body are too high?",
+            "options": ["No", "Yes", "No"],
+            "correct_answer": "No"
+        },
+        {
+            "question": "If you have hyperthyroidism, your body is overproducing what hormone?",
+            "options": ["Thyroxine", "Estrogen", "Thyroxine", "Glucagon"],
+            "correct_answer": "Thyroxine"
+        },
+        {
+            "question": "Which of these most accurately describes the medical term, necrosis?",
+            "options": ["Death of living tissue", "Irregular heartbeat", "Death of living tissue", "Decrease in white blood cells"],
+            "correct_answer": "Death of living tissue"
+        },
+        {
+            "question": "Which side effect is not related to the use of marijuana?",
+            "options": ["Violent behaviour", "Silly and causeless giggling", "Red, bloodshot eyes", "Dizziness and staggering"],
+            "correct_answer": "Violent behaviour"
+        },
+        {
+            "question": "Marijuana is produced from parts of the male cannabis plants.",
+            "options": ["False", "True", "False"],
+            "correct_answer": "False"
+        },
+        {
+            "question": "With the passage of the Marijuana Tax Act, the United States effectively banned recreational and medicinal use of cannabis. What year was this act adopted?",
+            "options": ["1937", "1945", "1937", "1972"],
+            "correct_answer": "1937"
+        },
+        {
+            "question": "By amending its Opium Act in 1976, the government of which country decided to treat possession of up to 30 grams of marijuana as an activity not for prosecution, detection or arrest?",
+            "options": ["Holland", "Columbia", "Holland", "Canada"],
+            "correct_answer": "Holland"
+        },
+        {
+            "question": "What US state enacted Proposition 215, the Compassionate Use Act, which allowed sick and dying patients to legally use marijuana for medicinal purposes?",
+            "options": ["California", "Alabama", "Hawaii", "California"],
+            "correct_answer": "California"
+        },
+        {
+            "question": "The sphygmomanometer is a device invented by Samuel Siegfried Karl Ritter von Basch, used to measure what?",
+            "options": ["Blood pressure", "Myopia", "Intensity of headaches", "Heart murmurs"],
+            "correct_answer": "Blood pressure"
+        },
+        {
+            "question": "This disorder, from a Greek word meaning failure to put in order, is characterised by lack of muscular coordination, and often occurs when parts of the nervous system which control movement are damaged.",
+            "options": ["Ataxia", "Narcolepsy", "Dyslexia", "Hyperkinesis"],
+            "correct_answer": "Ataxia"
+        },
+        {
+            "question": "This disorder is the abnormal accumulation of cerebrospinal fluid in the ventricles of the brain.",
+            "options": ["Hydrocephalus", "Spina bifida", "Multiple sclerosis", "Epilepsy"],
+            "correct_answer": "Hydrocephalus"
+        },
+        {
+            "question": "Tourette syndrome is a neurological disorder, characterized by tics -- involuntary, rapid, movements or vocalizations.",
+            "options": ["True", "False", "True"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "This is the colloquial equivalent of the medical term Herpes zoster, which is used to define a condition, caused by the varicella zoster virus.",
+            "options": ["Shingles", "Cold sores", "Sementia", "Mumps"],
+            "correct_answer": "Shingles"
+        },
+        {
+            "question": "Pre-eclampsia, thought to be caused by inflammatory mediators, is a medical condition associated with which of these?",
+            "options": ["Pregnancy", "Eye infections", "Brain tumor", "Bronchitis"],
+            "correct_answer": "Pregnancy"
+        },
+        {
+            "question": "Down Syndrome, named after Dr. John Langdon Down, is actually a chromosomal defect.",
+            "options": ["True", "False", "True"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "What medical term is synonym of jaundice, a condition characterized by yellowing of the skin, sclera and mucous membranes?",
+            "options": ["Icterus", "Ascites", "Anorexia", "Nausea"],
+            "correct_answer": "Icterus"
+        },
+        {
+            "question": "The presence of gallstones in the gallbladder is defined by what medical term?",
+            "options": ["Cholelithiasis", "Dysentery", "Hepatitis", "Cholelithiasis"],
+            "correct_answer": "Cholelithiasis"
+        },
+        {
+            "question": "Arthralgia is a severe heart disorder.",
+            "options": ["False", "True", "False"],
+            "correct_answer": "False"
+        },
+        {
+            "question": "The term encephalon, defined as the brain of a vertebrate, derives from a Greek word which means what?",
+            "options": ["In the head", "In the mind", "Forehead", "In the backbone"],
+            "correct_answer": "In the head"
+        },
+        {
+            "question": "Carcino is a word of Greek origin which refers to the small intestines.",
+            "options": ["True", "False", "True"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "The term blepharo derives from a Greek word and refers to which part of the body?",
+            "options": ["Eyelid", "Artery", "Larynx", "Eyelid"],
+            "correct_answer": "Eyelid"
+        },
+        {
+            "question": "Nearly everybody has experienced the tip-of-the-tongue situation when one is eagerly trying to think of a relatively familiar fact, name or word and is just about to recall it, but it constantly eludes him.  What is the explanation of this strange experience?",
+            "options": ["Aging brain cells", "Mineral deficiency", "Unpleasant experience associated with the memory", "Another item is blocking the recollection"],
+            "correct_answer": "Another item is blocking the recollection"
+        },
+        {
+            "question": "Which of these most accurately explains the controversial issue of  false memories?",
+            "options": ["Memories formed under the influence of misleading suggestions and clues", "None of these", "Memories lacking coherent and logical rationale", "Memories causing false sensations"],
+            "correct_answer": "Memories formed under the influence of misleading suggestions and clues"
+        },
+        {
+            "question": "One of the most basic characteristics of our memory is the ability to forget, which is considered to be this type of function.",
+            "options": ["Developing function", "Adaptive function", "Cognitive function", "Protective function"],
+            "correct_answer": "Adaptive function"
+        },
+        {
+            "question": "Amnesia, the loss of significant amount of important information, is a memory impairment which happens as a result of which of these?",
+            "options": ["Specific malfunctions in the brain", "Physical injury", "Psychological trauma", "All of these"],
+            "correct_answer": "All of these"
+        },
+        {
+            "question": "In the study of memory, what does the term mnemonist refer to?",
+            "options": ["Individual with exceptional memory", "Individual with severe memory disorders", "Individual who tends to create false memories", "Individual who has recovered from amnesia"],
+            "correct_answer": "Individual with exceptional memory"
+        },
+        {
+            "question": "What is the main cause for most pandemics in history?",
+            "options": ["The domestication of animals", "Human negligence", "Genetic experiments", "The bad hygiene of the people"],
+            "correct_answer": "The domestication of animals"
+        },
+        {
+            "question": "During which war did the first known pandemic take place?  It dates back to 430 BC.",
+            "options": ["The Peloponnesian War", "The Punic Wars", "The Persian Wars", "The Trojan War"],
+            "correct_answer": "The Peloponnesian War"
+        },
+        {
+            "question": "Which Roman emperor died of Antonine plague? This plague was actually named after him.",
+            "options": ["Marcus Aurelius", "Vespasian", "Claudius", "Augustus"],
+            "correct_answer": "Marcus Aurelius"
+        },
+        {
+            "question": "Is there a cure for the plague?",
+            "options": ["Yes", "No"],
+            "correct_answer": "Yes"
+        },
+        {
+            "question": "At this stage of the plague, one of the symptoms is the presence of black patches on the skin.",
+            "options": ["Plague of Justinian", "Septicemic Plague", "Pneumonic Plague", "Bubonic Plague"],
+            "correct_answer": "Septicemic Plague"
+        },
+        {
+            "question": "This disease had 7 pandemics and is still causing epidemics.",
+            "options": ["Plague", "Cholera", "Typhus", "Influenza"],
+            "correct_answer": "Cholera"
+        },
+        {
+            "question": "This terrible disease killed as much as 5% of the worlds population and affected almost 20% in just six months.",
+            "options": ["Spanish Flu", "Measles", "Bubonic plague", "Cholera"],
+            "correct_answer": "Spanish Flu"
+        },
+        {
+            "question": "The smallpox isnt dangerous.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+        },
+        {
+            "question": "Which of these countries did cholera affect most?",
+            "options": ["USA", "Italy", "Russia", "France"],
+            "correct_answer": "Russia"
+        },
+        {
+            "question": "Cancer is considered a pandemic.",
+            "options": ["False", "True"],
+            "correct_answer": "False"
+        },
+        {
+            "question": "This is one of the most common health problems that comes from being overweight.",
+            "options": ["High blood pressure", "Fainting", "Vertigo", "Low blood pressure"],
+            "correct_answer": "High blood pressure"
+        },
+        {
+            "question": "In the USA, obesity is the second leading cause of preventable death after this one.",
+            "options": ["Smoking", "Stress", "Drugs", "Pollution"],
+            "correct_answer": "Smoking"
+        },
+        {
+            "question": "How many people are overweight around the world?",
+            "options": ["More than 1 billion", "More than 3 million", "More than 1 million", "More than 5 million"],
+            "correct_answer": "More than 1 billion"
+        },
+        {
+            "question": "When starting a diet you have to consume at least this number of calories per day, otherwise you will lose muscle.",
+            "options": ["1200", "2000", "1000", "1500"],
+            "correct_answer": "1200"
+        },
+        {
+            "question": "Which of the following has the most fat?",
+            "options": ["American Blue Cheese", "Cottage Cheese", "Feta", "American Blue Cheese"],
+            "correct_answer": "American Blue Cheese"
+        },
+        {
+            "question": "Body Mass Index (BMI) is the relation between body mass and height.  If your BMI is in this range then you are considered overweight.",
+            "options": ["25 to 29.9", "20 to 24.9", "15 - 19.9", "10 - 14.9"],
+            "correct_answer": "25 to 29.9"
+        },
+        {
+            "question": "This is the most recommended activity that helps prevent or fight obesity.",
+            "options": ["Getting exercise", "Quitting alcohol", "Getting exercise", "Eating salads only"],
+            "correct_answer": "Getting exercise"
+        },
+        {
+            "question": "What British naturalist published the first major scientific study on facial communication in 1872?",
+            "options": ["Leonardo Da Vinci", "Alfred Brehm", "James Edward Smith", "Charles Darwin"],
+            "correct_answer": "Charles Darwin"
+        },
+        {
+            "question": "In medicine, which of these brain disorders does the term prosopagnosia refer to?",
+            "options": ["The Inability to recognize faces", "The inability to express emotions", "Misinterpretation of basic human expressions", "The Inability to recognize faces"],
+            "correct_answer": "The Inability to recognize faces"
+        },
+        {
+            "question": "In which of these countries is showing negative facial expressions considered impolite and is therefore avoided?  Negative expressions are instead usually masked with smile or laughter.",
+            "options": ["Peru", "Kenya", "Indonesia", "Japan"],
+            "correct_answer": "Japan"
+        },
+        {
+            "question": "What emotional state does the gesture of narrowed eyes convey?",
+            "options": ["Threat, distrust", "Satisfaction, joy", "Sadness, frustration", "Anger, excitement"],
+            "correct_answer": "Threat, distrust"
+        },
+        {
+            "question": "Experiments prove that men are usually better at decoding facial expressions than women.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+        },
+        {
+            "question": "Laughter is one of the first expressions of emotions babies learn to convey.  At about what age do babies start to laugh?",
+            "options": ["12 months", "7 months", "18 months", "4 months"],
+            "correct_answer": "4 months"
+        },
+        {
+            "question": "This organ contains many bacteria, which begin to digest surrounding organs immediately after death.",
+            "options": ["Liver", "Stomach", "Intestines", "Rectum"],
+            "correct_answer": "Intestines"
+        },
+        {
+            "question": "A large number of flies can appear around a dead body within the first 24 hours of death.  This is mainly because the flies lay eggs on the body, this multiplying their numbers.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "In average conditions, approximately how many hours does it take for the dead body's temperature to equalize with the surrounding environment?",
+            "options": ["12", "48", "26", "24"],
+            "correct_answer": "24"
+        },
+        {
+            "question": "Which of the following happens three days after the moment of death?",
+            "options": ["The body starts to shrink", "The body starts to emit smell", "The body starts to swell", "The nails are so loose that they can be pulled off"],
+            "correct_answer": "The body starts to emit smell"
+        },
+        {
+            "question": "Because of the substance present in these structures of the human body, they can be preserved for centuries avoiding decomposition.",
+            "options": ["Teeth", "Nails", "Eyelashes", "Eyeballs"],
+            "correct_answer": "Teeth"
+        },
+        {
+            "question": "Which part of the body is decomposed last, but before the bones?",
+            "options": ["Cartilages", "Hair", "Nails", "Gall Bladder"],
+            "correct_answer": "Hair"
+        },
+        {
+            "question": "The term rigor mortis means this.",
+            "options": ["Stiffness of death", "Swollen corpse", "Blue corpse", "Blue death"],
+            "correct_answer": "Stiffness of death"
+        },
+        {
+            "question": "The skin goes purple and waxy about one hour from time of death.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+        },
+        {
+            "question": "A death erection is a post-mortem erection which occurs when a male individual dies vertically or face-down.  What causes this condition?",
+            "options": ["Having intercourse before death", "Gravity causes the genitalia to fill up with blood", "The body swells up", "Bladder and Intestines empty"],
+            "correct_answer": "Gravity causes the genitalia to fill up with blood"
+        },
+        {
+            "question": "The face of the person becomes difficult to recognize 24 hours after death.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "Due to this, there is almost no atmosphere on the Moon.",
+            "options": ["Lack of a magnetic field", "Influence of Earth's gravity", "Asteroid impacts", "Lack of gravity on the Moon"],
+            "correct_answer": "Lack of a magnetic field"
+        },
+        {
+            "question": "The side of the Moon that we see is this.",
+            "options": ["The same every night", "Different every night", "Different every two weeks", "The same every night"],
+            "correct_answer": "The same every night"
+        },
+        {
+            "question": "The distance between the Moon and the Earth is approximately this much.",
+            "options": ["238,897 miles (384,467km)", "62,000 miles (100,000km)", "155,342 miles (250,000 km)", "260,975 miles (420,000 km)"],
+            "correct_answer": "238,897 miles (384,467km)"
+        },
+        {
+            "question": "The Moon is changing its position in relation to the Earth. In what way?",
+            "options": ["Getting closer", "Moving along the Earth's Y axis", "Moving away", "Moving along the Earth's X axis"],
+            "correct_answer": "Moving away"
+        },
+        {
+            "question": "Which factor ensures that many of the craters on the Moon's surface remain well preserved in comparison to those on Earth?",
+            "options": ["The lack of atmosphere", "The strong solar rays", "The rotating movement", "The influence of Earth's gravity"],
+            "correct_answer": "The lack of atmosphere"
+        },
+        {
+            "question": "When was the Moon formed?",
+            "options": ["About 5.7 billion years ago", "About 4.5 billion years ago", "About 300,000 years ago", "About 1 billion years ago"],
+            "correct_answer": "About 4.5 billion years ago"
+        },
+        {
+            "question": "If you were taking a course in entomology, what would you be studying?",
+            "options": ["Rocks", "Snakes", "Mold", "Insects"],
+            "correct_answer": "Insects"
+        },
+        {
+            "question": "This science studies signs, both individually and grouped in sign systems.",
+            "options": ["Anthology", "Semiology", "Linguistics", "Theology"],
+            "correct_answer": "Semiology"
+        },
+        {
+            "question": "Etymologists study the history of languages and how the forms and meanings of different words changed.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "What part of the human body does the science periodontics study?",
+            "options": ["Gums and mouth", "Eyes", "Finger and toes", "Ears"],
+            "correct_answer": "Gums and mouth"
+        },
+        {
+            "question": "Ichthyology is the study of biting insects such as fleas, mosquitoes, and wasps.",
+            "options": ["True", "False"],
+            "correct_answer": "False"
+        },
+        {
+            "question": "What scientists study recent or fossilized skeletal remains in order to find traces of ancient diseases?",
+            "options": ["Mycologists", "Parapsychologists", "Paleopathologists", "Epidemiologists"],
+            "correct_answer": "Paleopathologists"
+        },
+        {
+            "question": "People who suffer from this condition tend to be self-destructive. They may use drugs or engage in promiscuous sexual activities.",
+            "options": ["Obsessive Compulsive Disorder", "Panic Disorder", "Borderline Personality Disorder", "Generalized Anxiety Disorder"],
+            "correct_answer": "Borderline Personality Disorder"
+        },
+        {
+            "question": "People with this disorder engage in idiosyncratic behaviors, such as wearing an odd-looking hat every day or wearing their pants backward.",
+            "options": ["Antisocial Personality Disorder", "Narcissistic Personality Disorder", "Schizotypal Personality Disorder", "Histrionic Personality Disorder"],
+            "correct_answer": "Schizotypal Personality Disorder"
+        },
+        {
+            "question": "This disorder, also known as manic depression, involves a high risk of death through suicide.",
+            "options": ["Dependent Personality Disorder", "Antisocial Personality Disorder", "Bipolar Disorder", "Schizophrenia"],
+            "correct_answer": "Bipolar Disorder"
+        },
+        {
+            "question": "People suffering from this mental illness manifest a psychiatric condition as a physical complaint.",
+            "options": ["Agoraphobia", "Kleptomania", "Somatization Disorder", "Munchausen Syndrome"],
+            "correct_answer": "Somatization Disorder"
+        },
+        {
+            "question": "A person with this disorder has fluctuating levels of orientation.",
+            "options": ["Dementia", "Psychosis", "Delusional State", "Delirium"],
+            "correct_answer": "Delirium"
+        },
+        {
+            "question": "An old adage states, 'Neurotics build castles in the sand. Psychotics live in them.' Which one of the following disorders is not considered a neurosis?",
+            "options": ["Schizoid Personality Disorder", "Obsessive-Compulsive Disorder", "Panic Disorder", "Agoraphobia"],
+            "correct_answer": "Schizoid Personality Disorder"
+        },
+        {
+            "question": "According to statistics, which of the following people is most likely to commit suicide?",
+            "options": ["A recovering alcoholic.", "A middle-aged divorced man.", "A middle-aged divorced woman living alone.", "A teenage boy who smokes marijuana."],
+            "correct_answer": "A middle-aged divorced man."
+        },
+        {
+            "question": "Depression can cause brain damage.",
+            "options": ["True", "False"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "Three of the following four disorders are actually different names for the same disease. Which is the odd one?",
+            "options": ["Maniac", "Psychopath", "Sociopath", "Antisocial Personality"],
+            "correct_answer": "Maniac"
+        },
+        {
+            "question": "People with this disorder have difficulty engaging in everyday human interaction.",
+            "options": ["Autism", "Huntington's Disease", "Cerebral Palsy", "Addison's Disease"],
+            "correct_answer": "Autism"
+        },
+        {
+            "question": "Located in the upper anterior portion of the chest cavity, the thymus is an organ belonging to which system of the human body?",
+            "options": ["Endocrine system", "Integumentary system", "Lymphatic System", "Nervous system"],
+            "correct_answer": "Lymphatic System"
+        },
+        {
+            "question": "Which are the endocrine system's so-called instant messengers used to affect distant cells within specific organs?",
+            "options": ["Nephrons", "Neurons", "Acids", "Hormones"],
+            "correct_answer": "Hormones"
+        },
+        {
+            "question": "In humans, which of these organs belongs to the integumentary system?",
+            "options": ["Skin", "Tonsils", "Liver", "Pharynx"],
+            "correct_answer": "Skin"
+        },
+        {
+            "question": "Which animal can be connected to a computer USB port?",
+            "options": ["Dog", "Mouse", "Rat", "Cat"],
+            "correct_answer": "Mouse"
+        },
+        {
+            "question": "Which of these is a popular database name?",
+            "options": ["Mosque", "Oracle", "Shrine", "Church"],
+            "correct_answer": "Oracle"
+        },
+        {
+            "question": "Which bathroom item is also a communication protocol?",
+            "options": ["Brush", "Gel", "Soap", "Comb"],
+            "correct_answer": "Soap"
+        },
+        {
+            "question": "Which wall is used for computer protection in the Internet or other networks?",
+            "options": ["Firewall", "Wooden wall", "Brickwall", "Protective wall"],
+            "correct_answer": "Firewall"
+        },
+        {
+            "question": "Which celestial body is also a name of a big American vendor of computers, computer components, and software?",
+            "options": ["Sun", "Venus", "Moon", "Pluto"],
+            "correct_answer": "Sun"
+        },
+        {
+            "question": "Which commercial building can also store data?",
+            "options": ["Warehouse", "Supermarket", "Store", "Shop"],
+            "correct_answer": "Warehouse"
+        },
+        {
+            "question": "The name of which animal group is also a collective name for software errors?",
+            "options": ["Insects", "Spiders", "Ants", "Bugs"],
+            "correct_answer": "Bugs"
+        },
+        {
+            "question": "Which of these is a computer for bulk data processing?",
+            "options": ["A-frame", "Body-on-frame", "Window-frame", "Mainframe"],
+            "correct_answer": "Mainframe"
+        },
+        {
+            "question": "Which hat is a distribution of the Linux operating system?",
+            "options": ["Black Hat", "White Hat", "Red Hat", "Blue Hat"],
+            "correct_answer": "Red Hat"
+        },
+        {
+            "question": "The name of which Native American group is also a name of an open-source organization?",
+            "options": ["Iroquois", "Navajo", "Cherokees", "Apache"],
+            "correct_answer": "Apache"
+        },
+        {
+            "question": "The name of which island is also a computer programming language name?",
+            "options": ["Cuba", "Jamaica", "Java", "Malta"],
+            "correct_answer": "Java"
+        },
+        {
+            "question": "How many bones (on average) does the human body contain?",
+            "options": ["207", "206", "208", "205"],
+            "correct_answer": "206"
+        },
+        {
+            "question": "A tendon is a tough band of fibrous connective tissue that connects a muscle to a bone.",
+            "options": ["False", "True"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "This extremely vital nerve is responsible for such varied tasks as heart rate, gastrointestinal peristalsis and sweating. It also controls quite a few muscle movements in the mouth, including speech and keeping the larynx open for breathing.",
+            "options": ["Oculomotor nerve", "Vagus nerve", "Facial nerve", "Hypoglossal nerve"],
+            "correct_answer": "Vagus nerve"
+        },
+        {
+            "question": "Development of a global computer network was first proposed in this year, by J.C.R. Licklider.",
+            "options": ["1972", "1982", "1962", "1952"],
+            "correct_answer": "1962"
+        },
+        {
+            "question": "This was the first popular WWW browser. Microsoft's Internet Explorer is also based on it.",
+            "options": ["Opera", "lynx", "NCSA Mosaic", "Netscape Navigator"],
+            "correct_answer": "NCSA Mosaic"
+        },
+        {
+            "question": "Cables are essential for the transfer of data. The first cable to transfer instantaneous communications across the ocean was laid in this year.",
+            "options": ["1950", "1924", "1908", "1858"],
+            "correct_answer": "1858"
+        },
+        {
+            "question": "It was the Internet's progenitor and the first large geographically separated network.",
+            "options": ["ARPANET", "NSFNET", "UUCP", "CSNET"],
+            "correct_answer": "ARPANET"
+        },
+        {
+            "question": "The first e-mail message was sent in this year by Ray Tomlinson.",
+            "options": ["1979", "1964", "1983", "1971"],
+            "correct_answer": "1971"
+        },
+        {
+            "question": "This person wrote HTTP, the language in which browsers and web servers communicate.",
+            "options": ["Steve Jobs", "Bill Gates", "Tim Berners-Lee", "Douglas Engelbart"],
+            "correct_answer": "Tim Berners-Lee"
+        },
+        {
+            "question": "This is how long it took the Internet to attract 50 million users.",
+            "options": ["4 years", "20 years", "10 years", "5 years"],
+            "correct_answer": "4 years"
+        },
+        {
+            "question": "This program pretends to be useful, while executing malicious code.",
+            "options": ["Logic bomb", "Worm", "Trojan horse", "Virus"],
+            "correct_answer": "Trojan horse"
+        },
+        {
+            "question": "In 1995, this famous American computer outlaw was caught while stealing electronic mail and software. In 1996 he released the book Takedown: The Pursuit and Capture of America's Most Wanted Computer Outlaw -- By The Man",
+            "options": ["Robert Morris", "Vladimir Levin", "Tsutomu Shimomura", "Kevin Mitnick"],
+            "correct_answer": "Kevin Mitnick"
+        },
+        {
+            "question": "About 95% of the rocks which form the upper part of the Earth's crust are Igneous Rocks.",
+            "options": ["False", "True"],
+            "correct_answer": "True"
+        },
+        {
+            "question": "Gold carats measure purity, whereas diamond carats measure this quality.",
+            "options": ["Color", "Weight", "Hardness", "Clarity"],
+            "correct_answer": "Weight"
+        },
+        {
+            "question": "When magma cools and becomes solid below Earth's surface, the resultant rocks are called Plutonic, but when magma reaches the surface and crystallizes there, formed rocks are called this.",
+            "options": ["Volcanic", "Mercuric", "Surfaced", "Veneric"],
+            "correct_answer": "Volcanic"
+        },
+        {
+            "question": "The Lunar seas are actually plains of gabbro and this rock. The same rock is also a main component of the surface of Mars.",
+            "options": ["Basalt", "Obsidian", "Andesite", "Granulite"],
+            "correct_answer": "Basalt"
+        },
+        {
+            "question": "This moon is the most volcanic object in the solar system. Its volcanoes erupt sulfur, sulfur dioxide and silicate rock, constantly resurfacing it.",
+            "options": ["Titania", "Io", "Ganymede", "Europa"],
+            "correct_answer": "Io"
+        },
+        {
+            "question": "What do we call this sequence of numbers: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ...?",
+            "options": ["Lucas", "Gauss", "Euler", "Fibonacci"],
+            "correct_answer": "Fibonacci"
+        },
+        {
+            "question": "What was the name of the man who invented logarithms?",
+            "options": ["Rene Descartes", "John Napier", "Blaise Pascal", "Robert Recorde"],
+            "correct_answer": "John Napier"
+        },
+        {
+            "question": "Sir Isaac Newton developed his calculus and physics at what college?",
+            "options": ["Oxford", "None", "Trinity", "Cambridge"],
+            "correct_answer": "Cambridge"
+        },
+        {
+            "question": "Who was the teacher of Plato?",
+            "options": ["Thales", "Socrates", "Aristotle", "Archimedes"],
+            "correct_answer": "Socrates"
+        },
+        {
+            "question": "Who wrote the first textbook on Geometry?",
+            "options": ["Thales", "Euclid", "Archimedes", "Van Nostrand"],
+            "correct_answer": "Euclid"
+        }
+    ]
+}

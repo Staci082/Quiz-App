@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Questions from "./pages/Questions";
 import Results from "./pages/Results";
+import { DataProvider } from "./context/dataContext";
 
 const router = [
     {
@@ -21,6 +22,7 @@ const router = [
 function App() {
     return (
         <>
+        <DataProvider>
         <div className="flex justify-center text-2xl font-nanum text-white min-h-screen  bg-teal-500 text-center ">
             <Routes>
                 {router.map((item) => (
@@ -28,6 +30,7 @@ function App() {
                 ))}
             </Routes>
             </div>
+            </DataProvider>
         </>
     );
 
