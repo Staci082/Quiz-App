@@ -13,13 +13,13 @@ const renderTime = ({ remainingTime }) => {
 };
 
 function Questions() {
-    const { selectedAmount, quizs, question, questionIndex, selectedCategory, selectedLevel, checkAnswer, nextQuestion, correctAnswer, selectedAnswer, score } = useContext(DataContext);
-    const [timerKey, setTimerKey] = useState(0); 
-    const resultsLink = `/results?category=${selectedCategory}&amount=${selectedAmount}&level=${selectedLevel}`;
+    const { selectedAmount, quizs, question, questionIndex, selectedCategory, selectedDifficulty, checkAnswer, nextQuestion, correctAnswer, selectedAnswer, score } = useContext(DataContext);
+    const [timerKey, setTimerKey] = useState(0);
+    const resultsLink = `/results?category=${selectedCategory}&amount=${selectedAmount}&Difficulty=${selectedDifficulty}`;
 
     const handleTimeOut = () => {
-        setTimerKey((prevKey) => prevKey + 1); 
-        nextQuestion(); 
+        setTimerKey((prevKey) => prevKey + 1);
+        nextQuestion();
     };
     return (
         <section className=" md:w-1/2 w-full  text-xl">

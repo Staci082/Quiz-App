@@ -9,7 +9,7 @@ export const DataProvider = ({ children }) => {
 
     const selectedAmount = queryParams.get("amount");
     const selectedCategory = queryParams.get("category");
-    const selectedLevel = queryParams.get("level");
+    const selectedDifficulty = queryParams.get("Difficulty");
 
     const [quizs, setQuizs] = useState([]);
     const [question, setQuestion] = useState({});
@@ -87,7 +87,7 @@ export const DataProvider = ({ children }) => {
         <DataContext.Provider
             value={{
                 selectedCategory,
-                selectedLevel,
+                selectedDifficulty,
                 handleStart,
                 quizs,
                 question,

@@ -59,7 +59,7 @@ function Homepage() {
     ];
     const { handleStart } = useContext(DataContext);
     const [selectedAmount, setSelectedAmount] = useState(10);
-    const [selectedLevel, setSelectedLevel] = useState(null);
+    const [selectedDifficulty, setSelectedDifficulty] = useState("easy");
     const [selectedCategory, setSelectedCategory] = useState(null);
     const [showBottomElement, setShowBottomElement] = useState(false);
 
@@ -73,11 +73,7 @@ function Homepage() {
         setShowBottomElement(false);
     };
 
-
-
-
-    const playLink = `/questions?category=${selectedCategory}&amount=${selectedAmount}&level=${selectedLevel}`;
-
+    const playLink = `/questions?category=${selectedCategory}&amount=${selectedAmount}&Difficulty=${selectedDifficulty}`;
 
     return (
         <>
@@ -105,20 +101,25 @@ function Homepage() {
                             <div className="self-center w-10 cursor-pointer h-1 bg-gray-300 rounded-xl mb-5"></div>
                         </button>
                         <h2 className="text-lime-400 font-bold text-5xl mb-2">{selectedCategory}</h2>
+
                         <b>Amount of questions</b>
                         <div className="flex gap-4 justify-center" role="group">
-                            <button onClick={() => setSelectedAmount(10)} className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">10</button>
-                            <button onClick={() => setSelectedAmount(20)} className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">20</button>
-                            <button onClick={() => setSelectedAmount(30)} className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">30</button>
+                            {[10, 20, 30].map((amount) => (
+                                <button key={amount} onClick={() => setSelectedAmount(amount)} className={`border-solid border-2 py-1 px-4 rounded-3xl ${selectedAmount === amount ? "border-lime-400" : ""} `}>
+                                    {amount}
+                                </button>
+                            ))}
                         </div>
-                        <b>Difficulty level</b>
+                        <b>Difficulty Difficulty</b>
                         <div className="flex gap-4 justify-center" role="group">
-                            <button onClick={() => setSelectedLevel("easy".toLowerCase())} className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">Easy</button>
-                            <button onClick={() => setSelectedLevel("medium".toLowerCase())} className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">Medium</button>
-                            <button onClick={() => setSelectedLevel("hard".toLowerCase())} className="border-solid border-2 border-white py-1 px-4 rounded-3xl focus:ring focus:ring-lime-400">Hard</button>
+                            {["easy", "medium", "hard"].map((difficulty) => (
+                                <button key={difficulty} onClick={() => setSelectedDifficulty(difficulty.toLowerCase())} className={`border-solid border-2 py-1 px-4 rounded-3xl  ${selectedDifficulty === difficulty ? "border-lime-400" : ""} `}>
+                                    {difficulty}
+                                </button>
+                            ))}
                         </div>
 
-                        <Link  to={playLink} onClick={handleStart} className="bg-white active:translate-y-1 text-lime-400 text-2xl py-1 mt-2 rounded-xl max-w-[450px] font-bold border-b-4 border-l-2 border-lime-400  min-w-[300px]">
+                        <Link to={playLink} onClick={handleStart} className="bg-white active:translate-y-1 text-lime-400 text-2xl py-1 mt-2 rounded-xl max-w-[450px] font-bold border-b-4 border-l-2 border-lime-400  min-w-[300px]">
                             Play
                         </Link>
                     </div>

@@ -1,0 +1,3 @@
+input[type='radio']:checked + label {
+    border-color: #a3e635; /* Change to your desired border color */
+  }
