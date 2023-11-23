@@ -12,8 +12,7 @@ const renderTime = ({ remainingTime }) => {
 };
 
 function Questions() {
-    const { setSelectedAnswer, selectedAnswer, selectedAmount, quizs, question, questionIndex, selectedCategory, selectedDifficulty, checkAnswer, nextQuestion, correctAnswer } = useContext(DataContext);
-
+    const { score, setSelectedAnswer, selectedAnswer, selectedAmount, quizs, question, questionIndex, selectedCategory, selectedDifficulty, checkAnswer, nextQuestion, correctAnswer } = useContext(DataContext);
     const handleTimeOut = () => {
         nextQuestion();
     };
@@ -27,7 +26,7 @@ function Questions() {
     console.log("selected: ", selectedAnswer);
     console.log("correct: ", correctAnswer);
 
-    const resultsLink = `/results?category=${selectedCategory}&amount=${selectedAmount}&difficulty=${selectedDifficulty}`;
+    const resultsLink = `/results?category=${selectedCategory}&amount=${selectedAmount}&difficulty=${selectedDifficulty}&score=${score}`;
 
     return (
         <section className=" md:w-1/2 w-full  text-xl">

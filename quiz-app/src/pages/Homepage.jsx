@@ -102,7 +102,7 @@ function Homepage() {
                         <button onClick={closeBottomElement} className="flex justify-center items-center">
                             <div className="self-center w-10 cursor-pointer h-1 bg-gray-300 rounded-xl mb-5"></div>
                         </button>
-                        <h2 className="text-lime-400 font-bold text-5xl mb-2">{selectedCategory}</h2>
+                        <h2 className="text-lime-400 font-bold text-5xl mb-2">{selectedCategory.toUpperCase()}</h2>
 
                         <b>Amount of questions</b>
                         <div className="flex gap-4 justify-center" role="group">

@@ -86,6 +86,7 @@ export const DataProvider = ({ children }) => {
     return (
         <DataContext.Provider
             value={{
+                selectedAmount,
                 selectedCategory,
                 selectedDifficulty,
                 handleStart,
@@ -96,7 +97,8 @@ export const DataProvider = ({ children }) => {
                 nextQuestion,
                 correctAnswer,
                 selectedAnswer,
-                setSelectedAnswer
+                setSelectedAnswer,
+                score
             }}
         >
             {children}
