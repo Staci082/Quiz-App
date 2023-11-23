@@ -11,7 +11,7 @@ export const DataProvider = ({ children }) => {
     const selectedCategory = queryParams.get("category");
     const selectedDifficulty = queryParams.get("difficulty");
 
-    const [quizs, setQuizs] = useState([]);
+    const [quiz, setQuiz] = useState([]);
     const [question, setQuestion] = useState({});
     const [questionIndex, setQuestionIndex] = useState(0);
     const [correctAnswer, setCorrectAnswer] = useState("");
@@ -38,7 +38,7 @@ export const DataProvider = ({ children }) => {
             })
             .then((data) => {
                 const randomQuestions = getMultipleRandom(data[selectedCategory], selectedAmount);
-                setQuizs(randomQuestions);
+                setQuiz(randomQuestions);
             })
             .catch((error) => {
                 console.error("Error fetching data:", error);
@@ -46,20 +46,32 @@ export const DataProvider = ({ children }) => {
                 console.log("Response text:", error.response?.text());
             });
     };
+
     useEffect(() => {
         if (selectedCategory && selectedAmount) {
             handleStart();
         }
     }, [selectedCategory, selectedAmount]);
 
+
+
     // Set a Single Question
     useEffect(() => {
-        if (quizs.length > questionIndex) {
-            setQuestion(quizs[questionIndex]);
-            setCorrectAnswer(quizs[questionIndex].answer);
+        if (quiz.length > questionIndex) {
+            setQuestion(quiz[questionIndex]);
+            setCorrectAnswer(quiz[questionIndex].answer);
             setQuestionIndex(questionIndex);
         }
-    }, [quizs, questionIndex]);
+    }, [quiz, questionIndex]);
+
+    // shuffle answer
+    const shuffle = (array) => { 
+        if (Array.isArray(array)) {
+            array.sort(() => Math.random() - 0.5); 
+        }
+        return array;
+    };
+ 
 
     // Check Answer
     const checkAnswer = (selected) => {
@@ -76,12 +88,19 @@ export const DataProvider = ({ children }) => {
         setCorrectAnswer("");
         setSelectedAnswer("");
         setQuestionIndex((prevIndex) => {
-            if (prevIndex < quizs.length - 1) {
+            if (prevIndex < quiz.length - 1) {
                 return prevIndex + 1;
             }
             return prevIndex; // Prevent exceeding the last index
         });
+
+        if (quiz.length > questionIndex + 1) {
+            const nextQuestionOptions = quiz[questionIndex + 1].options;
+            const shuffledOptions = shuffle(nextQuestionOptions);
+            setQuestion((prevQuestion) => ({ ...prevQuestion, options: shuffledOptions }));
+        }
     };
+
     console.log("score: ", score);
     return (
         <DataContext.Provider
@@ -90,7 +109,7 @@ export const DataProvider = ({ children }) => {
                 selectedCategory,
                 selectedDifficulty,
                 handleStart,
-                quizs,
+                quiz,
                 question,
                 questionIndex,
                 checkAnswer,
@@ -98,7 +117,7 @@ export const DataProvider = ({ children }) => {
                 correctAnswer,
                 selectedAnswer,
                 setSelectedAnswer,
-                score
+                score,
             }}
         >
             {children}
