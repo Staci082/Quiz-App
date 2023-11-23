@@ -12,8 +12,7 @@ const renderTime = ({ remainingTime }) => {
 };
 
 function Questions() {
-    const { selectedAmount, quizs, question, questionIndex, selectedCategory, selectedDifficulty, checkAnswer, nextQuestion, correctAnswer } = useContext(DataContext);
-    const [selectedOption, setSelectedOption] = useState("");
+    const { setSelectedAnswer, selectedAnswer, selectedAmount, quizs, question, questionIndex, selectedCategory, selectedDifficulty, checkAnswer, nextQuestion, correctAnswer } = useContext(DataContext);
 
     const handleTimeOut = () => {
         nextQuestion();
@@ -25,7 +24,7 @@ function Questions() {
         //     correctAnswer.classList.add("bg-lime-400"); 
         // }
     };
-    console.log("selected: ", selectedOption);
+    console.log("selected: ", selectedAnswer);
     console.log("correct: ", correctAnswer);
 
     const resultsLink = `/results?category=${selectedCategory}&amount=${selectedAmount}&difficulty=${selectedDifficulty}`;
@@ -66,10 +65,10 @@ function Questions() {
                 {question?.options?.map((option, index) => (
                     <button
                         onClick={() => {
-                            setSelectedOption(option);
+                            setSelectedAnswer(option);
                         }}
                         key={index}
-                        className={` bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600 ${selectedOption === option ? "border-white" : ""} ${correctAnswer === option ? "border-lime-400" : ""}`}
+                        className={` bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600 ${selectedAnswer === option ? "border-white" : ""} ${correctAnswer === option ? "border-lime-400" : ""}`}
                     >
                         {option}
                     </button>
@@ -78,9 +77,9 @@ function Questions() {
                 {questionIndex === quizs.length - 1 ? (
                     <a
                     href={resultsLink}
-                        disabled={!selectedOption}
+                        disabled={!selectedAnswer}
                         onClick={() => {
-                            handleSubmit(selectedOption);
+                            handleSubmit(selectedAnswer);
                         }}
                         className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700"
                     >
@@ -88,9 +87,9 @@ function Questions() {
                     </a>
                 ) : (
                     <button
-                        disabled={!selectedOption}
+                        disabled={!selectedAnswer}
                         onClick={() => {
-                            handleSubmit(selectedOption);
+                            handleSubmit(selectedAnswer);
                         }}
                         className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700"
                     >

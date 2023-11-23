@@ -96,6 +96,7 @@ export const DataProvider = ({ children }) => {
                 nextQuestion,
                 correctAnswer,
                 selectedAnswer,
+                setSelectedAnswer
             }}
         >
             {children}
