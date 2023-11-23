@@ -4,7 +4,19 @@ import { useContext, useState } from "react";
 import DataContext from "../context/dataContext";
 
 function Questions() {
-    const { score, setSelectedAnswer, selectedAnswer, selectedAmount, quiz, question, questionIndex, selectedCategory, selectedDifficulty, checkAnswer, nextQuestion, correctAnswer } = useContext(DataContext);
+    const { selectedAmount,
+        selectedCategory,
+        selectedDifficulty,
+        quiz,
+        question,
+        questionIndex,
+        checkAnswer,
+        nextQuestion,
+        correctAnswer,
+        selectedAnswer,
+        setSelectedAnswer,
+        score, } = useContext(DataContext);
+        
     const [timerKey, setTimerKey] = useState(0);
 
     const renderTime = ({ remainingTime }) => {

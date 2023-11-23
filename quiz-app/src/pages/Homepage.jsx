@@ -37,7 +37,7 @@ function Homepage() {
             alt: "lyre",
         },
         {
-            title: "Video Games",
+            title: "Gaming",
             img: "https://img.icons8.com/3d-fluency/94/controller.png",
             alt: "paint palette",
         },
@@ -52,7 +52,7 @@ function Homepage() {
             alt: "dna strand",
         },
         {
-            title: "Anime & Manga",
+            title: "Anime",
             img: "https://img.icons8.com/color/96/son-goku.png",
             alt: "goku",
         },
@@ -88,7 +88,7 @@ function Homepage() {
                         <button
                             onClick={() => openBottomElement(item.title)}
                             key={item.title}
-                            className={`flex-col w-36 h-32 outline-white rounded-lg relative inline-flex group items-center justify-center px-3.5 py-2 m-1 border-b-4 border-l-2 active:border-lime-600 active:shadow-none shadow-lg bg-gradient-to-tr from-lime-400 to-lime-600 border-lime-700 text-white active:translate-y-2`}
+                            className={`flex-col w-36 h-32 leading-none outline-white rounded-lg relative inline-flex group items-center justify-center px-3.5 py-2 m-1 border-b-4 border-l-2 active:border-lime-600 active:shadow-none shadow-lg bg-gradient-to-tr from-lime-400 to-lime-600 border-lime-700 text-white active:translate-y-2`}
                         >
                             <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white group-hover:w-24 group-hover:h-20 opacity-10"></span>
                             <img width="90" height="86" src={item.img} alt={item.alt} className="absolute bottom-12" />

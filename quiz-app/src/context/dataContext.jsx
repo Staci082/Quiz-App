@@ -108,7 +108,6 @@ export const DataProvider = ({ children }) => {
                 selectedAmount,
                 selectedCategory,
                 selectedDifficulty,
-                handleStart,
                 quiz,
                 question,
                 questionIndex,
