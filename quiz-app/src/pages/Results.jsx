@@ -12,8 +12,8 @@ function Results() {
 
     console.log(finalScore, selectedAmount);
 
-    const correctPercentage = ((finalScore / selectedAmount) * 100);
-    const incorrectPercentage = (100 - correctPercentage)
+    const correctPercentage = Math.ceil((finalScore / selectedAmount) * 100);
+const incorrectPercentage = Math.ceil(100 - correctPercentage)
 
     const questionsLink = `/questions?category=${selectedCategory}&amount=${selectedAmount}&Difficulty=${selectedDifficulty}`;
     return (

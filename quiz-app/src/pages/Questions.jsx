@@ -3,23 +3,30 @@ import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import { useContext, useState } from "react";
 import DataContext from "../context/dataContext";
 
-const renderTime = ({ remainingTime }) => {
-    return (
-        <div className="timer">
-            <div className="value text-2xl">{remainingTime}</div>
-        </div>
-    );
-};
+
 
 function Questions() {
     const { score, setSelectedAnswer, selectedAnswer, selectedAmount, quizs, question, questionIndex, selectedCategory, selectedDifficulty, checkAnswer, nextQuestion, correctAnswer } = useContext(DataContext);
     const [timerKey, setTimerKey] = useState(0);
-    const handleTimeOut = () => {
-        nextQuestion();
+
+    const renderTime = ({ remainingTime }) => {
+        if (remainingTime === 0) {
+            handleTimeOut(); // Handle the timeout when remainingTime reaches 0
+        }
+        return (
+            <div className="timer">
+                <div className="value text-2xl">{remainingTime}</div>
+            </div>
+        );
     };
 
-    const handleSubmit = (selected) => {
-        checkAnswer(selected);
+    const handleTimeOut = () => {
+        checkAnswer(selectedAnswer);
+        setTimerKey(prevKey => prevKey + 1);
+    };
+
+    const handleSubmit = () => {
+        checkAnswer(selectedAnswer);
         setTimerKey(prevKey => prevKey + 1);
         // if (correctAnswer) {
         //     correctAnswer.classList.add("bg-lime-400"); 
@@ -56,9 +63,7 @@ function Questions() {
                             strokeWidth={4}
                             duration={30}
                             colors={["#a3e635"]}
-                            onComplete={() => {
-                                return { handleTimeOut, shouldRepeat: true };
-                            }}
+                            onComplete={handleTimeOut}
                         >
                             {({ remainingTime }) => renderTime({ remainingTime })}
                         </CountdownCircleTimer>
@@ -82,9 +87,7 @@ function Questions() {
                     <a
                     href={resultsLink}
                         disabled={!selectedAnswer}
-                        onClick={() => {
-                            handleSubmit(selectedAnswer);
-                        }}
+                        onClick={handleSubmit}
                         className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700"
                     >
                         Finish
@@ -92,9 +95,7 @@ function Questions() {
                 ) : (
                     <button
                         disabled={!selectedAnswer}
-                        onClick={() => {
-                            handleSubmit(selectedAnswer);
-                        }}
+                        onClick={handleSubmit}
                         className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700"
                     >
                         Submit
