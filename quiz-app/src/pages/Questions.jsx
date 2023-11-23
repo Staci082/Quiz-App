@@ -13,12 +13,14 @@ const renderTime = ({ remainingTime }) => {
 
 function Questions() {
     const { score, setSelectedAnswer, selectedAnswer, selectedAmount, quizs, question, questionIndex, selectedCategory, selectedDifficulty, checkAnswer, nextQuestion, correctAnswer } = useContext(DataContext);
+    const [timerKey, setTimerKey] = useState(0);
     const handleTimeOut = () => {
         nextQuestion();
     };
 
     const handleSubmit = (selected) => {
         checkAnswer(selected);
+        setTimerKey(prevKey => prevKey + 1);
         // if (correctAnswer) {
         //     correctAnswer.classList.add("bg-lime-400"); 
         // }
@@ -34,7 +36,9 @@ function Questions() {
                 <a href="/" className="bg-teal-600 rounded-full w-8 h-8 flex justify-center items-center">
                     <MdOutlineArrowBackIosNew />
                 </a>
-                <button onClick={nextQuestion}>Skip</button>
+                <button onClick={() => {
+                    setTimerKey(prevKey => prevKey + 1);
+                    nextQuestion()}}>Skip</button>
             </header>
             <main className="flex flex-col items-center justify-center gap-4">
                 <div className=" bg-teal-400 rounded-lg h-auto w-80 flex flex-col items-center gap-6 p-4 pt-12 mb-4">
@@ -46,6 +50,7 @@ function Questions() {
                     </div>
                     <div className="timer-wrapper">
                         <CountdownCircleTimer
+                        key={timerKey}
                             isPlaying
                             size={60}
                             strokeWidth={4}
