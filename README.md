@@ -2,9 +2,7 @@
 
 Quizilla is a simple quiz application built with React.js and styled using Tailwind CSS. It allows users to take quizzes on various topics and check their knowledge.
 
-<img src="/images/logo.png](https://github.com/Staci082/Quiz-App/assets/125351559/fdb894be-af86-4bd1-aa03-dfcbfe532d4c" alt="Quizilla screenshot" width="200" height="200">
-
-![Quizilla Screenshot](https://github.com/Staci082/Quiz-App/assets/125351559/fdb894be-af86-4bd1-aa03-dfcbfe532d4c)
+![Quizilla Screenshot](https://github.com/Staci082/Quiz-App/assets/125351559/9a7a2c09-4b0d-4c5d-90e6-e2e1776b5ab5)
 
 
 ## Features
