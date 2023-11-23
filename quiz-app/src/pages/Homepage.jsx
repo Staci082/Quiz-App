@@ -75,7 +75,7 @@ function Homepage() {
     };
 
     // make url with value params
-    const questionsLink = `/questions?category=${selectedCategory}&amount=${selectedAmount}&Difficulty=${selectedDifficulty}`;
+    const questionsLink = `/questions?category=${selectedCategory}&amount=${selectedAmount}&difficulty=${selectedDifficulty}`;
 
     return (
         <>

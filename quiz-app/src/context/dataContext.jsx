@@ -30,7 +30,6 @@ export const DataProvider = ({ children }) => {
 
     const handleStart = () => {
         fetch(`../src/dataset/${selectedCategory}.json`)
-        
             .then((res) => {
                 if (!res.ok) {
                     throw new Error(`Network response was not ok: ${res.status}`);
@@ -58,34 +57,24 @@ export const DataProvider = ({ children }) => {
         if (quizs.length > questionIndex) {
             setQuestion(quizs[questionIndex]);
             setCorrectAnswer(quizs[questionIndex].answer);
+            setQuestionIndex(questionIndex);
         }
     }, [quizs, questionIndex]);
 
     // Check Answer
     const checkAnswer = (selected) => {
-        if (!selectedAnswer) {
-            setCorrectAnswer(question.answer);
-            setSelectedAnswer(selected);
-            console.log("correct: " , correctAnswer);
-            if (selected === question.answer) {
-                correctAnswer.target.classList.add("bg-lime-400");
-                setScore(score + 5);
-            } else {
-                selected.classList.add("bg-red-400");
-                correctAnswer.classList.add("bg-lime-400");
-            }
+        if (selected === correctAnswer) {
+            setScore(score + 1);
+            nextQuestion();
+        } else {
+            nextQuestion();
         }
-        // nextQuestion()
     };
 
     // Next Quesion
     const nextQuestion = () => {
         setCorrectAnswer("");
         setSelectedAnswer("");
-        const wrongBtn = document.querySelector("button.bg-lime-400");
-        wrongBtn?.classList.remove("bg-lime-400");
-        const rightBtn = document.querySelector("button.bg-red-400");
-        rightBtn?.classList.remove("bg-red-400");
         setQuestionIndex((prevIndex) => {
             if (prevIndex < quizs.length - 1) {
                 return prevIndex + 1;
@@ -93,7 +82,7 @@ export const DataProvider = ({ children }) => {
             return prevIndex; // Prevent exceeding the last index
         });
     };
-
+    console.log("score: ", score);
     return (
         <DataContext.Provider
             value={{
@@ -102,11 +91,11 @@ export const DataProvider = ({ children }) => {
                 handleStart,
                 quizs,
                 question,
+                questionIndex,
                 checkAnswer,
                 nextQuestion,
                 correctAnswer,
                 selectedAnswer,
-                score,
             }}
         >
             {children}

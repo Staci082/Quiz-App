@@ -2,7 +2,6 @@ import { MdOutlineArrowBackIosNew } from "react-icons/md";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import { useContext, useState } from "react";
 import DataContext from "../context/dataContext";
-import { Link } from "react-router-dom";
 
 const renderTime = ({ remainingTime }) => {
     return (
@@ -13,27 +12,24 @@ const renderTime = ({ remainingTime }) => {
 };
 
 function Questions() {
-    const { selectedAmount, quizs, question, questionIndex, selectedCategory, selectedDifficulty, checkAnswer, nextQuestion, correctAnswer, selectedAnswer, score } = useContext(DataContext);
-    const [timerKey, setTimerKey] = useState(0);
+    const { selectedAmount, quizs, question, questionIndex, selectedCategory, selectedDifficulty, checkAnswer, nextQuestion, correctAnswer } = useContext(DataContext);
     const [selectedOption, setSelectedOption] = useState("");
 
-    const resultsLink = `/results?category=${selectedCategory}&amount=${selectedAmount}&difficulty=${selectedDifficulty}`;
-
     const handleTimeOut = () => {
-        setTimerKey((prevKey) => prevKey + 1);
         nextQuestion();
     };
 
     const handleSubmit = (selected) => {
         checkAnswer(selected);
-
-         if (correctAnswer) {
-                correctAnswer.classList.add("bg-lime-400"); // Apply green background to correct element
-            }
-
-    }
+        // if (correctAnswer) {
+        //     correctAnswer.classList.add("bg-lime-400"); 
+        // }
+    };
     console.log("selected: ", selectedOption);
     console.log("correct: ", correctAnswer);
+
+    const resultsLink = `/results?category=${selectedCategory}&amount=${selectedAmount}&difficulty=${selectedDifficulty}`;
+
     return (
         <section className=" md:w-1/2 w-full  text-xl">
             <header className="flex justify-between p-4 mb-8">
@@ -47,12 +43,11 @@ function Questions() {
                     <div className="absolute top-16 right-0 left-0 m-auto bg-teal-600 rounded-xl w-36 px-10 py-2 flex flex-col items-center">
                         <h3>Question</h3>
                         <h3>
-                            {quizs.indexOf(question) + 1} / {quizs?.length}
+                            {questionIndex + 1} / {quizs?.length}
                         </h3>
                     </div>
                     <div className="timer-wrapper">
                         <CountdownCircleTimer
-                            key={timerKey} // Key to reset the timer
                             isPlaying
                             size={60}
                             strokeWidth={4}
@@ -80,9 +75,28 @@ function Questions() {
                     </button>
                 ))}
 
-                    <button disabled={!selectedOption} onClick={() => {handleSubmit(selectedOption)}} className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700">
+                {questionIndex === quizs.length - 1 ? (
+                    <a
+                    href={resultsLink}
+                        disabled={!selectedOption}
+                        onClick={() => {
+                            handleSubmit(selectedOption);
+                        }}
+                        className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700"
+                    >
+                        Finish
+                    </a>
+                ) : (
+                    <button
+                        disabled={!selectedOption}
+                        onClick={() => {
+                            handleSubmit(selectedOption);
+                        }}
+                        className="active:translate-y-1 text-2xl bg-teal-600 rounded-lg w-80 py-3 my-6 border-b-4 border-l-2 border-teal-700"
+                    >
                         Submit
                     </button>
+                )}
             </main>
         </section>
     );
