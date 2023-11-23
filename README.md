@@ -9,7 +9,6 @@ Quizilla is a simple quiz application built with React.js and styled using Tailw
 
 - **Interactive Quizzes:** Take quizzes on different topics.
 - **Random Questions:** Get a set of random questions for each quiz.
-- **Score Tracking:** Keep track of your quiz scores.
 
 ## Demo
 You can view the live demo of Quizilla [here](https://quizilla-nu.vercel.app/).
@@ -17,7 +16,9 @@ You can view the live demo of Quizilla [here](https://quizilla-nu.vercel.app/).
 ## Tech Stack
 
 - React.js
+- Typescript
 - Tailwind CSS
+- MongoDB
 
 ## Deployment
 
