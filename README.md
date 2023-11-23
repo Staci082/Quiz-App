@@ -16,7 +16,6 @@ You can view the live demo of Quizilla [here](https://quizilla-nu.vercel.app/).
 ## Tech Stack
 
 - React.js
-- Typescript
 - Tailwind CSS
 - MongoDB
 
