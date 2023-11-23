@@ -80,15 +80,15 @@ function Homepage() {
     return (
         <>
             <section className="flex flex-col items-center py-8">
-                <img width="48" height="48" src="https://img.icons8.com/color/96/kawaii-dinosaur--v2.png" alt="kawaii-dinosaur--v2" />
-                <h1 className="text-4xl font-nanum font-bold mb-20">Quizilla</h1>
+                <img width="64" height="64" src="zilla.png" alt="kawaii-dinosaur--v2" />
+                <h1 className="text-5xl font-nanum font-bold mb-16 mt-4">Quizilla</h1>
 
-                <main className="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-6 ">
+                <main className="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-6">
                     {categories.map((item) => (
                         <button
                             onClick={() => openBottomElement(item.title)}
                             key={item.title}
-                            className={`flex-col w-38 h-32 outline-white rounded-lg relative inline-flex group items-center justify-center px-3.5 py-2 m-1 border-b-4 border-l-2 active:border-lime-600 active:shadow-none shadow-lg bg-gradient-to-tr from-lime-400 to-lime-600 border-lime-700 text-white active:translate-y-2`}
+                            className={`flex-col w-36 h-32 outline-white rounded-lg relative inline-flex group items-center justify-center px-3.5 py-2 m-1 border-b-4 border-l-2 active:border-lime-600 active:shadow-none shadow-lg bg-gradient-to-tr from-lime-400 to-lime-600 border-lime-700 text-white active:translate-y-2`}
                         >
                             <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white group-hover:w-24 group-hover:h-20 opacity-10"></span>
                             <img width="90" height="86" src={item.img} alt={item.alt} className="absolute bottom-12" />

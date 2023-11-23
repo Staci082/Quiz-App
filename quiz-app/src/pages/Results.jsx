@@ -13,15 +13,15 @@ function Results() {
     console.log(finalScore, selectedAmount);
 
     const correctPercentage = Math.ceil((finalScore / selectedAmount) * 100);
-const incorrectPercentage = Math.ceil(100 - correctPercentage)
+    const incorrectPercentage = Math.ceil(100 - correctPercentage);
 
     const questionsLink = `/questions?category=${selectedCategory}&amount=${selectedAmount}&Difficulty=${selectedDifficulty}`;
     return (
         <>
             <section className=" py-8 flex flex-col items-center pb-6 gap-6">
                 <div className="flex flex-col items-center gap-6">
-                    <img width="94" height="94" src="https://img.icons8.com/color/96/kawaii-dinosaur--v2.png" alt="christmas-star" />
-                    <b className="text-4xl">You win!</b>
+                    <img width="94" height="94" src={correctPercentage > 50 ? "zilla.png" : "sadzilla.png"} alt="christmas-star" />
+                    <b className="text-4xl">{correctPercentage > 50 ? "You win!" : "You lose!"}</b>
                 </div>
 
                 <div className="relative bg-teal-400 rounded-lg h-80 w-80 flex flex-col items-center justify-between mb-6">
@@ -29,14 +29,8 @@ const incorrectPercentage = Math.ceil(100 - correctPercentage)
                         <p>Quiz type:</p>
                         <b className="text-lime-300">{selectedCategory.toUpperCase()}</b>
                     </div>
-                    <PieChart
-                    totalValue={selectedAmount}
-                    background="#0d9488"
-                        data={[
-                            { title: "Correct", value: finalScore, color: "#a3e635" }
-                        ]}
-                    />
-                    
+                    <PieChart totalValue={selectedAmount} background="#0d9488" data={[{ title: "Correct", value: finalScore, color: "#a3e635" }]} />
+
                     <div className="flex gap-4 my-4">
                         <div className="flex items-center gap-1">
                             <GoDotFill className="text-lime-400" />
@@ -44,7 +38,7 @@ const incorrectPercentage = Math.ceil(100 - correctPercentage)
                             <p className="text-teal-600 ml-1">{correctPercentage}%</p>
                         </div>
                         <div className="flex items-center gap-1">
-                            <GoDotFill className="text-teal-600"/>
+                            <GoDotFill className="text-teal-600" />
                             <p>Incorrect </p>
                             <p className="text-teal-600 ml-1">{incorrectPercentage}%</p>
                         </div>
