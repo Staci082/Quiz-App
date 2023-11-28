@@ -16,7 +16,7 @@ function Questions() {
         selectedAnswer,
         setSelectedAnswer,
         score, } = useContext(DataContext);
-        
+
     const [timerKey, setTimerKey] = useState(0);
 
     const renderTime = ({ remainingTime }) => {
@@ -38,9 +38,7 @@ function Questions() {
     const handleSubmit = () => {
         checkAnswer(selectedAnswer);
         setTimerKey((prevKey) => prevKey + 1);
-        // if (correctAnswer) {
-        //     correctAnswer.classList.add("bg-lime-400");
-        // }
+        
     };
 
     console.log("selected: ", selectedAnswer);
@@ -76,7 +74,7 @@ function Questions() {
                             {({ remainingTime }) => renderTime({ remainingTime })}
                         </CountdownCircleTimer>
                     </div>
-                    <p className="text-2xl">{question?.question}</p>
+                    <p className="text-3xl">{question?.question}</p>
                 </div>
 
                 {question?.options?.map((option, index) => (
@@ -85,7 +83,7 @@ function Questions() {
                             setSelectedAnswer(option);
                         }}
                         key={index}
-                        className={` bg-teal-400 rounded-lg w-80 py-3 border-b-4 border-l-2 border-teal-600 ${selectedAnswer === option ? "border-white" : ""} ${correctAnswer === option ? "border-lime-400" : ""}`}
+                        className={` bg-teal-400 rounded-lg w-80 py-3 text-3xl border-b-4 border-l-2 border-teal-600 ${selectedAnswer === option ? "border-4 border-white" : ""}`}
                     >
                         {option}
                     </button>
