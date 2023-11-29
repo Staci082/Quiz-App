@@ -18,10 +18,12 @@ You can view the live demo of Quizilla [here](https://quizilla-nu.vercel.app/).
 - React.js
 - Tailwind CSS
 - MongoDB
+- Node.js
+- Express.js
 
 ## Deployment
 
-The app is deployed using Vercel.
+The app is deployed using Vercel and Render.
 
 ## Contributing
 
