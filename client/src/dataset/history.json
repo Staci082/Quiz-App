@@ -1,304 +1,352 @@
-{
-    "history": [
+[
         {
+            "category": "history",
             "question": "The seed drill was invented by which British inventor?",
             "options": ["Charles Babbage", "Isaac Newton", "J.J Thomson", "Jethro Tull"],
             "answer": "Jethro Tull",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "What event marked the start of World War II?",
             "options": ["Invasion of Russia (1942)", "Battle of Britain (1940)", "Invasion of Normandy (1944)", "Invasion of Poland (1939)"],
             "answer": "Invasion of Poland (1939)",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "In what year did Neil Armstrong and Buzz Aldrin land on the moon?",
             "options": ["1965", "1966", "1973", "1969"],
             "answer": "1969",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "Japan was part of the Allied Powers during World War I.",
             "options": ["False", "True"],
             "answer": "True",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "Who discovered Penicillin?",
             "options": ["Marie Curie", "Alfred Nobel", "Louis Pasteur", "Alexander Flemming"],
             "answer": "Alexander Flemming",
             "difficulty": "easy"
         },
         {
+            "category": "history",
             "question": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
             "options": ["Galicia", "León", "Navarre", "Aragon"],
             "answer": "Aragon",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
             "options": ["New York Spy Ring", "Washington's Spies", "Unnamed", "Culper Ring"],
             "answer": "Culper Ring",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?",
             "options": ["Kawasaki", "Tokyo", "Kagoshima", "Nagasaki"],
             "answer": "Nagasaki",
             "difficulty": "easy"
         },
         {
+            "category": "history",
             "question": "Which of the following is NOT classified as a Semitic language?",
             "options": ["Maltese", "Akkadian", "Mandaic", "Sumerian"],
             "answer": "Sumerian",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "Which famous world leader is famed for the saying, 'Let them eat cake', yet is rumored that he/she never said it at all?",
             "options": ["Czar Nicholas II", "Elizabeth I", "Henry VIII", "Marie Antoinette"],
             "answer": "Marie Antoinette",
             "difficulty": "easy"
         },
         {
+            "category": "history",
             "question": "The collapse of the Soviet Union took place in which year?",
             "options": ["1992", "1891", "1990", "1991"],
             "answer": "1991",
             "difficulty": "easy"
         },
         {
+            "category": "history",
             "question": "On which day did ARPANET suffer a 4-hour long network crash?",
             "options": ["November 21, 1969", "October 29, 1969", "December 9, 1991", "October 27, 1980"],
             "answer": "October 27, 1980",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "When was 'The Gadget', the first nuclear device to be detonated, tested?",
             "options": ["June 22, 1945", "August 6, 1945", "April 5, 1945", "July 16, 1945"],
             "answer": "July 16, 1945",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "Which of these countries was NOT a part of the Soviet Union?",
             "options": ["Turkmenistan", "Kazakhstan", "Uzbekistan", "Afghanistan"],
             "answer": "Afghanistan",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "In which year did the First World War begin?",
             "options": ["1930", "1917", "1939", "1914"],
             "answer": "1914",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "When did Canada leave the confederation to become their own nation?",
             "options": ["July 1st, 1763", "July 1st, 1832", "July 1st, 1902", "July 1st, 1867"],
             "answer": "July 1st, 1867",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "United States President John F. Kennedy was assassinated during his presidential motorcade in Atlanta, Georgia on November 22nd, 1963.",
             "options": ["True", "False"],
             "answer": "False",
             "difficulty": "easy"
         },
         {
+            "category": "history",
             "question": "Which one of these rulers did not belong to the Habsburg dynasty?",
             "options": ["Charles V", "Philip II", "Francis Joseph", "Philip V"],
             "answer": "Philip V",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "Where and when was the first cardboard box made for industrial use?",
             "options": ["United States, 1817", "England, 1917", "United States, 1917", "England, 1817"],
             "answer": "England, 1817",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "How many sonatas did Ludwig van Beethoven write?",
             "options": ["50", "31", "21", "32"],
             "answer": "32",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "Against which country did the Dutch Republic fight the Eighty Years' War?",
             "options": ["France", "England", "Portugal", "Spain"],
             "answer": "Spain",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "What nationality was Sultan Saladin?",
             "options": ["Arab", "Egyptian", "Syrian", "Kurdish"],
             "answer": "Kurdish",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "Who invented the 'Flying Shuttle' in 1738; one of the key developments in the industrialization of weaving?",
             "options": ["James Hargreaves", "Richard Arkwright", "John Deere", "John Kay"],
             "answer": "John Kay",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "Abraham Lincoln was the first U.S. President to be born outside the borders of the thirteen original states.",
             "options": ["False", "True"],
             "answer": "True",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "United States President Ronald Reagan was the first president to appoint a woman to the Supreme Court.",
             "options": ["False", "True"],
             "answer": "True",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "The Battle of Trafalgar took place on October 23rd, 1805",
             "options": ["True", "False"],
             "answer": "False",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "When did Norway get its constitution?",
             "options": ["1932", "1905", "1854", "1814"],
             "answer": "1814",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "When did Norway become free from Sweden?",
             "options": ["1925", "1814", "1834", "1905"],
             "answer": "1905",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "Which historical conflict killed the most people?",
             "options": ["Taiping Rebellion", "Three Kingdoms War", "Mongol conquests", "World War II"],
             "answer": "World War II",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "Who was the first president born in the independent United States?",
             "options": ["John Adams", "George Washington", "James Monroe", "Martin Van Buren"],
             "answer": "Martin Van Buren",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "Who is attributed credit for recording the epic poem The Odyssey?",
             "options": ["Aristotle", "Odysseus", "Socrates", "Homer"],
             "answer": "Homer",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "The 'Trail of Tears' was a result of which United States President's Indian Removal Policy?",
             "options": ["Harry S. Truman", "Martin Van Buren", "John Quincy Adams", "Andrew Jackson"],
             "answer": "Andrew Jackson",
             "difficulty": "easy"
         },
         {
+            "category": "history",
             "question": "Which country was an allied power in World War II?",
             "options": ["Italy", "Germany", "Japan", "Soviet Union"],
             "answer": "Soviet Union",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "When was the People's Republic of China founded?",
             "options": ["April 3, 1947", "May 7, 1945", "December 6, 1950", "October 1, 1949"],
             "answer": "October 1, 1949",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "Which country gifted the Statue of Liberty to the United States of America?",
             "options": ["Spain", "England", "Germany", "France"],
             "answer": "France",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "Which day did World War I begin?",
             "options": ["January 28", "June 28", "April 28", "July 28"],
             "answer": "July 28",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "On which aircraft carrier did the Doolittle Raid launch from on April 18, 1942 during World War II?",
             "options": ["USS Enterprise", "USS Lexington", "USS Saratoga", "USS Hornet"],
             "answer": "USS Hornet",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "When did construction of the Suez Canal finish?",
             "options": ["1859", "1860", "1850", "1869"],
             "answer": "1869",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "In 1845, a series of wars named after which indigenous people began in New Zealand?",
             "options": ["Papuans", "Aborigines", "Polynesians", "Māori"],
             "answer": "Māori",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "The ancient city of Chichén Itzá was built by which civilization?",
             "options": ["Aztecs", "Incas", "Toltecs", "Mayans"],
             "answer": "Mayans",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "Which of the following is not in the Indo-European language family?",
             "options": ["English", "Hindi", "Russian", "Finnish"],
             "answer": "Finnish",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "The man that shot Alexander Hamilton was named Aaron Burr.",
             "options": ["False", "True"],
             "answer": "True",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "Who was the first Chancellor of a united Germany in 1871?",
             "options": ["Kaiser Wilhelm", "Fredrick the 2nd", "Robert Koch", "Otto Von Bismark"],
             "answer": "Otto Von Bismark",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "In what year was the M1911 pistol designed?",
             "options": ["1907", "1899", "1917", "1911"],
             "answer": "1911",
             "difficulty": "easy"
         },
         {
+            "category": "history",
             "question": "Which Louis was known as 'The Sun King of France'?",
             "options": ["Louis XIII", "Louis XV", "Louis XVI", "Louis XIV"],
             "answer": "Louis XIV",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "During which American Civil War campaign did Union troops dig a tunnel beneath Confederate troops to detonate explosives underneath them?",
             "options": ["Siege of Vicksburg", "Antietam Campaign", "Gettysburg Campagin", "Siege of Petersburg"],
             "answer": "Siege of Petersburg",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "The Bohemian Revolt (1618-1620) started after Protestants in Prague did what to their Catholic Lords Regents?",
             "options": ["Insulted their mothers", "Locked them in stockades", "Hung them.", "Threw them out of a window"],
             "answer": "Threw them out of a window",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "The son of which pope supposedly held a lecherous fête involving 50 courtesans in the papal palace?",
             "options": ["Innocent V", "Urban II", "Pius III", "Alexander VI"],
             "answer": "Alexander VI",
             "difficulty": "hard"
         },
         {
+            "category": "history",
             "question": "John Moses Browning, the designer of the M1918 BAR (Browning Automatic Rifle) was a part of which religion?",
             "options": ["Catholic", "Jewish", "Atheist", "Mormon"],
             "answer": "Mormon",
             "difficulty": "medium"
         },
         {
+            "category": "history",
             "question": "Who is the creator of the soft drink, Dr. Pepper?",
             "options": ["James Wellington", "Johnson Hinsin", "Boris Heviltik", "Charles Alderton"],
             "answer": "Charles Alderton",
             "difficulty": "hard"
         }
     ]
-}

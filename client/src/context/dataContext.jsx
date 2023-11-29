@@ -41,7 +41,7 @@ export const DataProvider = ({ children }) => {
                 setQuiz(randomQuestions);
             })
             .catch((error) => {
-                console.error("Error fetching data: ", error);
+                console.error("Error fetching data:", error);
                 console.log("Response status:", error.response?.status);
                 console.log("Response text:", error.response?.text());
             });

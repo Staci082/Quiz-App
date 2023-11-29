@@ -1,120 +1,139 @@
-{
-    "gaming": [
+[
         {
+            "category": "gaming",
             "difficulty": "easy",
             "question": "What is the name of &quot;Team Fortress 2&quot; update, in which it became Free-to-play?",
             "answer": "&Uuml;ber Update",
             "options": ["&Uuml;ber Update", "Pyromania Update", "Mann-Conomy Update", "Engineer Update"]
         },
         {
+            "category": "gaming",
             "difficulty": "easy",
             "question": "League of Legends, DOTA 2, Smite and Heroes of the Storm are all part of which game genre?",
             "answer": "Multiplayer Online Battle Arena (MOBA)",
             "options": ["Multiplayer Online Battle Arena (MOBA)", "Real Time Strategy (RTS)", "First Person Shooter (FPS)", "Role Playing Game (RPG)"]
         },
         {
+            "category": "gaming",
             "difficulty": "easy",
             "question": "Which company did Gabe Newell work at before founding Valve Corporation?",
             "answer": "Microsoft",
             "options": ["Microsoft", "Apple", "Google", "Yahoo"]
         },
         {
+            "category": "gaming",
             "difficulty": "hard",
             "question": "Which of these TrackMania environments was NOT in the original game?",
             "answer": "Bay",
             "options": ["Bay", "Desert", "Snow", "Rally"]
         },
         {
+            "category": "gaming",
             "difficulty": "medium",
             "question": "What is the main character of Metal Gear Solid 2?",
             "answer": "Raiden",
             "options": ["Raiden", "Solidus Snake", "Big Boss", "Venom Snake"]
         },
         {
+            "category": "gaming",
             "difficulty": "easy",
             "question": "What is the name of Team Fortress 2&#039;s Heavy Weapons Guy&#039;s minigun?",
             "answer": "Sasha",
             "options": ["Sasha", "Betty", "Anna", "Diana"]
         },
         {
+            "category": "gaming",
             "difficulty": "hard",
             "question": "The Internet Meme &quot;All your base are belong to us&quot; is based on the poorly translated English Version of which Video Game?",
             "answer": "Zero Wing",
             "options": ["Zero Wing", "F-Zero", "Wing Commander", "Star Wars: X-Wing"]
         },
         {
+            "category": "gaming",
             "difficulty": "easy",
             "question": "Who is the main character of the game Half-Life: Opposing Force?",
             "answer": "Adrian Shephard",
             "options": ["Adrian Shephard", "Gordon Freeman", "Alyx Vance", "Barney Calhoun"]
         },
         {
+            "category": "gaming",
             "difficulty": "hard",
             "question": "What was the nickname of the original model for Half-Life&#039;s protagonist Gordon Freeman?",
             "answer": "Ivan the Space Biker",
             "options": ["Ivan the Space Biker", "Gordon the Space Biker", "Ivan the Alien Biker", "Gordon the Alien Biker"]
         },
         {
+            "category": "gaming",
             "difficulty": "easy",
             "question": "Who is the main character in &quot;The Stanley Parable&quot;?",
             "answer": "Stanley",
             "options": ["Stanley", "The Adventure Line", "The Narrator", "The Boss"]
         },
         {
+            "category": "gaming",
             "difficulty": "easy",
             "question": "What Nationality is D.Va from Overwatch?",
             "answer": "Korean",
             "options": ["Korean", "Japanese", "Chinese", "Vietnamese"]
         },
         {
+            "category": "gaming",
             "difficulty": "easy",
             "question": "&quot;Half-Life 2&quot; runs on the Source Engine.",
             "answer": "True",
             "options": ["True", "False"]
         },
         {
+            "category": "gaming",
             "difficulty": "medium",
             "question": "In the game &quot;Cave Story,&quot; what is the character Balrog&#039;s catchphrase?",
             "answer": "Huzzah!",
             "options": ["Huzzah!", "Yes!", "Whoa there!", "Nyeh heh heh!"]
         },
         {
+            "category": "gaming",
             "difficulty": "easy",
             "question": "In the game &quot;Overwatch,&quot; what are the names of the two Australian criminals from the Junkers faction?",
             "answer": "Junkrat and Roadhog",
             "options": ["Junkrat and Roadhog", "Roadrat and Junkhog", "Ana and Pharah", "McCree and Deadeye"]
         },
         {
+            "category": "gaming",
             "difficulty": "easy",
             "question": "What was the original name of Crash Bandicoot?",
             "answer": "Willie Wombat",
             "options": ["Willie Wombat", "Coco Bandicoot", "Marvelous Mole", "Wally Wombat"]
         },
         {
+            "category": "gaming",
             "difficulty": "medium",
             "question": "TF2: The Medic will be credited for an assist if he heals a Spy that successfully saps a building.",
             "answer": "True",
             "options": ["True", "False"]
         },
         {
+            "category": "gaming",
             "difficulty": "medium",
             "question": "In &quot;Overwatch&quot;, what is the name of Mercy&#039;s &quot;ultimate ability&quot;?",
             "answer": "Valkyrie",
             "options": ["Valkyrie", "Earthshatter", "Rocket Barrage", "Molten Core"]
         },
         {
+            "category": "gaming",
             "difficulty": "easy",
             "question": "The main playable character of the 2015 RPG &quot;Undertale&quot; is a monster.",
             "answer": "False",
             "options": ["False", "True"]
         },
         {
+            "category": "gaming",
             "difficulty": "easy",
             "question": "What video game sparked controversy because of its hidden &quot;Hot Coffee&quot; minigame?",
             "answer": "Grand Theft Auto: San Andreas",
             "options": ["Grand Theft Auto: San Andreas", "Grand Theft Auto: Vice City", "Hitman: Blood Money", "Cooking Mama"]
         },
         {
+            "category": "gaming",
             "difficulty": "medium",
             "question": "Which Game Development company made No Man&#039;s Sky?",
             "answer": "Hello Games",
@@ -124,6 +143,7 @@
             "question": "The names of Roxas's Keyblades in Kingdom Hearts are 'Oathkeeper' and 'Oblivion'.",
             "options": ["True", "False"],
             "answer": "True",
+            "category": "gaming",
             "difficulty": "hard"
         },
 
@@ -131,6 +151,7 @@
             "question": "In the game Dead by Daylight, the killer Michael Myers is referred to as 'The Shape'.",
             "options": ["True", "False"],
             "answer": "True",
+            "category": "gaming",
             "difficulty": "easy"
         },
 
@@ -138,6 +159,7 @@
             "question": "In Animal Crossing: New Leaf, which of these paintings from Redd's Art Gallery is always genuine?",
             "options": ["Warm Painting", "Jolly Painting", "Neutral Painting", "Wistful Painting"],
             "answer": "Warm Painting",
+            "category": "gaming",
             "difficulty": "hard"
         },
 
@@ -145,6 +167,7 @@
             "question": "When was Nintendo's Virtual Boy released?",
             "options": ["1989", "1997", "1992", "1995"],
             "answer": "1995",
+            "category": "gaming",
             "difficulty": "medium"
         },
 
@@ -152,6 +175,7 @@
             "question": "In Rust, how many Timed Explosive Charges does it take to destroy a Ladder Hatch?",
             "options": ["3", "2", "5", "1"],
             "answer": "1",
+            "category": "gaming",
             "difficulty": "easy"
         },
 
@@ -159,6 +183,7 @@
             "question": "Which of the following has Jennifer Taylor NOT voiced?",
             "options": ["Princess Peach", "Zoey", "Cortana", "Sarah Kerrigan"],
             "answer": "Sarah Kerrigan",
+            "category": "gaming",
             "difficulty": "medium"
         },
 
@@ -166,6 +191,7 @@
             "question": "In 'Mario & Sonic at the Olympic Games', characters are split into how many types?",
             "options": ["6", "5", "3", "4"],
             "answer": "4",
+            "category": "gaming",
             "difficulty": "easy"
         },
 
@@ -173,6 +199,7 @@
             "question": "What element does the Zinogre use in Monster Hunter?",
             "options": ["Ice", "Fire", "Water", "Thunder"],
             "answer": "Thunder",
+            "category": "gaming",
             "difficulty": "medium"
         },
 
@@ -180,6 +207,7 @@
             "question": "In Undertale, how much do Spider Donuts cost in Hotland?",
             "options": ["7G", "40G", "12G", "9999G"],
             "answer": "9999G",
+            "category": "gaming",
             "difficulty": "medium"
         },
 
@@ -187,6 +215,7 @@
             "question": "In the video game 'Transistor', 'Red' is the name of the main character.",
             "options": ["True", "False"],
             "answer": "True",
+            "category": "gaming",
             "difficulty": "medium"
         },
 
@@ -194,6 +223,7 @@
             "question": "Which game is NOT part of the Science Adventure series by 5pb. and Nitroplus?",
             "options": ["Steins; Gate", "Robotics; Notes", "Chaos; Child", "Occultic; Nine"],
             "answer": "Occultic; Nine",
+            "category": "gaming",
             "difficulty": "medium"
         },
 
@@ -201,6 +231,7 @@
             "question": "In the game 'Hearthstone', what is the best rank possible?",
             "options": ["Rank 1 Elite", "Rank 1 Master", "Rank 1 Supreme", "Rank 1 Legend"],
             "answer": "Rank 1 Legend",
+            "category": "gaming",
             "difficulty": "easy"
         },
 
@@ -208,6 +239,7 @@
             "question": "What game was used to advertise Steam?",
             "options": ["Half-Life", "Half-Life 2", "Team Fortress", "Counter-Strike 1.6"],
             "answer": "Counter-Strike 1.6",
+            "category": "gaming",
             "difficulty": "easy"
         },
 
@@ -215,6 +247,7 @@
             "question": "In 'Final Fantasy VI', what is the name of (summoned) Gilgamesh's weakest attack?",
             "options": ["Excalibore", "Excalisnore", "Excalisore", "Excalipoor"],
             "answer": "Excalipoor",
+            "category": "gaming",
             "difficulty": "hard"
         },
 
@@ -222,12 +255,14 @@
             "question": "In 'The Binding of Isaac', which item instantly kills Mom and Mom's Heart?",
             "options": ["The Halo", "Brimstone", "Book of Shadows", "The Bible"],
             "answer": "The Bible",
+            "category": "gaming",
             "difficulty": "hard"
         },
         {
             "question": "Which 'Call Of Duty: Zombies' map introduced the 'Staffs Of The Ancients'?",
             "options": ["Shangri-La", "Revelations", "Nuketown", "Origins"],
             "answer": "Origins",
+            "category": "gaming",
             "difficulty": "easy"
         },
 
@@ -235,6 +270,7 @@
             "question": "In the 'Call Of Duty: Zombies' map 'Origins', how many steps are there to upgrade a Staff?",
             "options": ["7", "5", "3", "4"],
             "answer": "4",
+            "category": "gaming",
             "difficulty": "medium"
         },
 
@@ -242,6 +278,7 @@
             "question": "In 'Call Of Duty: Zombies', which map introduced the perk 'PhD Flopper'?",
             "options": ["Moon", "Call Of The Dead", "Die Rise", "Ascension"],
             "answer": "Ascension",
+            "category": "gaming",
             "difficulty": "medium"
         },
 
@@ -249,6 +286,7 @@
             "question": "In 'Call of Duty: Black Ops III' Zombies, what does completing all the main easter eggs reward you with?",
             "options": ["Juggernog at the start of each game", "50 Liquid Diviniums", "All three options.", "1,000,000 XP"],
             "answer": "1,000,000 XP",
+            "category": "gaming",
             "difficulty": "medium"
         },
 
@@ -256,6 +294,7 @@
             "question": "What was the name of Sonic the Hedgehog's original human girlfriend?",
             "options": ["Celeste", "Sierra", "Nina", "Madonna"],
             "answer": "Madonna",
+            "category": "gaming",
             "difficulty": "hard"
         },
 
@@ -263,6 +302,7 @@
             "question": "In CoD: Black Ops III, what is the name of the rogue A.I. antagonist?",
             "options": ["Cabal", "Legion", "Icarus", "Corvus"],
             "answer": "Corvus",
+            "category": "gaming",
             "difficulty": "easy"
         },
 
@@ -270,6 +310,7 @@
             "question": "In 'Yo! Noid 2,' The Noid can perform what special move?",
             "options": ["Pizza Throw", "Dodge Roll", "Spin Dash", "Dab"],
             "answer": "Dab",
+            "category": "gaming",
             "difficulty": "easy"
         },
 
@@ -277,6 +318,7 @@
             "question": "What CoD 'Deathstreak' is only featured in Call of Duty: Modern Warfare 2?",
             "options": ["Martrydom", "Final Stand", "Revenge", "Copycat"],
             "answer": "Copycat",
+            "category": "gaming",
             "difficulty": "medium"
         },
 
@@ -284,6 +326,7 @@
             "question": "In Geometry Dash, what is level 13?",
             "options": ["Theory of Everything", "Clubstep", "Clutterfunk", "Electroman Adventures"],
             "answer": "Electroman Adventures",
+            "category": "gaming",
             "difficulty": "hard"
         },
 
@@ -291,6 +334,7 @@
             "question": "Which of 2 Valve Games are set in the same universe?",
             "options": ["Portal and Left 4 Dead", "Half-life and Left 4 Dead", "Half-life and Counter Strike", "Half-life and Portal"],
             "answer": "Half-life and Portal",
+            "category": "gaming",
             "difficulty": "easy"
         },
 
@@ -298,6 +342,7 @@
             "question": "Who is the main protagonist in the game Life is Strange: Before The Storm?",
             "options": ["Max Caulfield", "Rachel Amber", "Frank Bowers", "Chloe Price"],
             "answer": "Chloe Price",
+            "category": "gaming",
             "difficulty": "easy"
         },
 
@@ -305,6 +350,7 @@
             "question": "In Splatoon 2, who are the members of Off The Hook?",
             "options": ["Callie & Marie", "Diamond & Aquamarina", "DJ Octavio & Crusty Sean", "Pearl & Marina"],
             "answer": "Pearl & Marina",
+            "category": "gaming",
             "difficulty": "easy"
         },
 
@@ -312,6 +358,7 @@
             "question": "GoldenEye 007 on the Nintendo 64 was planned to allow you to play as all previous Bond actors, with the exception of who?",
             "options": ["Roger Moore", "Sean Connery", "Timothy Dalton", "George Lazenby"],
             "answer": "George Lazenby",
+            "category": "gaming",
             "difficulty": "hard"
         },
 
@@ -319,13 +366,15 @@
             "question": "In Pokemon Diamond, Pearl and Platinum, where can a Munchlax be found?",
             "options": ["Trading with an NPC", "Grass on Route 209", "Wayward Cave", "Honey Trees"],
             "answer": "Honey Trees",
+            "category": "gaming",
             "difficulty": "medium"
         },
         {
             "question": "From the Meme Culture, which Mario game immerged 'Weegee'?",
             "options": ["Mario is Missing! SNES Version", "Mario is Missing! NES Version", "Mario is Missing! MSX Version", "Mario is Missing! MS-DOS Version"],
             "answer": "Mario is Missing! MS-DOS Version",
+            "category": "gaming",
             "difficulty": "medium"
         }
     ]
-}
+

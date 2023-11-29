@@ -1,304 +1,352 @@
-{
-    "math": [
+[
         {
+            "category": "math",
             "question": "In the hexadecimal system, what number comes after 9?",
             "options": ["10", "The Number 0", "16", "The Letter A"],
             "answer": "The Letter A",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "What is the derivative of Acceleration with respect to time?",
             "options": ["Shift", "Bump", "Slide", "Jerk"],
             "answer": "Jerk",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "What is the approximate value of mathematical constant e?",
             "options": ["3.14", "1.62", "1.41", "2.72"],
             "answer": "2.72",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "How many zeros are there in a googol?",
             "options": ["10", "1,000", "1,000,000", "100"],
             "answer": "100",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "What is the area of a circle with a diameter of 20 inches if π= 3.1415?",
             "options": ["380.1215 Inches", "3141.5 Inches", "1256.6 Inches", "314.15 Inches"],
             "answer": "314.15 Inches",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "The Pythagorean theorem states that the square of the hypotenuse is equal to the product of the squares of the other two sides.",
             "options": ["True", "False"],
             "answer": "False",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "What are the first 6 digits of the number \"Pi\"?",
             "options": ["3.14169", "3.12423", "3.25812", "3.14159"],
             "answer": "3.14159",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "In Roman Numerals, what does XL equate to?",
             "options": ["60", "15", "90", "40"],
             "answer": "40",
             "difficulty": "easy"
         },
         {
+            "category": "math",
             "question": "What is the Roman numeral for 500?",
             "options": ["L", "C", "X", "D"],
             "answer": "D",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "What's the square root of 49?",
             "options": ["4", "12", "9", "7"],
             "answer": "7",
             "difficulty": "easy"
         },
         {
+            "category": "math",
             "question": "How many zeptometres are inside one femtometre?",
             "options": ["10", "1,000,000,000", "1000", "1,000,000"],
             "answer": "1,000,000",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "What is the first Mersenne prime exponent over 1000?",
             "options": ["2203", "1009", "1069", "1279"],
             "answer": "1279",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "The proof for the Chinese Remainder Theorem used in Number Theory was NOT developed by its first publisher, Sun Tzu.",
             "options": ["True", "False"],
             "answer": "True",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "A universal set, or a set that contains all sets, exists.",
             "options": ["True", "False"],
             "answer": "False",
             "difficulty": "easy"
         },
         {
+            "category": "math",
             "question": "111,111,111 x 111,111,111 = 12,345,678,987,654,321",
             "options": ["True", "False"],
             "answer": "True",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "The 'Squaring the Circle' problem is solvable.",
             "options": ["True", "False"],
             "answer": "False",
             "difficulty": "easy"
         },
         {
+            "category": "math",
             "question": "What prime number comes next after 19?",
             "options": ["25", "21", "27", "23"],
             "answer": "23",
             "difficulty": "easy"
         },
         {
+            "category": "math",
             "question": "If you could fold a piece of paper in half 50 times, its' thickness will be 3/4th the distance from the Earth to the Sun.",
             "options": ["True", "False"],
             "answer": "True",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "What is the alphanumeric representation of the imaginary number?",
             "options": ["e", "n", "x", "i"],
             "answer": "i",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "To the nearest whole number, how many radians are in a whole circle?",
             "options": ["3", "4", "5", "6"],
             "answer": "6",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "What Greek letter is used to signify summation?",
             "options": ["Delta", "Alpha", "Omega", "Sigma"],
             "answer": "Sigma",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "The decimal number 31 in hexadecimal would be what?",
             "options": ["3D", "2E", "1B", "1F"],
             "answer": "1F",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "E = MC3",
             "options": ["True", "False"],
             "answer": "False",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "Zero factorial is equal to zero.",
             "options": ["True", "False"],
             "answer": "False",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "What is the symbol for Displacement?",
             "options": ["dr", "Dp", "r", "Δr"],
             "answer": "Δr",
             "difficulty": "easy"
         },
         {
+            "category": "math",
             "question": "A 'Millinillion' is a real number.",
             "options": ["True", "False"],
             "answer": "True",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "How many sides does a heptagon have?",
             "options": ["8", "6", "5", "7"],
             "answer": "7",
             "difficulty": "easy"
         },
         {
+            "category": "math",
             "question": "What is the plane curve proposed by Descartes to challenge Fermat's extremum-finding techniques called?",
             "options": ["Elliptic Paraboloid of Descartes", "Cartesian Coordinates", "Descarte's Helicoid", "Folium of Descartes"],
             "answer": "Folium of Descartes",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "In Topology, the complement of an open set is a closed set.",
             "options": ["True", "False"],
             "answer": "True",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "The French mathematician Évariste Galois is primarily known for his work in which?",
             "options": ["Galois' Continued Fractions", "Galois' Method for PDE's", "Abelian Integration", "Galois Theory"],
             "answer": "Galois Theory",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "The set of all algebraic numbers is countable.",
             "options": ["True", "False"],
             "answer": "True",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "L'Hôpital was the mathematician who created the homonymous rule that uses derivatives to evaluate limits with indeterminations.",
             "options": ["True", "False"],
             "answer": "False",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "The sum of any two odd integers is odd.",
             "options": ["True", "False"],
             "answer": "False",
             "difficulty": "easy"
         },
         {
+            "category": "math",
             "question": "What is the correct order of operations for solving equations?",
             "options": ["Addition, Multiplication, Division, Subtraction, Addition, Parentheses", "Parentheses, Exponents, Addition, Subtraction, Multiplication, Division", "The order in which the operations are written.", "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction"],
             "answer": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
             "difficulty": "easy"
         },
         {
+            "category": "math",
             "question": "You can square root a negative number with an imaginary number \"i\".",
             "options": ["True", "False"],
             "answer": "True",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "An isosceles triangle has two sides of equal length as opposed to three.",
             "options": ["True", "False"],
             "answer": "True",
             "difficulty": "easy"
         },
         {
+            "category": "math",
             "question": "A scalene triangle has two sides of equal length.",
             "options": ["True", "False"],
             "answer": "False",
             "difficulty": "easy"
         },
         {
+            "category": "math",
             "question": "An equilateral triangle always has every angle measuring 60°.",
             "options": ["True", "False"],
             "answer": "True",
             "difficulty": "easy"
         },
         {
+            "category": "math",
             "question": "How many sides does a trapezium have?",
             "options": ["3", "5", "6", "4"],
             "answer": "4",
             "difficulty": "easy"
         },
         {
+            "category": "math",
             "question": "Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?",
             "options": ["1.58 x 10^22", "1.58 x 10^18", "1.58 x 10^24", "1.58 x 10^20"],
             "answer": "1.58 x 10^20",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "Which of the following famous mathematicians died in a duel at the age of 20?",
             "options": ["Abel", "Euler", "Gauss", "Galois"],
             "answer": "Galois",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "How many books are in Euclid's Elements of Geometry?",
             "options": ["8", "10", "17", "13"],
             "answer": "13",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "Which of the following dice is not a platonic solid?",
             "options": ["12-sided die", "20-sided die", "8-sided die", "10-sided die"],
             "answer": "10-sided die",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "Which of the following mathematicians made major contributions to game theory?",
             "options": ["Carl Friedrich Gauss", "Leonhard Euler", "Stefan Banach", "John Von Neumann"],
             "answer": "John Von Neumann",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "The notion of a 'set that contains all sets which do not contain themselves' is a paradoxical idea attributed to which English philosopher?",
             "options": ["Francis Bacon", "John Locke", "Alfred North Whitehead", "Bertrand Russel"],
             "answer": "Bertrand Russel",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "Which mathematician refused the Fields Medal?",
             "options": ["Andrew Wiles", "Terence Tao", "Edward Witten", "Grigori Perelman"],
             "answer": "Grigori Perelman",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "What is the smallest number that can be expressed as the sum of two positive cubes in two different ways?",
             "options": ["91", "561", "4104", "1729"],
             "answer": "1729",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "What is the fourth digit of π?",
             "options": ["2", "3", "4", "1"],
             "answer": "1",
             "difficulty": "hard"
         },
         {
+            "category": "math",
             "question": "In the complex plane, multiplying a given function by i rotates it anti-clockwise by how many degrees?",
             "options": ["180", "270", "0", "90"],
             "answer": "90",
             "difficulty": "medium"
         },
         {
+            "category": "math",
             "question": "What type of function is x²+2x+1?",
             "options": ["Rational", "Linear", "Exponential", "Quadratic"],
             "answer": "Quadratic",
             "difficulty": "medium"
         }
     ]
-}
