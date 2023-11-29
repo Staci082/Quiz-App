@@ -29,7 +29,7 @@ export const DataProvider = ({ children }) => {
     // Load JSON Data
 
     const handleStart = () => {
-        fetch(`../src/dataset/${selectedCategory}.json`)
+        fetch(`client/src/dataset/${selectedCategory}.json`)
             .then((res) => {
                 if (!res.ok) {
                     throw new Error(`Network response was not ok: ${res.status}`);
