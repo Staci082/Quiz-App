@@ -70,7 +70,14 @@ function Questions() {
                         </h3>
                     </div>
                     <div className="timer-wrapper">
-                        <CountdownCircleTimer key={timerKey} isPlaying size={60} strokeWidth={4} duration={30} colors={["#a3e635"]} onComplete={handleTimeOut}>
+                        <CountdownCircleTimer 
+                        key={timerKey} 
+                        isPlaying size={60} 
+                        strokeWidth={8} 
+                        duration={30} 
+                        colors={['#4ade80', '#a3e635']}
+                        colorsTime={[30, 15]}
+                        onComplete={handleTimeOut}>
                             {({ remainingTime }) => renderTime({ remainingTime })}
                         </CountdownCircleTimer>
                     </div>

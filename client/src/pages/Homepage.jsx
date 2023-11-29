@@ -79,7 +79,19 @@ function Homepage() {
 
     return (
         <>
-            <section className="flex flex-col items-center py-8">
+            <section className="flex relative flex-col items-center py-8">
+            {/* <img className="absolute top-[-5px]" width="64" height="64" src="https://img.icons8.com/3d-fluency/94/sombrero.png" alt="sombrero"/> */}
+            {/* <img className="absolute top-1" width="48" height="48" src="https://img.icons8.com/emoji/48/top-hat-emoji.png" alt="top-hat-emoji"/> */}
+            <img className="absolute left-[230px] top-[37px]" width="28" height="28" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-hockey-mask-hockey-flaticons-lineal-color-flat-icons-4.png" alt="external-hockey-mask-hockey-flaticons-lineal-color-flat-icons-4"/>
+            <img className="absolute rotate-12 left-[225px]  top-[65px]" width="28" height="28" src="https://img.icons8.com/emoji/48/pig-face-emoji.png" alt="pig-face-emoji"/>
+
+
+
+            <img className="absolute left-[194px] top-[40px] -scale-x-100" width="36" height="36" src="https://img.icons8.com/color/96/horror.png" alt="horror"/>
+
+
+
+
                 <img width="64" height="64" src="zilla.png" alt="kawaii-dinosaur--v2" />
                 <h1 className="text-5xl font-nanum font-bold mb-16 mt-4">Quizilla</h1>
 
