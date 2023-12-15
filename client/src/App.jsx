@@ -10,11 +10,11 @@ const router = [
         element: <Homepage/>
     },
     {
-        path: "/questions",
+        path: "/questions/:category/:amount/:difficulty",
         element: <Questions/>
     },
     {
-        path: "/results",
+        path: "/results/:category/:amount/:difficulty",
         element: <Results/>
     },
    ]
@@ -22,7 +22,7 @@ const router = [
 function App() {
     return (
         <>
-        <DataProvider>
+      
         <div className="flex justify-center text-2xl font-nanum text-white min-h-screen  bg-teal-500 text-center ">
             <Routes>
                 {router.map((item) => (
@@ -30,7 +30,7 @@ function App() {
                 ))}
             </Routes>
             </div>
-            </DataProvider>
+        
         </>
     );
 

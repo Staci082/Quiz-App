@@ -1,15 +1,19 @@
-import { useLocation } from "react-router-dom";
+
 import { createContext, useState, useEffect } from "react";
 
 const DataContext = createContext({});
 
 export const DataProvider = ({ children }) => {
-    const location = useLocation();
-    const queryParams = new URLSearchParams(location.search);
 
-    const selectedAmount = queryParams.get("amount");
-    const selectedCategory = queryParams.get("category");
-    const selectedDifficulty = queryParams.get("difficulty");
+    const path = window.location.pathname;
+
+    // Split the path into segments based on '/'
+    const pathSegments = path.split('/');
+    
+    // Extract parameters from path segments
+    const selectedCategory = pathSegments[2]; 
+    const selectedAmount = pathSegments[3];  
+    const selectedDifficulty = pathSegments[4];
 
     const [quiz, setQuiz] = useState([]);
     const [question, setQuestion] = useState({});
@@ -18,18 +22,17 @@ export const DataProvider = ({ children }) => {
     const [selectedAnswer, setSelectedAnswer] = useState("");
     const [score, setScore] = useState(0);
 
-    function getMultipleRandom(arr, num) {
-        if (!Array.isArray(arr)) {
-            throw new Error("Data is not an array.");
-        }
-        const shuffled = [...arr].sort(() => 0.5 - Math.random());
-        return shuffled.slice(0, num);
-    }
-
-    // Load JSON Data
+    // function getMultipleRandom(arr, num) {
+    //     if (!Array.isArray(arr)) {
+    //         throw new Error("Data is not an array.");
+    //     }
+    //     const shuffled = [...arr].sort(() => 0.5 - Math.random());
+    //     return shuffled.slice(0, num);
+    // }
 
     const handleStart = () => {
-        fetch(`src/dataset/${selectedCategory}.json`)
+        const url = `http://localhost:5000/questions/${selectedCategory}/${selectedAmount}/${selectedDifficulty}`;
+        fetch(url)
             .then((res) => {
                 if (!res.ok) {
                     throw new Error(`Network response was not ok: ${res.status}`);
@@ -37,8 +40,9 @@ export const DataProvider = ({ children }) => {
                 return res.json();
             })
             .then((data) => {
-                const randomQuestions = getMultipleRandom(data[selectedCategory], selectedAmount);
-                setQuiz(randomQuestions);
+                console.log(data);
+                setQuiz(data); 
+                console.log("quiz:", quiz)
             })
             .catch((error) => {
                 console.error("Error fetching data:", error);
@@ -46,6 +50,7 @@ export const DataProvider = ({ children }) => {
                 console.log("Response text:", error.response?.text());
             });
     };
+    
 
     useEffect(() => {
         if (selectedCategory && selectedAmount) {
