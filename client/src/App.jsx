@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Questions from "./pages/Questions";
 import Results from "./pages/Results";
-import { DataProvider } from "./context/dataContext";
 
 const router = [
     {
